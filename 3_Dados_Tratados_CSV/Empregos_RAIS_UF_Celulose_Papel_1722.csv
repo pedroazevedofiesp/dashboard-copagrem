@@ -1,0 +1,159 @@
+"Ano";"UF";"Estabelecimentos";"Vinculos"
+2006;"14 - Roraima";1;3
+2006;"24 - Rio Grande do Norte";1;39
+2006;"25 - Paraíba";1;11
+2006;"29 - Bahia";1;15
+2006;"31 - Minas Gerais";2;43
+2006;"33 - Rio de Janeiro";1;11
+2006;"35 - São Paulo";18;1634
+2006;"41 - Paraná";9;1307
+2006;"42 - Santa Catarina";16;2126
+2006;"43 - Rio Grande do Sul";4;105
+2006;"51 - Mato Grosso";2;13
+2006;"Total";56;5307
+2007;"22 - Piauí";2;7
+2007;"24 - Rio Grande do Norte";1;60
+2007;"25 - Paraíba";1;13
+2007;"31 - Minas Gerais";4;41
+2007;"33 - Rio de Janeiro";1;12
+2007;"35 - São Paulo";21;1901
+2007;"41 - Paraná";9;1334
+2007;"42 - Santa Catarina";14;1330
+2007;"43 - Rio Grande do Sul";4;106
+2007;"51 - Mato Grosso";1;8
+2007;"Total";58;4812
+2008;"22 - Piauí";2;10
+2008;"25 - Paraíba";2;7
+2008;"31 - Minas Gerais";2;37
+2008;"32 - Espírito Santo";1;7
+2008;"33 - Rio de Janeiro";1;16
+2008;"35 - São Paulo";20;2331
+2008;"41 - Paraná";8;1261
+2008;"42 - Santa Catarina";16;1545
+2008;"43 - Rio Grande do Sul";4;103
+2008;"51 - Mato Grosso";1;8
+2008;"Total";57;5325
+2009;"22 - Piauí";1;5
+2009;"24 - Rio Grande do Norte";1;2
+2009;"25 - Paraíba";1;0
+2009;"26 - Pernambuco";1;0
+2009;"31 - Minas Gerais";2;43
+2009;"33 - Rio de Janeiro";2;19
+2009;"35 - São Paulo";19;2096
+2009;"41 - Paraná";9;1080
+2009;"42 - Santa Catarina";17;1571
+2009;"43 - Rio Grande do Sul";3;98
+2009;"51 - Mato Grosso";2;7
+2009;"Total";58;4921
+2010;"22 - Piauí";2;12
+2010;"24 - Rio Grande do Norte";2;41
+2010;"26 - Pernambuco";1;2
+2010;"29 - Bahia";1;4
+2010;"31 - Minas Gerais";2;23
+2010;"33 - Rio de Janeiro";2;16
+2010;"35 - São Paulo";17;1828
+2010;"41 - Paraná";7;822
+2010;"42 - Santa Catarina";16;1703
+2010;"43 - Rio Grande do Sul";4;89
+2010;"51 - Mato Grosso";2;8
+2010;"Total";56;4548
+2011;"31 - Minas Gerais";1;16
+2011;"35 - São Paulo";18;1666
+2011;"41 - Paraná";9;881
+2011;"42 - Santa Catarina";15;1689
+2011;"43 - Rio Grande do Sul";3;64
+2011;"51 - Mato Grosso";2;6
+2011;"Total";48;4322
+2012;"22 - Piauí";1;2
+2012;"24 - Rio Grande do Norte";1;21
+2012;"31 - Minas Gerais";1;17
+2012;"35 - São Paulo";20;1693
+2012;"41 - Paraná";8;836
+2012;"42 - Santa Catarina";15;1659
+2012;"43 - Rio Grande do Sul";3;49
+2012;"51 - Mato Grosso";1;0
+2012;"52 - Goiás";1;10
+2012;"Total";51;4287
+2013;"22 - Piauí";1;0
+2013;"31 - Minas Gerais";1;16
+2013;"33 - Rio de Janeiro";1;31
+2013;"35 - São Paulo";15;1663
+2013;"41 - Paraná";8;716
+2013;"42 - Santa Catarina";16;1618
+2013;"43 - Rio Grande do Sul";3;46
+2013;"Total";45;4090
+2014;"22 - Piauí";1;0
+2014;"31 - Minas Gerais";1;15
+2014;"33 - Rio de Janeiro";1;30
+2014;"35 - São Paulo";16;1705
+2014;"41 - Paraná";7;480
+2014;"42 - Santa Catarina";15;1715
+2014;"43 - Rio Grande do Sul";3;47
+2014;"Total";44;3992
+2015;"31 - Minas Gerais";1;4
+2015;"33 - Rio de Janeiro";2;31
+2015;"35 - São Paulo";13;1631
+2015;"41 - Paraná";8;463
+2015;"42 - Santa Catarina";16;1624
+2015;"43 - Rio Grande do Sul";3;50
+2015;"50 - Mato Grosso do Sul";1;2
+2015;"Total";44;3805
+2016;"23 - Ceará";1;0
+2016;"33 - Rio de Janeiro";2;24
+2016;"35 - São Paulo";12;1503
+2016;"41 - Paraná";11;440
+2016;"42 - Santa Catarina";17;1713
+2016;"43 - Rio Grande do Sul";3;52
+2016;"50 - Mato Grosso do Sul";1;0
+2016;"Total";47;3732
+2017;"33 - Rio de Janeiro";2;20
+2017;"35 - São Paulo";12;1470
+2017;"41 - Paraná";8;579
+2017;"42 - Santa Catarina";17;1645
+2017;"43 - Rio Grande do Sul";2;40
+2017;"Total";41;3754
+2018;"13 - Amazonas";1;0
+2018;"33 - Rio de Janeiro";2;1
+2018;"35 - São Paulo";11;1372
+2018;"41 - Paraná";11;593
+2018;"42 - Santa Catarina";20;1597
+2018;"43 - Rio Grande do Sul";1;44
+2018;"Total";46;3607
+2019;"31 - Minas Gerais";1;43
+2019;"33 - Rio de Janeiro";1;1
+2019;"35 - São Paulo";11;1536
+2019;"41 - Paraná";9;637
+2019;"42 - Santa Catarina";16;998
+2019;"43 - Rio Grande do Sul";1;38
+2019;"Total";39;3253
+2020;"33 - Rio de Janeiro";1;1
+2020;"35 - São Paulo";11;1391
+2020;"41 - Paraná";9;417
+2020;"42 - Santa Catarina";16;997
+2020;"43 - Rio Grande do Sul";1;32
+2020;"Total";38;2838
+2021;"35 - São Paulo";9;1409
+2021;"41 - Paraná";8;409
+2021;"42 - Santa Catarina";17;1265
+2021;"43 - Rio Grande do Sul";1;37
+2021;"Total";35;3120
+2022;"35 - São Paulo";9;1418
+2022;"41 - Paraná";8;419
+2022;"42 - Santa Catarina";15;1341
+2022;"43 - Rio Grande do Sul";1;36
+2022;"Total";33;3214
+2023;"35 - São Paulo";10;1406
+2023;"41 - Paraná";8;438
+2023;"42 - Santa Catarina";13;1278
+2023;"43 - Rio Grande do Sul";1;27
+2023;"Total";32;3149
+2024;"35 - São Paulo";10;1374
+2024;"41 - Paraná";8;418
+2024;"42 - Santa Catarina";12;1248
+2024;"43 - Rio Grande do Sul";1;24
+2024;"Total";31;3064
+2025;"35 - São Paulo";10;1365
+2025;"41 - Paraná";8;429
+2025;"42 - Santa Catarina";12;1263
+2025;"43 - Rio Grande do Sul";1;22
+2025;"Total";31;3079

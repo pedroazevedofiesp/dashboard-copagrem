@@ -1,0 +1,1095 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel do Setor de Celulose, Papel e Gráfico</title>
+<meta name="description" content="Painel do setor de celulose, papel e gráfico no Brasil (CNAEs das divisões 17 e 18): produção, emprego, financeiro, comércio exterior, energia e BNDES.">
+<link rel="stylesheet" href="css/style.css?v=dev">
+</head>
+<body>
+
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="sidebar-menu">☰ Menu</button>
+    <img src="assets/logos/logo-sindigraf.png" alt="SINDIGRAF-SP — Sindicato das Indústrias Gráficas no Estado de São Paulo">
+  </div>
+
+  <div class="sidebar-menu" id="sidebar-menu">
+  <nav class="sidebar-nav" id="view-tabs" role="tablist" aria-label="Navegação principal">
+    <button type="button" data-view="home" class="active" role="tab" aria-selected="true">Painel Executivo</button>
+    <button type="button" id="btn-dados" role="tab" aria-selected="false">Dados do setor</button>
+  </nav>
+
+  <nav class="sidebar-nav sidebar-nav-foot" id="foot-tabs-top" role="tablist" aria-label="Outras seções">
+    <button type="button" data-view="diagnostico" role="tab" aria-selected="false">Diagnóstico Setorial</button>
+    <button type="button" data-view="simulador" role="tab" aria-selected="false">Simulador de cenários <span class="badge-provisorio">em construção</span></button>
+    <button type="button" data-view="cadeia" role="tab" aria-selected="false">Cadeia Produtiva</button>
+    <button type="button" data-view="energia-industrial" role="tab" aria-selected="false">Energia Industrial</button>
+  </nav>
+
+  <nav class="sidebar-nav sidebar-nav-foot" id="foot-tabs-bottom" role="tablist" aria-label="Mais seções">
+    <button type="button" data-view="relatorios" role="tab" aria-selected="false">Relatórios</button>
+    <button type="button" data-view="referencias" role="tab" aria-selected="false">Referências</button>
+  </nav>
+
+  </div>
+  <div class="sidebar-credit">
+    <span class="sidebar-credit-label">Realização</span>
+    <img class="logo-claro" src="assets/logos/logo-fiesp-decap.png" alt="FIESP — Departamento das Cadeias Produtivas (DECAP)">
+    <img class="logo-escuro" src="assets/logos/logo-fiesp-decap-branca.png" alt="FIESP — Departamento das Cadeias Produtivas (DECAP)">
+  </div>
+</aside>
+
+<div class="main-col">
+<header class="site-header">
+  <div class="site-header-inner">
+    <span class="site-header-title" id="site-header-title">Painel do Setor de Celulose, Papel e Gráfico</span>
+    <span class="site-header-meta" id="site-header-meta"></span>
+    <button type="button" class="tema-btn" id="tema-btn" aria-label="Alternar tema claro/escuro" title="Tema claro/escuro">◐</button>
+  </div>
+</header>
+
+<div class="wrap">
+
+<div id="home-view">
+  <div class="exec-header">
+    <div>
+      <h1>Painel Executivo</h1>
+      <p>Os principais indicadores do setor, por segmento. O detalhamento completo de cada um está disponível na navegação ao final desta página.</p>
+    </div>
+    <!-- Caixa de seleção gerada por js/main.js a partir de config_painel.json
+         (agregados + cnaes). Os botões escondidos guardam a lógica de troca. -->
+    <label class="seg-select-wrap"><span>Segmento</span><select class="seg-select" id="exec-seg-select"></select></label>
+    <div class="exec-seg-toggle" id="exec-seg-toggle" role="tablist" aria-label="Segmento do Painel Executivo" hidden></div>
+  </div>
+
+  <p class="sector-desc" id="exec-seg-desc"></p>
+  <div class="kpi-grid" id="exec-kpi-grid"></div>
+
+  <div class="section" id="exec-charts-section">
+    <div class="section-header"><h2>O setor em 4 perguntas</h2></div>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="exec-chart-crescimento"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">1. O setor está crescendo ou diminuindo?</div>
+          <div class="exhibit-sub" id="exec-chart-crescimento-sub">Produção, faturamento real e empregos, indexados (base 100 no primeiro ano)</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="exec-chart-comex"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">2. As importações estão crescendo?</div>
+          <div class="exhibit-sub" id="exec-chart-comex-sub">Exportação x importação, R$ milhões de 2024</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="exec-chart-paises-imp"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">3. De onde está vindo a concorrência?</div>
+          <div class="exhibit-sub" id="exec-chart-paises-imp-sub">Principais países de origem das importações</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="exec-chart-margem"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">4. Como está a competitividade e produtividade?</div>
+          <div class="exhibit-sub" id="exec-chart-margem-sub">Margem operacional (%) e produtividade (VTI por trabalhador), grupo CNAE do setor</div>
+        </div>
+        <p class="filter-note" id="exec-margem-nota"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="exec-menu-title">Navegar pelo painel</div>
+  <div class="sector-section-list" id="exec-nav-menu"></div>
+</div><!-- /#home-view -->
+
+<div id="data-view" hidden>
+
+  <div class="dados-topo">
+    <div>
+      <div class="dados-chapeu">Painel do setor de celulose, papel e gráfico</div>
+      <h1 class="dados-titulo">Dados do setor</h1>
+    </div>
+    <!-- Caixa de seleção gerada por js/main.js a partir de config_painel.json
+         (agregados + cnaes). Os botões escondidos guardam a lógica de troca. -->
+    <label class="seg-select-wrap"><span>Segmento</span><select class="seg-select" id="sector-select"></select></label>
+    <nav class="seg-botoes" id="sector-tabs" role="tablist" aria-label="Segmento" hidden></nav>
+  </div>
+  <p class="sector-desc" id="sector-desc"></p>
+  <!-- Abas geradas por js/main.js a partir de SECTION_META (só seções com dado) -->
+  <nav class="secao-abas" id="section-nav" role="tablist" aria-label="Seções"></nav>
+
+  <!-- ============ 01. PRODUÇÃO FÍSICA ============ -->
+  <section class="section" id="block-producao">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2>Produção física</h2>
+      <a class="section-download" href="data/downloads/Producao_Fisica.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note" id="producao-section-note"></p>
+    <div class="caption-meta" id="section-caption-producao"></div>
+    <div class="exhibit-block" id="bloco-producao-cmp">
+      <div class="block-filter block-filter-inline"><div class="block-filter-item"><span>Base 100 em</span><select id="producao-cmp-base"></select></div></div>
+      <div id="chart-producao-cmp"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title" id="producao-cmp-title">Setor x indústria</div>
+        <div class="exhibit-sub" id="producao-cmp-sub"></div>
+      </div>
+    </div>
+    <div class="block-filter">
+      <div class="block-filter-item">
+        <span>Período</span>
+        <select id="producao-lo-select"></select>
+        <span class="period-dash">–</span>
+        <select id="producao-hi-select"></select>
+      </div>
+      <button type="button" class="block-filter-clear" id="producao-clear">Limpar</button>
+    </div>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="chart-producao-dessaz"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Índice de produção: mês a mês vs. sem efeito sazonal</div>
+          <div class="exhibit-sub">Base 100 (média de 2022). "Sem efeito sazonal" remove variações que se repetem todo ano (ex: férias, fim de ano), pra comparar mês a mês sem esse ruído</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-producao-indice"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Índice sem efeito sazonal e recessões</div>
+          <div class="exhibit-sub">Base 100, recessões (CODACE/FGV) sombreadas</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-producao-variacao"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Variação em 12 meses</div>
+          <div class="exhibit-sub">%, índice do mês contra o mesmo mês do ano anterior</div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-producao"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Índice de produção mensal, série completa</div>
+        <div class="exhibit-sub">IBGE/PIM-PF, mais recente primeiro, clique no cabeçalho para ordenar</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02. FINANCEIRO ============ -->
+  <section class="section" id="block-financeiro">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>Financeiro</h2>
+      <a class="section-download" href="data/downloads/Financeiro.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note" id="financeiro-section-note"></p>
+    <div class="caption-meta" id="section-caption-financeiro"></div>
+    <div class="exhibit-block" id="bloco-fin-cmp">
+      <div id="chart-fin-cmp"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title" id="fin-cmp-title">Segmento x indústria de transformação</div>
+        <div class="exhibit-sub" id="fin-cmp-sub"></div>
+      </div>
+    </div>
+    <div class="exhibit-block" id="bloco-indicadores-desempenho">
+      <div id="table-indicadores-desempenho"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title" id="indicadores-desempenho-title">Indicadores de desempenho</div>
+        <div class="exhibit-sub" id="indicadores-desempenho-sub"></div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-indicadores-outros"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title" id="indicadores-outros-title">Outros indicadores de desempenho</div>
+        <div class="exhibit-sub">Nível no último ano, segmento x indústria de transformação. Valores em R$ correntes do ano.</div>
+      </div>
+    </div>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="chart-financeiro-vti-po"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">VTI x pessoal ocupado</div>
+          <div class="exhibit-sub" data-grupo-texto="{grupo}: valor da transformação industrial (R$ correntes) e pessoal ocupado, eixos independentes"></div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-financeiro-produtividade"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Produtividade</div>
+          <div class="exhibit-sub">VTI / pessoal ocupado (R$ mil por trabalhador)</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-financeiro-receita-custos"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Receita líquida x custos totais</div>
+          <div class="exhibit-sub" data-grupo-texto="{grupo}, anual"></div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-financeiro-waterfall"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title" id="financeiro-waterfall-title">Decomposição de custos</div>
+          <div class="exhibit-sub">Matérias-primas + pessoal + outros = custo total</div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-financeiro"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title" data-grupo-texto="Indicadores financeiros anuais, {grupo}"></div>
+        <div class="exhibit-sub" id="financeiro-table-sub"></div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-financeiro-por-cnae"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title" id="financeiro-por-cnae-title"></div>
+        <div class="exhibit-sub" data-grupo-texto="2024, valores correntes — primeira vez com essa abertura por classe (demais anos só têm a {grupo} inteira)"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03. EMPREGO FORMAL (RAIS) ============ -->
+  <section class="section" id="block-emprego">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2>Emprego formal (RAIS)</h2>
+      <a class="section-download" id="download-emprego" href="data/downloads/Emprego.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note">A partir de 2022 a metodologia de coleta mudou (base eSocial); perfis detalhados (escolaridade, ocupação, tempo de emprego) têm quebra de série entre 2021 e 2022. Clique numa barra do ranking por UF para adicionar aquele estado ao filtro abaixo.</p>
+    <div class="caption-meta" id="section-caption-emprego"></div>
+    <div class="cempre-bloco" id="bloco-cempre">
+      <h3 class="cempre-titulo">Empresas ativas no setor</h3>
+      <div class="exhibit-grid">
+        <div class="exhibit">
+          <div class="exhibit-caption" style="margin:0 0 8px">
+            <div class="exhibit-title" id="cempre-mapa-titulo"></div>
+            <div class="exhibit-sub">Empresas ativas por estado, último ano. Clique num estado para ver a evolução e o salário dele.</div>
+          </div>
+          <div class="uf-grade" id="cempre-mapa"></div>
+          <div class="uf-leg" id="cempre-mapa-leg"></div>
+        </div>
+        <div class="exhibit">
+          <div id="cempre-serie"></div>
+          <div class="exhibit-caption">
+            <div class="exhibit-title" id="cempre-serie-titulo"></div>
+            <div class="exhibit-sub">Número de empresas ativas por ano. A partir de 2022 o IBGE publica o cadastro em outra tabela: compare 2021 e 2022 com cautela.</div>
+          </div>
+        </div>
+      </div>
+      <div class="exhibit-block">
+        <div id="cempre-sal"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title" id="cempre-sal-titulo"></div>
+          <div class="exhibit-sub" id="cempre-sal-sub"></div>
+        </div>
+      </div>
+      <div class="mun-bloco" id="bloco-municipios">
+        <h3 class="cempre-titulo">Emprego por município</h3>
+        <div class="mun-controles"><label>Estado <select id="mun-uf"></select></label><div class="exec-seg-toggle" id="mun-metrica"><button type="button" class="exec-seg-btn active" data-met="vinc">Vínculos</button><button type="button" class="exec-seg-btn" data-met="exp">Exportação</button><button type="button" class="exec-seg-btn" data-met="imp">Importação</button></div></div>
+        <div class="exhibit-block">
+          <div class="exhibit-caption" style="margin:0 0 8px">
+            <div class="exhibit-title" id="mun-titulo"></div>
+            <div class="exhibit-sub" id="mun-sub"></div>
+          </div>
+          <div class="mun-mapa" id="mun-mapa"></div>
+        </div>
+        <div class="exhibit-block">
+          <div id="mun-ranking"></div>
+          <div class="exhibit-caption">
+            <div class="exhibit-title">Principais municípios do setor x indústria local</div>
+            <div class="exhibit-sub" id="mun-ranking-sub"></div>
+          </div>
+        </div>
+      </div>
+      <h3 class="cempre-titulo">Emprego formal (RAIS)</h3>
+    </div>
+    <div class="block-filter">
+      <div class="block-filter-item">
+        <span>Período</span>
+        <select id="emprego-lo-select"></select>
+        <span class="period-dash">–</span>
+        <select id="emprego-hi-select"></select>
+      </div>
+      <div class="block-filter-item">
+        <span>Estados</span>
+        <div class="multiselect" id="emprego-uf-multiselect">
+          <button type="button" class="multiselect-btn" id="emprego-uf-btn" aria-haspopup="listbox" aria-expanded="false"></button>
+          <div class="multiselect-panel" id="emprego-uf-panel" hidden></div>
+        </div>
+      </div>
+      <button type="button" class="block-filter-clear" id="emprego-clear">Limpar</button>
+    </div>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="chart-emprego-rais"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Vínculos empregatícios por ano</div>
+          <div class="exhibit-sub">RAIS, 2006 a 2025</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="rank-emprego-uf"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Ranking de vínculos por UF</div>
+          <div class="exhibit-sub" id="emprego-uf-sub">Ano mais recente</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-emprego-razao"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Tamanho médio do estabelecimento</div>
+          <div class="exhibit-sub">Vínculos por estabelecimento</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="rank-emprego-escolaridade"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Escolaridade, retrato</div>
+          <div class="exhibit-sub" id="emprego-escolaridade-sub">Retrato do último ano</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="rank-emprego-ocupacao"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Principais ocupações</div>
+          <div class="exhibit-sub" id="emprego-ocupacao-sub">Retrato do último ano</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-emprego-tempo"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Tempo de emprego</div>
+          <div class="exhibit-sub">Curta duração (&lt;12m) x longa duração (≥12m)</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-emprego-remuneracao"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Remuneração média real</div>
+          <div class="exhibit-sub">R$ de 2024, corrigido pelo IPCA de dezembro. A comparação com a média da indústria de transformação entra com a próxima coleta da RAIS.</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-emprego-tamanho"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Composição por faixa de tamanho</div>
+          <div class="exhibit-sub">Vínculos por porte de estabelecimento, ao longo do tempo</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-emprego-escolaridade-evolucao"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Escolaridade, evolução</div>
+          <div class="exhibit-sub">Composição ao longo do tempo</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-emprego-ocupacao-donut"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Top ocupações vs. outras</div>
+          <div class="exhibit-sub">Participação no total de vínculos</div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-emprego-uf"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Vínculos por UF, todos os estados</div>
+        <div class="exhibit-sub" id="emprego-uf-table-sub">Ano mais recente</div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-emprego-ocupacao-detalhada"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Ocupações detalhadas, retrato do último ano</div>
+        <div class="exhibit-sub" id="emprego-ocupacao-detalhada-sub">RAIS, sem agrupamento (mais granular que o ranking acima), clique no cabeçalho para ordenar</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04. CAGED ============ -->
+  <section class="section" id="block-caged">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2>CAGED: dinâmica de curto prazo</h2>
+      <a class="section-download" id="download-caged" href="data/downloads/CAGED.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note" id="caged-coverage-note">Dado mês a mês (admissões e desligamentos) — mais detalhado no tempo do que a RAIS, que só fecha uma vez por ano.</p>
+    <div class="caption-meta" id="section-caption-caged"></div>
+    <div class="block-filter">
+      <div class="block-filter-item">
+        <span>Período</span>
+        <select id="caged-lo-select"></select>
+        <span class="period-dash">–</span>
+        <select id="caged-hi-select"></select>
+      </div>
+      <div class="block-filter-item">
+        <span>Estados</span>
+        <div class="multiselect" id="caged-uf-multiselect">
+          <button type="button" class="multiselect-btn" id="caged-uf-btn" aria-haspopup="listbox" aria-expanded="false"></button>
+          <div class="multiselect-panel" id="caged-uf-panel" hidden></div>
+        </div>
+      </div>
+      <button type="button" class="block-filter-clear" id="caged-clear">Limpar</button>
+    </div>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="chart-caged-saldo"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Saldo líquido mensal</div>
+          <div class="exhibit-sub">Admissões − desligamentos</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-caged-movimentacao"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Admissões x desligamentos</div>
+          <div class="exhibit-sub">Valores absolutos por mês</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-caged-tipo"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Composição dos desligamentos</div>
+          <div class="exhibit-sub">Por tipo de movimentação, período todo</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-caged-massa-salarial"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Massa salarial mensal</div>
+          <div class="exhibit-sub">Soma dos salários de admitidos e desligados no mês, R$ correntes</div>
+        </div>
+        <p class="filter-note">Até dez/2019, CAGED antigo; a partir de jan/2020, novo CAGED (eSocial). Registros com salário acima de 15 vezes a mediana do segmento no ano ficam fora (erros de digitação da fonte).</p>
+      </div>
+      <div class="exhibit">
+        <div id="rank-caged-saldo-uf"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Saldo acumulado por UF</div>
+          <div class="exhibit-sub">Somado no período coberto pelo CAGED</div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-caged-uf"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Saldo líquido acumulado por UF, todos os estados</div>
+        <div class="exhibit-sub">Somado no período selecionado no filtro acima</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05. COMÉRCIO EXTERIOR ============ -->
+  <section class="section" id="block-comex">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2>Comércio exterior</h2>
+      <a class="section-download" id="download-comex" href="data/downloads/Comercio_Exterior.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note">O gráfico de exportação x importação segue o estado escolhido abaixo (ou clique numa barra do ranking por UF para trocar).</p>
+    <div class="caption-meta" id="section-caption-comex"></div>
+    <p class="decom-highlight" id="comex-residual-note" style="display:none"></p>
+    <p class="filter-note" id="comex-metodologia-note" style="display:none"></p>
+    <div class="block-filter">
+      <div class="block-filter-item">
+        <span>Período</span>
+        <select id="comex-lo-select"></select>
+        <span class="period-dash">–</span>
+        <select id="comex-hi-select"></select>
+      </div>
+      <div class="block-filter-item">
+        <span>Estado</span>
+        <select id="comex-uf-select"></select>
+      </div>
+      <button type="button" class="block-filter-clear" id="comex-clear">Limpar</button>
+    </div>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="chart-comex-balanca"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Balança comercial</div>
+          <div class="exhibit-sub" id="comex-balanca-sub">Exportação, importação e saldo, em milhões de R$ de 2024, Brasil</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-comex-brasil"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Exportação x importação</div>
+          <div class="exhibit-sub" id="comex-foco-sub">US$ FOB por ano, estado em foco</div>
+        </div>
+        <p class="filter-note" id="comex-uf-note"></p>
+      </div>
+      <div class="exhibit">
+        <div id="chart-comex-brasil-kg"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Exportação x importação</div>
+          <div class="exhibit-sub">Brasil, quilograma líquido por ano</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-comex-participacao-mundial"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Participação do Brasil nas exportações mundiais</div>
+          <div class="exhibit-sub">% das exportações mundiais dos produtos do segmento (Comtrade)</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div class="block-filter block-filter-inline">
+          <div class="block-filter-item">
+            <span>Ano</span>
+            <select id="comex-mundo-ano-select"></select>
+          </div>
+        </div>
+        <div id="table-comex-ranking-mundial"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Brasil no comércio mundial: ranking de exportadores</div>
+          <div class="exhibit-sub" id="comex-ranking-mundial-sub">Maiores exportadores do mundo dos produtos do segmento (Comtrade), US$ FOB e % do total mundial. Brasil em destaque.</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-comex-top-paises-tempo"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Top destinos das exportações brasileiras</div>
+          <div class="exhibit-sub">Para onde o Brasil exporta, US$ FOB por país ao longo do tempo (Comex Stat). Passe o mouse para ver o % de cada país no ano</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-comex-top-paises-imp-tempo"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Top origens das importações brasileiras</div>
+          <div class="exhibit-sub">De onde o Brasil importa, US$ FOB por país ao longo do tempo (Comex Stat). Passe o mouse para ver o % de cada país no ano</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="rank-comex-uf"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Ranking de exportação por UF</div>
+          <div class="exhibit-sub" id="comex-uf-rank-sub">UF de origem do produto, último ano completo. Clique numa barra para trocar o foco.</div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-comex-grupos-mundo"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title" id="comex-grupos-mundo-title">Comércio mundial por grupo de produto</div>
+        <div class="exhibit-sub" id="comex-grupos-mundo-sub"></div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-comex-paises"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Exportação e importação por país parceiro</div>
+        <div class="exhibit-sub" id="comex-paises-table-sub">Ano mais recente</div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-comex-uf"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Exportação e importação por UF de origem do produto</div>
+        <div class="exhibit-sub" id="comex-uf-table-sub">Ano mais recente</div>
+      </div>
+    </div>
+    <div class="cx-bloco" id="bloco-comex-ampliado">
+      <h3 class="cempre-titulo">Mês a mês, FOB x CIF e filtro por NCM</h3>
+      <div class="cx-controles">
+        <div class="exec-seg-toggle" id="cx-valor"><button type="button" class="exec-seg-btn" data-v="fob">Importação FOB</button><button type="button" class="exec-seg-btn" data-v="cif">Importação CIF</button></div>
+        <div class="exec-seg-toggle" id="cx-meses"><button type="button" class="exec-seg-btn" data-m="24">24 meses</button><button type="button" class="exec-seg-btn" data-m="36">36 meses</button><button type="button" class="exec-seg-btn" data-m="0">Série completa</button></div>
+      </div>
+      <div class="exhibit-block">
+        <div id="cx-mensal-chart"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title" id="cx-mensal-title"></div>
+          <div class="exhibit-sub" id="cx-mensal-sub"></div>
+        </div>
+      </div>
+      <div class="cx-ncm-grid">
+        <div class="cx-ncm-filtro">
+          <input type="search" id="cx-ncm-busca" placeholder="Buscar NCM ou produto" aria-label="Buscar NCM">
+          <div class="cx-ncm-acoes"><button type="button" id="cx-ncm-todos">Marcar todas</button><button type="button" id="cx-ncm-nenhum">Desmarcar todas</button><span id="cx-ncm-cont"></span></div>
+          <div class="cx-ncm-lista" id="cx-ncm-lista"></div>
+        </div>
+        <div class="exhibit-block cx-ncm-res">
+          <div id="cx-ncm-chart"></div>
+          <div class="exhibit-caption">
+            <div class="exhibit-title" id="cx-ncm-title"></div>
+            <div class="exhibit-sub" id="cx-ncm-sub"></div>
+          </div>
+        </div>
+      </div>
+      <h3 class="cempre-titulo">Produtos relacionados, fora do setor <span class="cx-fora">fora do setor</span></h3>
+      <div class="exhibit-block">
+        <div id="cx-ext-chart"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title" id="cx-ext-title"></div>
+          <div class="exhibit-sub" id="cx-ext-sub"></div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block" id="comex-ncm-wrap">
+      <h4 style="font-size:0.75rem;margin:12px 0 4px;color:var(--text-primary);text-transform:uppercase;letter-spacing:0.06em;">Produtos e preço médio</h4>
+      <p class="section-note" style="margin-bottom:16px;" id="comex-ncm-note">Produtos agrupados como no diagnóstico setorial da FIESP (grupos de produto); o botão "Por NCM" mostra o detalhe por código. Preço médio = valor dividido pelo peso líquido.</p>
+    </div>
+    <div class="exhibit-grid single">
+      <div class="exhibit">
+        <div class="exec-seg-toggle indicadores-toggle" id="comex-ncm-exp-toggle"><button type="button" class="exec-seg-btn active" data-modo="grupo">Por grupo de produto</button><button type="button" class="exec-seg-btn" data-modo="ncm">Por NCM</button></div>
+        <div id="table-comex-ncm-exp"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Principais produtos exportados</div>
+          <div class="exhibit-sub" id="comex-ncm-exp-sub">Por código NCM, ano mais recente completo</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div class="exec-seg-toggle indicadores-toggle" id="comex-ncm-imp-toggle"><button type="button" class="exec-seg-btn active" data-modo="grupo">Por grupo de produto</button><button type="button" class="exec-seg-btn" data-modo="ncm">Por NCM</button></div>
+        <div id="table-comex-ncm-imp"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Principais produtos importados</div>
+          <div class="exhibit-sub" id="comex-ncm-imp-sub">Por código NCM, ano mais recente completo</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-comex-preco-medio"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Preço médio ao longo do tempo</div>
+          <div class="exhibit-sub">US$ por quilo, exportação x importação</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MERCADO DOMÉSTICO ============ -->
+  <section class="section" id="block-mercado">
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2>Mercado doméstico</h2>
+      <a class="section-download" id="download-mercado" href="data/downloads/Mercado_Domestico_total.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note" id="mercado-section-note"></p>
+    <div class="caption-meta" id="section-caption-mercado"></div>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="chart-mercado-ca"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Consumo aparente</div>
+          <div class="exhibit-sub" id="mercado-ca-sub">Produção + importação − exportação</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-mercado-coef"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Coeficiente de exportação e penetração da importação</div>
+          <div class="exhibit-sub">% · exportação ÷ produção e importação ÷ consumo aparente</div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-mercado-produtos"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Mercado doméstico por produto</div>
+        <div class="exhibit-sub" id="mercado-produtos-sub"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06. BNDES ============ -->
+  <section class="section" id="block-bndes">
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <h2>BNDES</h2>
+      <a class="section-download" id="download-bndes" href="data/downloads/BNDES.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note" id="bndes-section-note"></p>
+    <div class="caption-meta" id="section-caption-bndes"></div>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="chart-bndes-ano"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Desembolsos do BNDES</div>
+          <div class="exhibit-sub">Total nacional por ano</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="rank-bndes-uf"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Ranking por estado</div>
+          <div class="exhibit-sub">Acumulado no período todo</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-bndes-porte"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Desembolso por porte ao longo do tempo</div>
+          <div class="exhibit-sub">Composição anual: grande, média, pequena, micro</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-bndes-concentracao"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Concentração por porte</div>
+          <div class="exhibit-sub" id="bndes-concentracao-sub">Acumulado no período todo</div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-bndes"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Desembolsos por ano, porte e instrumento</div>
+        <div class="exhibit-sub">Clique no cabeçalho para ordenar, mostrando os maiores primeiro</div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-bndes-uf"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Desembolsos por UF, todos os estados</div>
+        <div class="exhibit-sub">Acumulado no período todo</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DECOM (bloco opcional: só aparece se config_painel.json
+       apontar um arquivo em blocos_opcionais.decom) ============ -->
+  <section class="section" id="block-decom" hidden>
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2>DECOM</h2>
+      <a class="section-download" href="data/downloads/DECOM.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note">Fonte: DECOM/GECEX.</p>
+    <div class="caption-meta" id="section-caption-decom"></div>
+    <div class="exhibit-block" id="decom-wrap">
+      <div id="table-decom"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Processos de defesa comercial</div>
+        <div class="exhibit-sub">NCM, país, status e resolução de referência</div>
+      </div>
+      <p class="decom-highlight" id="decom-highlight"></p>
+    </div>
+  </section>
+
+  <!-- ============ ESTUDOS ESPECIAIS ============ -->
+  <!-- ============ EXPECTATIVAS DE MERCADO (FOCUS) ============ -->
+  <section class="section" id="block-focus">
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2>Expectativas de mercado</h2>
+    </div>
+    <div class="focus-bloco" id="cen-focus"></div>
+  </section>
+
+  <section class="section" id="block-estudos-especiais">
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2>Estudos especiais</h2>
+    </div>
+    <p class="section-note">Panorama do setor, com os mesmos dados usados no restante deste painel (RAIS, Comex, BNDES, PIA/IBGE).</p>
+    <div class="caption-meta" id="section-caption-estudos-especiais"></div>
+
+    <div class="pdi-cta">
+      <h4>Panorama do setor</h4>
+      <p class="pdi-note" id="ee-sumario-texto"></p>
+      <ul class="pdi-list" id="ee-sumario-bullets"></ul>
+    </div>
+
+    <h4>Exposição à concorrência chinesa</h4>
+    <p class="pdi-note" id="ee-analise-china"></p>
+    <div class="exhibit-block">
+      <div id="ee-chart-exposicao-china"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Exposição ao choque de importação chinesa, por estado</div>
+        <div class="exhibit-sub">Peso do estado no emprego do setor x variação da participação chinesa nas importações, do primeiro ao último ano disponível</div>
+      </div>
+    </div>
+    <p class="pdi-note" id="ee-evidence-china"></p>
+
+    <h4>Crédito, investimento e emprego</h4>
+    <p class="pdi-note" id="ee-analise-bndes"></p>
+    <div class="exhibit-block">
+      <div id="ee-chart-bndes-percapita"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Desembolso do BNDES por vínculo, por estado</div>
+        <div class="exhibit-sub">Acumulado 2002-2026 dividido pelos vínculos do ano mais recente, só estados com desembolso registrado</div>
+      </div>
+    </div>
+    <p class="pdi-note" id="ee-evidence-bndes"></p>
+
+    <h4>Estrutura do setor: porte e exportação</h4>
+    <p class="pdi-note" id="ee-analise-melitz"></p>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="ee-chart-porte"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Estabelecimentos por porte</div>
+          <div class="exhibit-sub">Ano mais recente disponível na RAIS</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="ee-chart-export-uf"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Quem exporta: estados com maior valor exportado</div>
+          <div class="exhibit-sub">US$ FOB, ano mais recente, só estados com exportação registrada</div>
+        </div>
+      </div>
+    </div>
+    <p class="pdi-note" id="ee-evidence-melitz"></p>
+
+    <h4>Produtividade</h4>
+    <p class="pdi-note" id="ee-analise-produtividade"></p>
+    <div class="exhibit-block">
+      <div id="ee-chart-produtividade"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title" data-grupo-texto="Produtividade da {grupo} ao longo do tempo"></div>
+        <div class="exhibit-sub" data-grupo-texto="VTI por pessoal ocupado, PIA/IBGE. A {grupo} combina todas as suas classes nesta fonte."></div>
+      </div>
+    </div>
+    <p class="pdi-note" id="ee-evidence-produtividade"></p>
+
+    <h4>Produção e emprego no longo prazo</h4>
+    <p class="pdi-note" id="ee-analise-rodrik"></p>
+    <div class="exhibit-block">
+      <div id="ee-chart-producao-emprego"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Produção e emprego, indexados (base 100)</div>
+        <div class="exhibit-sub" id="ee-producao-emprego-sub"></div>
+      </div>
+    </div>
+    <p class="pdi-note" id="ee-evidence-rodrik"></p>
+  </section>
+
+  <!-- ============ GARGALOS ============ -->
+  <section class="section" id="block-gargalos">
+    <div class="section-header">
+      <h2>Gargalos do setor</h2>
+    </div>
+    <div class="gargalos-list" id="gargalos-grid"></div>
+  </section>
+
+  <p class="dataview-sources">Dados consolidados de fontes públicas (IBGE, RAIS/CAGED, MDIC/Comex Stat, UN Comtrade, BNDES).</p>
+
+</div><!-- /#data-view -->
+
+<!-- ============ DIAGNÓSTICO SETORIAL (PDF) ============ -->
+<div id="diagnostico-view" hidden>
+  <header class="cad-cabeca">
+    <div class="cad-chapeu">Diagnóstico setorial · FIESP · agosto de 2026</div>
+    <h2 class="cad-titulo">Planejamento estratégico setorial COPAGREM</h2>
+    <p class="cad-linha-fina">Avaliação da competitividade da cadeia produtiva de papel, gráfica e embalagem, feita para o Comitê da Cadeia Produtiva de Papel, Gráfica e Embalagem (COPAGREM) da FIESP, como base para o plano estratégico do setor.</p>
+  </header>
+  <div class="diag-acoes">
+    <a class="section-download" href="assets/docs/diagnostico-setorial-celulose-papel-grafico.pdf" download>⬇ Baixar PDF (113 páginas, 7,2 MB)</a>
+    <a class="diag-abrir" href="assets/docs/diagnostico-setorial-celulose-papel-grafico.pdf" target="_blank" rel="noopener">Abrir em tela cheia ↗</a>
+  </div>
+  <p class="cad-nota">O comércio exterior deste painel usa a mesma cesta de produtos do diagnóstico (algoritmo por produto da FIESP para celulose e papel e para impressão e gravação). O painel ainda divide a cesta pelas 15 classes CNAE das divisões 17 e 18. Valores em reais constantes podem variar um pouco pelo deflator usado.</p>
+  <div class="diag-viewer">
+    <iframe id="diagnostico-pdf" title="Diagnóstico setorial COPAGREM (PDF)" loading="lazy" data-src="assets/docs/diagnostico-setorial-celulose-papel-grafico.pdf#view=FitH"></iframe>
+  </div>
+</div><!-- /#diagnostico-view -->
+
+<!-- ============ SIMULADOR DE MERCADO ============ -->
+<div id="simulador-view" hidden>
+  <header class="cad-cabeca">
+    <div class="cad-chapeu">Simulador · cenários</div>
+    <div class="aviso-provisorio"><span class="badge-provisorio">Em construção</span> Versão provisória: os cálculos e a apresentação ainda estão em validação e podem mudar.</div>
+    <h2 class="cad-titulo">O que você acha que vai acontecer?</h2>
+    <p class="cad-linha-fina">Três cenários sobre o futuro do setor. Em cada um, escolha a alternativa que considera mais provável: o painel mostra aonde aquela combinação leva, com números calculados a partir dos dados do setor, e explica o porquê.</p>
+  </header>
+
+  <p class="cen-nota-focus" id="cen-nota-focus"></p>
+  <div class="cen-topo">
+    <label class="seg-select-wrap"><span>Segmento</span><select class="seg-select" id="cen-seg-select"></select></label>
+    <nav class="seg-botoes" id="cen-seg" role="tablist" aria-label="Segmento" hidden></nav>
+  </div>
+
+  <nav class="secao-abas cen-abas" id="cen-abas" role="tablist" aria-label="Cenários">
+    <button type="button" data-cen="china" class="active">1. A concorrência chinesa</button>
+    <button type="button" data-cen="cambio">2. Câmbio</button>
+    <button type="button" data-cen="demanda">3. Demanda dos clientes</button>
+    <button type="button" data-cen="empresa">Compare sua empresa</button>
+  </nav>
+
+  <section class="cen-painel" data-cen="china">
+    <div class="cen-grid">
+      <div class="cen-perguntas" id="cen-china-perguntas"></div>
+      <div class="cen-resultado" id="cen-china-resultado"></div>
+    </div>
+  </section>
+
+  <section class="cen-painel" data-cen="cambio" hidden>
+    <div class="cen-grid">
+      <div class="cen-perguntas" id="cen-cambio-perguntas"></div>
+      <div class="cen-resultado" id="cen-cambio-resultado"></div>
+    </div>
+    <div class="exhibit-block">
+      <div id="cen-cambio-chart"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Dólar e importação do setor ao longo do tempo</div>
+        <div class="exhibit-sub" id="cen-cambio-sub"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cen-painel" data-cen="demanda" hidden>
+    <div class="cen-grid">
+      <div class="cen-perguntas" id="cen-demanda-perguntas"></div>
+      <div class="cen-resultado" id="cen-demanda-resultado"></div>
+    </div>
+  </section>
+
+  <section class="cen-painel" data-cen="empresa" hidden>
+    <div class="cen-grid">
+      <div class="emp-form" id="cen-empresa-form"></div>
+      <div class="cen-resultado" id="cen-empresa-res"></div>
+    </div>
+  </section>
+
+  <p class="cad-nota" id="cen-nota">Cenários ilustrativos e não exaustivos. Partem do último ano com dado de produção e aplicam taxas constantes até 2030, sem modelar preços, câmbio ou política comercial além do que cada pergunta descreve. Empregos estimados com a relação entre produção e emprego do próprio segmento (PIA-Empresa) e, na cadeia, com o multiplicador de produção da Matriz Insumo-Produto. Fonte: PIA/IBGE, Comexstat, Contas Nacionais/IBGE e BCB. Elaboração: DECAP/FIESP.</p>
+</div><!-- /#simulador-view -->
+
+<!-- ============ CADEIA PRODUTIVA ============ -->
+<div id="cadeia-view" hidden>
+  <header class="cad-cabeca">
+    <div class="cad-chapeu" id="cad-chapeu">Cadeia produtiva</div>
+    <h2 class="cad-titulo" id="cad-titulo"></h2>
+    <p class="cad-linha-fina" id="cad-linha-fina"></p>
+  </header>
+
+  <nav class="cad-elos" id="cad-elos" aria-label="Elos da cadeia"></nav>
+
+  <div class="cad-bloco">
+    <div class="cad-toolbar">
+      <nav class="cadeia-trilha" id="cadeia-trilha" aria-label="Caminho percorrido"></nav>
+      <div class="cadeia-busca">
+        <label for="cadeia-select">Ver a cadeia de</label>
+        <select id="cadeia-select"></select>
+      </div>
+    </div>
+    <div class="cad-sankey-cab">
+      <div class="cad-sankey-titulo" id="cadeia-sankey-title"></div>
+      <div class="cad-sankey-sub" id="cadeia-sankey-sub"></div>
+    </div>
+    <div class="cadeia-sankey-wrap"><div id="cadeia-sankey"></div></div>
+    <p class="cad-resumo" id="cadeia-resumo"></p>
+    <p class="cad-nota" id="cadeia-nota"></p>
+  </div>
+</div><!-- /#cadeia-view -->
+
+<!-- ============ ENERGIA INDUSTRIAL ============ -->
+<div id="energia-industrial-view" hidden>
+  <div class="filter-row" id="ei-filter-row">
+    <div class="filter-row-inner">
+      <div class="filter-group">
+        <label id="ei-uf-label">Estados</label>
+        <div class="multiselect" id="ei-uf-multiselect">
+          <button type="button" class="multiselect-btn" id="ei-uf-btn" aria-haspopup="listbox" aria-expanded="false"></button>
+          <div class="multiselect-panel" id="ei-uf-panel" hidden></div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label id="ei-cnae-label">Setores (CNAE)</label>
+        <div class="multiselect" id="ei-cnae-multiselect">
+          <button type="button" class="multiselect-btn" id="ei-cnae-btn" aria-haspopup="listbox" aria-expanded="false"></button>
+          <div class="multiselect-panel" id="ei-cnae-panel" hidden></div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label for="ei-period-lo-select">Período</label>
+        <select id="ei-period-lo-select"></select>
+        <span class="period-dash">–</span>
+        <select id="ei-period-hi-select"></select>
+      </div>
+      <div class="filter-group">
+        <button type="button" class="table-export-btn" id="ei-clear-filters">Limpar filtros</button>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="section-header">
+      <h2>Energia Industrial: consumo e custo de energia na indústria de transformação</h2>
+      <a class="section-download" href="data/downloads/Energia_Industrial.xlsx" download>⬇ Baixar dados (Excel)</a>
+    </div>
+    <p class="section-note">27 estados + Brasil, 24 divisões da indústria de transformação (CNAE 10 a 33), jan/2012 a abr/2026. Estados e setores são multi-seleção; clique numa barra do ranking ou da composição para adicionar aquele item ao filtro correspondente. Custo em R$ constantes (deflacionado por IPCA). Consumo: EPE. Custo de energia: MME/ANEEL, Informativo Tarifário do Setor Elétrico. Classificação: IBGE/CONCLA (CNAE). Metodologia completa na aba Referências.</p>
+    <div class="exhibit-grid">
+      <div class="exhibit">
+        <div id="chart-ei-consumo"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Consumo de energia ao longo do tempo</div>
+          <div class="exhibit-sub" id="ei-consumo-sub">MWh por mês, por estado selecionado</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="rank-ei-custo-estados"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title" id="ei-ranking-custo-title">Ranking de estados por custo de energia</div>
+          <div class="exhibit-sub" id="ei-ranking-custo-sub">R$/MWh, do mais barato ao mais caro, SP em destaque</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="rank-ei-composicao"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title" id="ei-composicao-title">Participação do setor no consumo industrial</div>
+          <div class="exhibit-sub" id="ei-composicao-sub">%, por estado, SP em destaque</div>
+        </div>
+      </div>
+      <div class="exhibit">
+        <div id="chart-ei-custo-tempo"></div>
+        <div class="exhibit-caption">
+          <div class="exhibit-title">Custo de energia ao longo do tempo</div>
+          <div class="exhibit-sub" id="ei-custo-tempo-sub">R$/MWh, por estado selecionado</div>
+        </div>
+      </div>
+    </div>
+    <div class="exhibit-block">
+      <div id="table-ei-dados"></div>
+      <div class="exhibit-caption">
+        <div class="exhibit-title">Dados filtrados</div>
+        <div class="exhibit-sub">UF, setor, mês, consumo, custo, gasto e participação. Clique no cabeçalho para ordenar.</div>
+      </div>
+    </div>
+  </section>
+</div><!-- /#energia-industrial-view -->
+
+<!-- ============ RELATÓRIOS ============ -->
+<div id="relatorios-view" hidden>
+  <div class="section-header">
+    <h2>Relatórios</h2>
+  </div>
+  <p class="pdi-intro">Em construção.</p>
+</div><!-- /#relatorios-view -->
+
+<!-- ============ REFERÊNCIAS ============ -->
+<div id="referencias-view" hidden>
+  <div class="section-header">
+    <h2>Referências</h2>
+  </div>
+  <p class="pdi-intro">Bases de dados usadas no painel e período coberto. Elaboração: Departamento das Cadeias Produtivas (DECAP/FIESP).</p>
+  <div class="pdi-table-wrap">
+    <table class="pdi-table" id="referencias-table">
+      <thead><tr><th>Bloco</th><th>Fonte</th><th>Período</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <h4>Notas</h4>
+  <div id="referencias-notas"></div>
+</div><!-- /#referencias-view -->
+
+<footer class="site-footer">
+  <p id="footer-generated">Elaborado pelo Departamento das Cadeias Produtivas da FIESP.</p>
+</footer>
+
+</div>
+</div>
+</div>
+
+<!-- ?v=dev: o workflow troca pelo commit a cada publicação, para o navegador
+     não misturar arquivo novo com arquivo velho guardado em cache. -->
+<script src="js/charts.js?v=dev"></script>
+<script src="js/main.js?v=dev"></script>
+</body>
+</html>

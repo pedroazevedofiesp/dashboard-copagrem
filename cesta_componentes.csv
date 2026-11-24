@@ -1,0 +1,379 @@
+tipo;codigo;componente;descricao_componente;cnae
+NCM;47010000;862;Pastas mecânicas (quimitermomecânicas, termomecânicas) de madeira;1710
+NCM;47020000;863;Pastas químicas de madeira para dissolução (cruas, semibranqueadas ou branqueadas);1710
+NCM;47031100;864;Pastas químicas de madeira, à soda ou ao sulfato, exceto pastas para dissolução;1710
+NCM;47031900;864;Pastas químicas de madeira, à soda ou ao sulfato, exceto pastas para dissolução;1710
+NCM;47032100;864;Pastas químicas de madeira, à soda ou ao sulfato, exceto pastas para dissolução;1710
+NCM;47032900;864;Pastas químicas de madeira, à soda ou ao sulfato, exceto pastas para dissolução;1710
+NCM;47041100;865;Pastas químicas de madeira, processo sulfito, branqueadas ou não;1710
+NCM;47042100;865;Pastas químicas de madeira, processo sulfito, branqueadas ou não;1710
+NCM;47042900;865;Pastas químicas de madeira, processo sulfito, branqueadas ou não;1710
+NCM;47050000;866;"Pastas semiquímicas de madeira; pastas mecanoquímicas de madeira";1710
+NCM;47061000;867;Pastas de matérias fibrosas celulósicas, exceto de madeira;1710
+NCM;47062000;867;Pastas de matérias fibrosas celulósicas, exceto de madeira;1710
+NCM;47063000;867;Pastas de matérias fibrosas celulósicas, exceto de madeira;1710
+NCM;47069100;867;Pastas de matérias fibrosas celulósicas, exceto de madeira;1710
+NCM;47069200;867;Pastas de matérias fibrosas celulósicas, exceto de madeira;1710
+NCM;47069300;867;Pastas de matérias fibrosas celulósicas, exceto de madeira;1710
+NCM;47071000;868;Desperdícios ou aparas de papel ou de papel-cartão;1721
+NCM;47072000;868;Desperdícios ou aparas de papel ou de papel-cartão;1721
+NCM;47073000;868;Desperdícios ou aparas de papel ou de papel-cartão;1721
+NCM;47079000;868;Desperdícios ou aparas de papel ou de papel-cartão;1721
+NCM;48010010;869;Papel imprensa ou papel jornal em rolos ou em folhas;1721
+NCM;48010020;869;Papel imprensa ou papel jornal em rolos ou em folhas;1721
+NCM;48010030;869;Papel imprensa ou papel jornal em rolos ou em folhas;1721
+NCM;48010090;869;Papel imprensa ou papel jornal em rolos ou em folhas;1721
+NCM;48021000;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025410;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025491;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025499;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025510;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025591;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025592;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025599;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025610;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025691;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025692;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025693;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025699;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025710;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025791;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025792;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025793;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025799;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025810;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025891;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025892;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48025899;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026110;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026191;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026192;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026199;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026210;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026291;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026299;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026910;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026991;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026992;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48026999;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+NCM;48022010;871;Papel próprio para a fabricação de papel-fotossensível, termossensível ou eletrossensível;1721
+NCM;48022090;871;Papel próprio para a fabricação de papel-fotossensível, termossensível ou eletrossensível;1721
+NCM;48024010;872;Papel próprio para a fabricação de papel de parede;1721
+NCM;48024090;872;Papel próprio para a fabricação de papel de parede;1721
+NCM;48030010;873;Papel em rolos contínuos utilizados na fabricação de papéis higiênicos, lenços, toalhas ou semelhantes para usos doméstico ou sanitário;1721
+NCM;48030090;873;Papel em rolos contínuos utilizados na fabricação de papéis higiênicos, lenços, toalhas ou semelhantes para usos doméstico ou sanitário;1721
+NCM;48041100;874;Papel kraftliner para cobertura e Papel-cartão ou cartolina kraftliner para cobertura, não revestido;1721
+NCM;48041900;874;Papel kraftliner para cobertura e Papel-cartão ou cartolina kraftliner para cobertura, não revestido;1721
+NCM;48042100;875;Papel kraft, para sacos de grande capacidade, não revestido, encrespado, estampado ou perfurado;1721
+NCM;48042900;875;Papel kraft, para sacos de grande capacidade, não revestido, encrespado, estampado ou perfurado;1721
+NCM;48082000;875;Papel kraft, para sacos de grande capacidade, não revestido, encrespado, estampado ou perfurado;1721
+NCM;48084000;875;Papel kraft, para sacos de grande capacidade, não revestido, encrespado, estampado ou perfurado;1721
+NCM;48043110;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48043190;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48043910;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48043990;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48044100;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48044200;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48044900;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48045100;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48045200;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48045910;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48045990;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+NCM;48051100;877;Papel miolo (papel semiquímico para ondular), não revestido (para caixas de papelão ondulado);1721
+NCM;48051200;877;Papel miolo (papel semiquímico para ondular), não revestido (para caixas de papelão ondulado);1721
+NCM;48051900;877;Papel miolo (papel semiquímico para ondular), não revestido (para caixas de papelão ondulado);1721
+NCM;48052400;878;Papel testliner de peso não superior a 150g/m², não revestido;1721
+NCM;48053000;880;Papel sulfite para embalagem (papel seda próprio para embalagem de frutas);1721
+NCM;48054010;881;Papel-filtro e Papel-cartão-feltro (cartão-feltro) ou papel-cartão-filtro (cartão-filtro) e Papel para cigarros;1721
+NCM;48054090;881;Papel-filtro e Papel-cartão-feltro (cartão-feltro) ou papel-cartão-filtro (cartão-filtro) e Papel para cigarros;1721
+NCM;48055000;881;Papel-filtro e Papel-cartão-feltro (cartão-feltro) ou papel-cartão-filtro (cartão-filtro) e Papel para cigarros;1721
+NCM;48059100;881;Papel-filtro e Papel-cartão-feltro (cartão-feltro) ou papel-cartão-filtro (cartão-filtro) e Papel para cigarros;1721
+NCM;48139000;881;Papel-filtro e Papel-cartão-feltro (cartão-feltro) ou papel-cartão-filtro (cartão-filtro) e Papel para cigarros;1721
+NCM;48061000;882;Papel-pergaminho, papel impermeável a gorduras e outros papéis calandrados transparentes em rolos ou em folhas;1721
+NCM;48062000;882;Papel-pergaminho, papel impermeável a gorduras e outros papéis calandrados transparentes em rolos ou em folhas;1721
+NCM;48063000;882;Papel-pergaminho, papel impermeável a gorduras e outros papéis calandrados transparentes em rolos ou em folhas;1721
+NCM;48064000;882;Papel-pergaminho, papel impermeável a gorduras e outros papéis calandrados transparentes em rolos ou em folhas;1721
+NCM;48070000;883;Papel e Papel-cartão ou cartolina obtido por colagem de folhas sobrepostas , não revestido nem impregnado;1721
+NCM;48083000;885;Papel ondulado, gofrado, estampado, corrugado, etc., n.e.;1721
+NCM;48089000;885;Papel ondulado, gofrado, estampado, corrugado, etc., n.e.;1721
+NCM;48092000;886;Papel carbono, papel autocopiativo e outros papéis para cópia ou duplicação, em rolos ou folhas;1721
+NCM;48099000;886;Papel carbono, papel autocopiativo e outros papéis para cópia ou duplicação, em rolos ou folhas;1721
+NCM;48101310;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101381;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101382;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101389;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101390;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101410;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101481;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101482;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101489;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101490;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101910;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101981;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101982;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101989;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48101990;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48102210;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48102290;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48102910;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48102990;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48103110;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48103190;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48103210;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48103290;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48103910;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48103990;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48109210;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48109290;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48109910;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48109990;887;Papel para uso na escrita e Papel Cartão;1721
+NCM;48111010;888;Papel revestido ou Papel Cartão;1721
+NCM;48111090;888;Papel revestido ou Papel Cartão;1721
+NCM;48115110;888;Papel revestido ou Papel Cartão;1721
+NCM;48115121;888;Papel revestido ou Papel Cartão;1721
+NCM;48115122;888;Papel revestido ou Papel Cartão;1721
+NCM;48115123;888;Papel revestido ou Papel Cartão;1721
+NCM;48115128;888;Papel revestido ou Papel Cartão;1721
+NCM;48115129;888;Papel revestido ou Papel Cartão;1721
+NCM;48115130;888;Papel revestido ou Papel Cartão;1721
+NCM;48115910;888;Papel revestido ou Papel Cartão;1721
+NCM;48115921;888;Papel revestido ou Papel Cartão;1721
+NCM;48115922;888;Papel revestido ou Papel Cartão;1721
+NCM;48115923;888;Papel revestido ou Papel Cartão;1721
+NCM;48115929;888;Papel revestido ou Papel Cartão;1721
+NCM;48115930;888;Papel revestido ou Papel Cartão;1721
+NCM;48116010;888;Papel revestido ou Papel Cartão;1721
+NCM;48116090;888;Papel revestido ou Papel Cartão;1721
+NCM;48119010;888;Papel revestido ou Papel Cartão;1721
+NCM;48119090;888;Papel revestido ou Papel Cartão;1721
+NCM;48114110;889;Papel gomado ou Papel cartão;1721
+NCM;48114190;889;Papel gomado ou Papel cartão;1721
+NCM;48114910;889;Papel gomado ou Papel cartão;1721
+NCM;48114990;889;Papel gomado ou Papel cartão;1721
+NCM;48052500;879;Papel-cartão ou cartolina de outros tipos, com peso superior a 150g/m², não revestido;1722
+NCM;48059210;879;Papel-cartão ou cartolina de outros tipos, com peso superior a 150g/m², não revestido;1722
+NCM;48059290;879;Papel-cartão ou cartolina de outros tipos, com peso superior a 150g/m², não revestido;1722
+NCM;48059300;879;Papel-cartão ou cartolina de outros tipos, com peso superior a 150g/m², não revestido;1722
+NCM;48192000;903;Embalagens n.e. de papel e papelão;1731
+NCM;48193000;903;Embalagens n.e. de papel e papelão;1731
+NCM;48194000;903;Embalagens n.e. de papel e papelão;1731
+NCM;48195000;903;Embalagens n.e. de papel e papelão;1731
+NCM;48081000;884;Chapas de papelão ondulado ou corrugado;1733
+NCM;48191000;902;Caixas de papelão ondulado ou corrugado, impressas ou não;1733
+NCM;48162000;893;Papel autocopiativo, cortado e acondicionado em caixas;1741
+NCM;48169010;894;Papel carbono, estênceis completos e papéis semelhantes para cópia ou duplicação, cortados e acondicionados em caixas;1741
+NCM;48169090;894;Papel carbono, estênceis completos e papéis semelhantes para cópia ou duplicação, cortados e acondicionados em caixas;1741
+NCM;48171000;895;Envelopes de papel impressos e não impressos;1741
+NCM;48172000;896;Artigos diversos para correspondência (aerogramas, bilhetes-postais ou outros artigos para correspondência);1741
+NCM;48173000;896;Artigos diversos para correspondência (aerogramas, bilhetes-postais ou outros artigos para correspondência);1741
+NCM;48196000;904;Cartonagens (caixas) para escritórios (caixas classificadoras de cartas, arquivadores, guias e semelhantes);1741
+NCM;48201000;905;Agendas e Impressos fiscais padronizados;1741
+NCM;48202000;906;Cadernos;1741
+NCM;48203000;907;Artefatos impressos de papelaria, n.e.;1741
+NCM;48211000;911;Etiquetas adesivas de papel, impressas, elaboradas exclusivamente pela indústria de artefatos de papel e Etiquetas não adesivas (TAG) impressas ou não;1741
+NCM;48219000;911;Etiquetas adesivas de papel, impressas, elaboradas exclusivamente pela indústria de artefatos de papel e Etiquetas não adesivas (TAG) impressas ou não;1741
+NCM;48239010;913;Artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas;1741
+NCM;48239020;913;Artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas;1741
+NCM;48234000;914;Artefatos de papel para aparelhos registradores, inclusive em bobinas;1741
+NCM;48239091;916;"Artefatos diversos de papel, papel-cartão ou pasta (""ouate"") de celulose, exceto para uso doméstico e higiênico-sanitário";1741
+NCM;48239099;916;"Artefatos diversos de papel, papel-cartão ou pasta (""ouate"") de celulose, exceto para uso doméstico e higiênico-sanitário";1741
+NCM;48181000;897;Papel higiênico;1742
+NCM;48182000;898;Lenços ou toalhas de papel para mãos;1742
+NCM;48183000;899;Toalhas ou guardanapos de papel para mesas;1742
+NCM;48184010;900;Absorventes, tampões higiênicos e fraldas de qualquer matéria;1742
+NCM;48184020;900;Absorventes, tampões higiênicos e fraldas de qualquer matéria;1742
+NCM;48184090;900;Absorventes, tampões higiênicos e fraldas de qualquer matéria;1742
+NCM;56011000;900;Absorventes, tampões higiênicos e fraldas de qualquer matéria;1742
+NCM;96190000;900;Absorventes, tampões higiênicos e fraldas de qualquer matéria;1742
+NCM;48185000;901;"Artefatos de papel, de pasta (""ouate"") ou de mantas de fibra de celulose para usos doméstico e higiênico-sanitário";1742
+NCM;48189010;901;"Artefatos de papel, de pasta (""ouate"") ou de mantas de fibra de celulose para usos doméstico e higiênico-sanitário";1742
+NCM;48189090;901;"Artefatos de papel, de pasta (""ouate"") ou de mantas de fibra de celulose para usos doméstico e higiênico-sanitário";1742
+NCM;48120000;890;Blocos e chapas filtrantes, de pasta de papel;1749
+NCM;48131000;891;Papel para cigarros, cortado em dimensões próprias, em folhas, tubos ou rolos;1749
+NCM;48132000;891;Papel para cigarros, cortado em dimensões próprias, em folhas, tubos ou rolos;1749
+NCM;48141000;892;Papel de parede e revestimentos de parede semelhantes (papel para vitrais);1749
+NCM;48142000;892;Papel de parede e revestimentos de parede semelhantes (papel para vitrais);1749
+NCM;48149000;892;Papel de parede e revestimentos de parede semelhantes (papel para vitrais);1749
+NCM;48205000;909;Álbuns para amostras ou para coleções (p. ex. selos, moedas, fotografias, etc.);1749
+NCM;48221000;912;Carretéis, bobinas e suportes semelhantes de papel, papel-cartão e pasta de papel;1749
+NCM;48229000;912;Carretéis, bobinas e suportes semelhantes de papel, papel-cartão e pasta de papel;1749
+NCM;48232010;913;Artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas;1749
+NCM;48232091;913;Artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas;1749
+NCM;48232099;913;Artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas;1749
+NCM;48236100;915;Bandejas, travessas, pratos, copos e artigos semelhantes de papel ou papel-cartão, impressos ou não;1749
+NCM;48236900;915;Bandejas, travessas, pratos, copos e artigos semelhantes de papel ou papel-cartão, impressos ou não;1749
+NCM;48237000;916;"Artefatos diversos de papel, papel-cartão ou pasta (""ouate"") de celulose, exceto para uso doméstico e higiênico-sanitário";1749
+NCM;59050000;1014;Revestimentos para paredes, de matérias têxteis;1749
+NCM;49011000;917;Livros , brochuras ou impressos;1811
+NCM;49019100;917;Livros , brochuras ou impressos;1811
+NCM;49019900;917;Livros , brochuras ou impressos;1811
+NCM;49030000;917;Livros , brochuras ou impressos;1811
+NCM;49040000;917;Livros , brochuras ou impressos;1811
+NCM;49021000;918;Jornais impressos sob encomenda;1811
+NCM;49029000;919;Publicações e Revistas periódicas e Revistas não periódicas;1811
+NCM;49051000;920;Obras cartográficas diversas (mapas, plantas topográficas, etc.) impressos sob encomenda;1811
+NCM;49059100;920;Obras cartográficas diversas (mapas, plantas topográficas, etc.) impressos sob encomenda;1811
+NCM;49059900;920;Obras cartográficas diversas (mapas, plantas topográficas, etc.) impressos sob encomenda;1811
+NCM;49070010;921;Papel-moeda (cédulas), impressos sob encomenda, com controle de adulteração;1812
+NCM;49070020;922;Impressos de segurança (cheques, cautelas, títulos ao portador, selos postais, fiscais, etc.), com controle de adulteração;1812
+NCM;49070030;922;Impressos de segurança (cheques, cautelas, títulos ao portador, selos postais, fiscais, etc.), com controle de adulteração;1812
+NCM;49070090;922;Impressos de segurança (cheques, cautelas, títulos ao portador, selos postais, fiscais, etc.), com controle de adulteração;1812
+NCM;85232120;1799;Cartões magnéticos gravados, com suporte de qualquer material, inclusive cartão telefônico (phone card e para usar em ligações, através de raspagem), com controle de adulteração;1812
+NCM;48204000;908;Formulários e outros impressos n.e.;1813
+NCM;49119900;908;Formulários e outros impressos n.e.;1813
+NCM;48209000;910;Impressos para uso escolar (exceto cadernos);1813
+NCM;49081000;923;"Calendários de qualquer espécie; decalcomanias";1813
+NCM;49089000;923;"Calendários de qualquer espécie; decalcomanias";1813
+NCM;49100000;923;"Calendários de qualquer espécie; decalcomanias";1813
+NCM;49090000;924;Cartões de visitas, felicitações, cartões postais impressos ou ilustrados e semelhantes;1813
+NCM;49119100;924;Cartões de visitas, felicitações, cartões postais impressos ou ilustrados e semelhantes;1813
+NCM;49111010;925;Impressos para fins publicitários ou promocionais em filmes, lona vinílica, polipropileno, vinil adesivo, etc. (banners, backlit, frontlit, etc.).;1813
+NCM;49111090;925;Impressos para fins publicitários ou promocionais em filmes, lona vinílica, polipropileno, vinil adesivo, etc. (banners, backlit, frontlit, etc.).;1813
+NCM;84425000;1577;Chapas , cilindros , clichês metálicos e outros elementos para impressão;1821
+NCM;85232931;1801;Softwares em qualquer suporte (exceto papel), reproduzidos a partir de matrizes;1830
+NCM;85234022;1801;Softwares em qualquer suporte (exceto papel), reproduzidos a partir de matrizes;1830
+NCM;85234920;1801;Softwares em qualquer suporte (exceto papel), reproduzidos a partir de matrizes;1830
+NCM;85232932;1802;Fitas magnéticas reproduzidas a partir de matrizes;1830
+NCM;85232933;1802;Fitas magnéticas reproduzidas a partir de matrizes;1830
+NCM;85232939;1802;Fitas magnéticas reproduzidas a partir de matrizes;1830
+NCM;85232990;1802;Fitas magnéticas reproduzidas a partir de matrizes;1830
+NCM;85232919;1804;Discos fonográficos reproduzidos a partir de matrizes;1830
+NCM;85234021;1804;Discos fonográficos reproduzidos a partir de matrizes;1830
+NCM;85234910;1804;Discos fonográficos reproduzidos a partir de matrizes;1830
+NCM;85234029;1805;Discos de vídeo (DVD) reproduzidos a partir de matrizes;1830
+NCM;85234990;1805;Discos de vídeo (DVD) reproduzidos a partir de matrizes;1830
+PRODLIST;1710.2020;862;Pastas mecânicas (quimitermomecânicas, termomecânicas) de madeira;1710
+PRODLIST;1710.2040;863;Pastas químicas de madeira para dissolução (cruas, semibranqueadas ou branqueadas);1710
+PRODLIST;1710.2035;864;Pastas químicas de madeira, à soda ou ao sulfato, exceto pastas para dissolução;1710
+PRODLIST;1710.2060;865;Pastas químicas de madeira, processo sulfito, branqueadas ou não;1710
+PRODLIST;1710.2070;866;"Pastas semiquímicas de madeira; pastas mecanoquímicas de madeira";1710
+PRODLIST;1710.2010;867;Pastas de matérias fibrosas celulósicas, exceto de madeira;1710
+PRODLIST;1721.2010;868;Desperdícios ou aparas de papel ou de papel-cartão;1721
+PRODLIST;1721.2070;869;Papel imprensa ou papel jornal em rolos ou em folhas;1721
+PRODLIST;1721.2150;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1721
+PRODLIST;1721.2180;871;Papel próprio para a fabricação de papel-fotossensível, termossensível ou eletrossensível;1721
+PRODLIST;1721.2190;872;Papel próprio para a fabricação de papel de parede;1721
+PRODLIST;1721.2030;873;Papel em rolos contínuos utilizados na fabricação de papéis higiênicos, lenços, toalhas ou semelhantes para usos doméstico ou sanitário;1721
+PRODLIST;1721.2110;874;Papel kraftliner para cobertura e Papel-cartão ou cartolina kraftliner para cobertura, não revestido;1721
+PRODLIST;1721.2090;875;Papel kraft, para sacos de grande capacidade, não revestido, encrespado, estampado ou perfurado;1721
+PRODLIST;1721.2080;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1721
+PRODLIST;1721.2120;877;Papel miolo (papel semiquímico para ondular), não revestido (para caixas de papelão ondulado);1721
+PRODLIST;1721.2220;878;Papel testliner de peso não superior a 150g/m², não revestido;1721
+PRODLIST;1721.2210;880;Papel sulfite para embalagem (papel seda próprio para embalagem de frutas);1721
+PRODLIST;1721.2025;881;Papel-filtro e Papel-cartão-feltro (cartão-feltro) ou papel-cartão-filtro (cartão-filtro) e Papel para cigarros;1721
+PRODLIST;1721.2050;881;Papel-filtro e Papel-cartão-feltro (cartão-feltro) ou papel-cartão-filtro (cartão-filtro) e Papel para cigarros;1721
+PRODLIST;1721.2170;882;Papel-pergaminho, papel impermeável a gorduras e outros papéis calandrados transparentes em rolos ou em folhas;1721
+PRODLIST;1721.2130;883;Papel e Papel-cartão ou cartolina obtido por colagem de folhas sobrepostas , não revestido nem impregnado;1721
+PRODLIST;1721.2140;885;Papel ondulado, gofrado, estampado, corrugado, etc., n.e.;1721
+PRODLIST;1721.2020;886;Papel carbono, papel autocopiativo e outros papéis para cópia ou duplicação, em rolos ou folhas;1721
+PRODLIST;1721.2100;887;Papel para uso na escrita e Papel Cartão;1721
+PRODLIST;1721.2160;887;Papel para uso na escrita e Papel Cartão;1721
+PRODLIST;1721.2045;888;Papel revestido ou Papel Cartão;1721
+PRODLIST;1721.2200;888;Papel revestido ou Papel Cartão;1721
+PRODLIST;1721.2205;888;Papel revestido ou Papel Cartão;1721
+PRODLIST;1721.2060;889;Papel gomado ou Papel cartão;1721
+PRODLIST;1722.2050;870;Papel para usos na escrita, impressão e outros fins gráficos (ofsete, bíblia, bouffant, couché, monolucido, etc.), não revestido;1722
+PRODLIST;1722.2030;874;Papel kraftliner para cobertura e Papel-cartão ou cartolina kraftliner para cobertura, não revestido;1722
+PRODLIST;1722.2040;876;Papel kraft para embalagem, não revestido, exceto encrespado ou estampado;1722
+PRODLIST;1722.2110;879;Papel-cartão ou cartolina de outros tipos, com peso superior a 150g/m², não revestido;1722
+PRODLIST;1722.2010;881;Papel-filtro e Papel-cartão-feltro (cartão-feltro) ou papel-cartão-filtro (cartão-filtro) e Papel para cigarros;1722
+PRODLIST;1722.2070;882;Papel-pergaminho, papel impermeável a gorduras e outros papéis calandrados transparentes em rolos ou em folhas;1722
+PRODLIST;1722.2060;883;Papel e Papel-cartão ou cartolina obtido por colagem de folhas sobrepostas , não revestido nem impregnado;1722
+PRODLIST;1722.2080;887;Papel para uso na escrita e Papel Cartão;1722
+PRODLIST;1722.2090;888;Papel revestido ou Papel Cartão;1722
+PRODLIST;1722.2020;889;Papel gomado ou Papel cartão;1722
+PRODLIST;1731.2010;903;Embalagens n.e. de papel e papelão;1731
+PRODLIST;1731.2020;903;Embalagens n.e. de papel e papelão;1731
+PRODLIST;1731.2040;903;Embalagens n.e. de papel e papelão;1731
+PRODLIST;1731.2050;903;Embalagens n.e. de papel e papelão;1731
+PRODLIST;1732.2010;903;Embalagens n.e. de papel e papelão;1732
+PRODLIST;1732.2020;903;Embalagens n.e. de papel e papelão;1732
+PRODLIST;1732.2030;903;Embalagens n.e. de papel e papelão;1732
+PRODLIST;1732.2040;903;Embalagens n.e. de papel e papelão;1732
+PRODLIST;1733.2030;884;Chapas de papelão ondulado ou corrugado;1733
+PRODLIST;1733.2010;902;Caixas de papelão ondulado ou corrugado, impressas ou não;1733
+PRODLIST;1733.2020;903;Embalagens n.e. de papel e papelão;1733
+PRODLIST;1741.2180;893;Papel autocopiativo, cortado e acondicionado em caixas;1741
+PRODLIST;1741.2190;894;Papel carbono, estênceis completos e papéis semelhantes para cópia ou duplicação, cortados e acondicionados em caixas;1741
+PRODLIST;1741.2090;895;Envelopes de papel impressos e não impressos;1741
+PRODLIST;1741.2100;895;Envelopes de papel impressos e não impressos;1741
+PRODLIST;1741.2050;896;Artigos diversos para correspondência (aerogramas, bilhetes-postais ou outros artigos para correspondência);1741
+PRODLIST;1741.2070;904;Cartonagens (caixas) para escritórios (caixas classificadoras de cartas, arquivadores, guias e semelhantes);1741
+PRODLIST;1741.2010;905;Agendas e Impressos fiscais padronizados;1741
+PRODLIST;1741.2060;906;Cadernos;1741
+PRODLIST;1741.2045;907;Artefatos impressos de papelaria, n.e.;1741
+PRODLIST;1741.2150;908;Formulários e outros impressos n.e.;1741
+PRODLIST;1741.2160;908;Formulários e outros impressos n.e.;1741
+PRODLIST;1741.2110;911;Etiquetas adesivas de papel, impressas, elaboradas exclusivamente pela indústria de artefatos de papel e Etiquetas não adesivas (TAG) impressas ou não;1741
+PRODLIST;1741.2120;911;Etiquetas adesivas de papel, impressas, elaboradas exclusivamente pela indústria de artefatos de papel e Etiquetas não adesivas (TAG) impressas ou não;1741
+PRODLIST;1741.2130;911;Etiquetas adesivas de papel, impressas, elaboradas exclusivamente pela indústria de artefatos de papel e Etiquetas não adesivas (TAG) impressas ou não;1741
+PRODLIST;1741.2040;913;Artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas;1741
+PRODLIST;1741.2030;914;Artefatos de papel para aparelhos registradores, inclusive em bobinas;1741
+PRODLIST;1741.2020;916;"Artefatos diversos de papel, papel-cartão ou pasta (""ouate"") de celulose, exceto para uso doméstico e higiênico-sanitário";1741
+PRODLIST;1741.2140;916;"Artefatos diversos de papel, papel-cartão ou pasta (""ouate"") de celulose, exceto para uso doméstico e higiênico-sanitário";1741
+PRODLIST;1742.2060;897;Papel higiênico;1742
+PRODLIST;1742.2050;898;Lenços ou toalhas de papel para mãos;1742
+PRODLIST;1742.2070;899;Toalhas ou guardanapos de papel para mesas;1742
+PRODLIST;1742.2010;900;Absorventes, tampões higiênicos e fraldas de qualquer matéria;1742
+PRODLIST;1742.2040;900;Absorventes, tampões higiênicos e fraldas de qualquer matéria;1742
+PRODLIST;1742.2020;901;"Artefatos de papel, de pasta (""ouate"") ou de mantas de fibra de celulose para usos doméstico e higiênico-sanitário";1742
+PRODLIST;1749.2070;890;Blocos e chapas filtrantes, de pasta de papel;1749
+PRODLIST;1749.2105;891;Papel para cigarros, cortado em dimensões próprias, em folhas, tubos ou rolos;1749
+PRODLIST;1749.2100;892;Papel de parede e revestimentos de parede semelhantes (papel para vitrais);1749
+PRODLIST;1749.2090;903;Embalagens n.e. de papel e papelão;1749
+PRODLIST;1749.2010;909;Álbuns para amostras ou para coleções (p. ex. selos, moedas, fotografias, etc.);1749
+PRODLIST;1749.2080;912;Carretéis, bobinas e suportes semelhantes de papel, papel-cartão e pasta de papel;1749
+PRODLIST;1749.2040;913;Artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas;1749
+PRODLIST;1749.2065;915;Bandejas, travessas, pratos, copos e artigos semelhantes de papel ou papel-cartão, impressos ou não;1749
+PRODLIST;1749.2025;916;"Artefatos diversos de papel, papel-cartão ou pasta (""ouate"") de celulose, exceto para uso doméstico e higiênico-sanitário";1749
+PRODLIST;1749.2050;916;"Artefatos diversos de papel, papel-cartão ou pasta (""ouate"") de celulose, exceto para uso doméstico e higiênico-sanitário";1749
+PRODLIST;1749.2110;1014;Revestimentos para paredes, de matérias têxteis;1749
+PRODLIST;1811.2010;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2020;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2040;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2050;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2060;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2070;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2080;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2090;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2100;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2120;917;Livros , brochuras ou impressos;1811
+PRODLIST;1811.2030;918;Jornais impressos sob encomenda;1811
+PRODLIST;1811.2130;919;Publicações e Revistas periódicas e Revistas não periódicas;1811
+PRODLIST;1811.2140;919;Publicações e Revistas periódicas e Revistas não periódicas;1811
+PRODLIST;1811.2150;919;Publicações e Revistas periódicas e Revistas não periódicas;1811
+PRODLIST;1811.2155;919;Publicações e Revistas periódicas e Revistas não periódicas;1811
+PRODLIST;1811.2160;919;Publicações e Revistas periódicas e Revistas não periódicas;1811
+PRODLIST;1811.2170;919;Publicações e Revistas periódicas e Revistas não periódicas;1811
+PRODLIST;1811.2180;919;Publicações e Revistas periódicas e Revistas não periódicas;1811
+PRODLIST;1811.2110;920;Obras cartográficas diversas (mapas, plantas topográficas, etc.) impressos sob encomenda;1811
+PRODLIST;1812.2030;905;Agendas e Impressos fiscais padronizados;1812
+PRODLIST;1812.2040;921;Papel-moeda (cédulas), impressos sob encomenda, com controle de adulteração;1812
+PRODLIST;1812.2020;922;Impressos de segurança (cheques, cautelas, títulos ao portador, selos postais, fiscais, etc.), com controle de adulteração;1812
+PRODLIST;1812.2010;1799;Cartões magnéticos gravados, com suporte de qualquer material, inclusive cartão telefônico (phone card e para usar em ligações, através de raspagem), com controle de adulteração;1812
+PRODLIST;1813.2030;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2040;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2050;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2055;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2060;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2070;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2080;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2100;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2120;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2130;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2140;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2150;908;Formulários e outros impressos n.e.;1813
+PRODLIST;1813.2110;910;Impressos para uso escolar (exceto cadernos);1813
+PRODLIST;1813.2015;923;"Calendários de qualquer espécie; decalcomanias";1813
+PRODLIST;1813.2025;924;Cartões de visitas, felicitações, cartões postais impressos ou ilustrados e semelhantes;1813
+PRODLIST;1813.2090;925;Impressos para fins publicitários ou promocionais em filmes, lona vinílica, polipropileno, vinil adesivo, etc. (banners, backlit, frontlit, etc.).;1813
+PRODLIST;1821.2010;1577;Chapas , cilindros , clichês metálicos e outros elementos para impressão;1821
+PRODLIST;1821.2020;1577;Chapas , cilindros , clichês metálicos e outros elementos para impressão;1821
+PRODLIST;1821.2030;1577;Chapas , cilindros , clichês metálicos e outros elementos para impressão;1821
+PRODLIST;1821.2040;1577;Chapas , cilindros , clichês metálicos e outros elementos para impressão;1821
+PRODLIST;1830.2050;1801;Softwares em qualquer suporte (exceto papel), reproduzidos a partir de matrizes;1830
+PRODLIST;1830.2030;1802;Fitas magnéticas reproduzidas a partir de matrizes;1830
+PRODLIST;1830.2035;1802;Fitas magnéticas reproduzidas a partir de matrizes;1830
+PRODLIST;1830.2040;1802;Fitas magnéticas reproduzidas a partir de matrizes;1830
+PRODLIST;1830.2020;1804;Discos fonográficos reproduzidos a partir de matrizes;1830
+PRODLIST;1830.2010;1805;Discos de vídeo (DVD) reproduzidos a partir de matrizes;1830

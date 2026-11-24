@@ -1,0 +1,590 @@
+"Fluxo";"Ano";"Codigo_NCM";"Descricao_NCM";"UF_Produto";"Valor_US_FOB";"Quilograma_Liquido"
+"Exportação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";33146;3982
+"Exportação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";4060;2284
+"Exportação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Zona Não Declarada";10;7
+"Exportação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";33883;2695
+"Exportação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";1526;20
+"Exportação";2007;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";163;20
+"Exportação";2007;"85232120";"Cartões magnéticos gravados";"Santa Catarina";11;1
+"Exportação";2007;"85232120";"Cartões magnéticos gravados";"São Paulo";5373;1
+"Exportação";2008;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Não Declarada";300;10
+"Exportação";2008;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Zona Não Declarada";700;4
+"Exportação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";0;0
+"Exportação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";4800;35
+"Exportação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";52362;3280
+"Exportação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";147822;2554
+"Exportação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Zona Não Declarada";338;0
+"Exportação";2008;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";1567;117
+"Exportação";2008;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";14;2
+"Exportação";2008;"85232120";"Cartões magnéticos gravados";"Santa Catarina";50;37
+"Exportação";2008;"85232120";"Cartões magnéticos gravados";"São Paulo";1141;4
+"Exportação";2008;"85232120";"Cartões magnéticos gravados";"Zona Não Declarada";981;0
+"Exportação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mercadoria Nacionalizada";50;3
+"Exportação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";1;0
+"Exportação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";25815;2203
+"Exportação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";12500;1350
+"Exportação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";6963;127
+"Exportação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Zona Não Declarada";165131;365
+"Exportação";2009;"85232120";"Cartões magnéticos gravados";"Amazonas";20293;0
+"Exportação";2009;"85232120";"Cartões magnéticos gravados";"Mercadoria Nacionalizada";2313;0
+"Exportação";2009;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";1038;56
+"Exportação";2009;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";6624;900
+"Exportação";2009;"85232120";"Cartões magnéticos gravados";"São Paulo";2453;2
+"Exportação";2009;"85232120";"Cartões magnéticos gravados";"Zona Não Declarada";2860;14
+"Exportação";2010;"49070010";"Papéis-moeda";"Rio de Janeiro";4906111;77981
+"Exportação";2010;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mercadoria Nacionalizada";2;0
+"Exportação";2010;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";86;0
+"Exportação";2010;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";62892;5083
+"Exportação";2010;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";104320;1707
+"Exportação";2010;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Zona Não Declarada";176085;291
+"Exportação";2010;"85232120";"Cartões magnéticos gravados";"Mercadoria Nacionalizada";1024;0
+"Exportação";2010;"85232120";"Cartões magnéticos gravados";"Não Declarada";50;4
+"Exportação";2010;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";423;29
+"Exportação";2010;"85232120";"Cartões magnéticos gravados";"Zona Não Declarada";11705;17
+"Exportação";2011;"49070010";"Papéis-moeda";"Rio de Janeiro";15841990;275847
+"Exportação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";6;953
+"Exportação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mercadoria Nacionalizada";122;26
+"Exportação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";105848;4750
+"Exportação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";285499;1620
+"Exportação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Zona Não Declarada";56941;82
+"Exportação";2011;"85232120";"Cartões magnéticos gravados";"Mercadoria Nacionalizada";1031;0
+"Exportação";2011;"85232120";"Cartões magnéticos gravados";"Minas Gerais";945;18
+"Exportação";2011;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";1;0
+"Exportação";2011;"85232120";"Cartões magnéticos gravados";"São Paulo";22098;38
+"Exportação";2011;"85232120";"Cartões magnéticos gravados";"Zona Não Declarada";33417;175
+"Exportação";2012;"49070010";"Papéis-moeda";"Rio de Janeiro";14874199;399970
+"Exportação";2012;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"São Paulo";395;1
+"Exportação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mercadoria Nacionalizada";3660;18
+"Exportação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";92;1
+"Exportação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";592;54
+"Exportação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";70613;6230
+"Exportação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";262499;1418
+"Exportação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Zona Não Declarada";23550;33
+"Exportação";2012;"85232120";"Cartões magnéticos gravados";"Amazonas";162742;0
+"Exportação";2012;"85232120";"Cartões magnéticos gravados";"Mercadoria Nacionalizada";5132;0
+"Exportação";2012;"85232120";"Cartões magnéticos gravados";"Paraná";0;0
+"Exportação";2012;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";13;7
+"Exportação";2012;"85232120";"Cartões magnéticos gravados";"Santa Catarina";5;1
+"Exportação";2012;"85232120";"Cartões magnéticos gravados";"São Paulo";16;1
+"Exportação";2012;"85232120";"Cartões magnéticos gravados";"Zona Não Declarada";12433;114
+"Exportação";2013;"49070010";"Papéis-moeda";"Rio de Janeiro";2221397;58950
+"Exportação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mercadoria Nacionalizada";1201;72
+"Exportação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";95;252
+"Exportação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";279;4
+"Exportação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";11090;217
+"Exportação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Zona Não Declarada";5259;200
+"Exportação";2013;"85232120";"Cartões magnéticos gravados";"Mercadoria Nacionalizada";37;1
+"Exportação";2013;"85232120";"Cartões magnéticos gravados";"Paraná";122;5
+"Exportação";2013;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";8;5
+"Exportação";2013;"85232120";"Cartões magnéticos gravados";"Santa Catarina";1;0
+"Exportação";2013;"85232120";"Cartões magnéticos gravados";"São Paulo";2;2
+"Exportação";2013;"85232120";"Cartões magnéticos gravados";"Zona Não Declarada";24715;409
+"Exportação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mercadoria Nacionalizada";69;1
+"Exportação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";2521;0
+"Exportação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";302;31
+"Exportação";2014;"85232120";"Cartões magnéticos gravados";"Amazonas";185;0
+"Exportação";2014;"85232120";"Cartões magnéticos gravados";"Mercadoria Nacionalizada";61;1
+"Exportação";2014;"85232120";"Cartões magnéticos gravados";"Não Declarada";17;9
+"Exportação";2014;"85232120";"Cartões magnéticos gravados";"Paraná";32;7
+"Exportação";2014;"85232120";"Cartões magnéticos gravados";"Santa Catarina";2814;0
+"Exportação";2014;"85232120";"Cartões magnéticos gravados";"São Paulo";23441;354
+"Exportação";2014;"85232120";"Cartões magnéticos gravados";"Zona Não Declarada";16782;201
+"Exportação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mercadoria Nacionalizada";2;1
+"Exportação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";540;0
+"Exportação";2015;"85232120";"Cartões magnéticos gravados";"Amazonas";30145;20
+"Exportação";2015;"85232120";"Cartões magnéticos gravados";"Mercadoria Nacionalizada";1;1
+"Exportação";2015;"85232120";"Cartões magnéticos gravados";"Não Declarada";169;0
+"Exportação";2015;"85232120";"Cartões magnéticos gravados";"Paraná";4288;37
+"Exportação";2015;"85232120";"Cartões magnéticos gravados";"Santa Catarina";190;2
+"Exportação";2015;"85232120";"Cartões magnéticos gravados";"São Paulo";153579;2963
+"Exportação";2016;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"São Paulo";5;0
+"Exportação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mercadoria Nacionalizada";343;68
+"Exportação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";931438;650
+"Exportação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";116;24
+"Exportação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";494532;237
+"Exportação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";109457;6078
+"Exportação";2016;"85232120";"Cartões magnéticos gravados";"Não Declarada";464;3
+"Exportação";2016;"85232120";"Cartões magnéticos gravados";"São Paulo";363326;8149
+"Exportação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";85737;375
+"Exportação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";145;57
+"Exportação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";48161;228
+"Exportação";2017;"85232120";"Cartões magnéticos gravados";"São Paulo";237091;3571
+"Exportação";2018;"49070010";"Papéis-moeda";"São Paulo";13069213;212749
+"Exportação";2018;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"São Paulo";0;0
+"Exportação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";36396;163
+"Exportação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Reexportação";4;0
+"Exportação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";654;91
+"Exportação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";74183;62
+"Exportação";2018;"85232120";"Cartões magnéticos gravados";"São Paulo";47745;612
+"Exportação";2019;"49070010";"Papéis-moeda";"São Paulo";7310472;117225
+"Exportação";2019;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"São Paulo";60;1
+"Exportação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";2;0
+"Exportação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";27610;230946
+"Exportação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraíba";62;1
+"Exportação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";5286;469
+"Exportação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";23384;77
+"Exportação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";27363;2862568
+"Exportação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";28719;58695
+"Exportação";2019;"85232120";"Cartões magnéticos gravados";"Paraná";6040;241
+"Exportação";2019;"85232120";"Cartões magnéticos gravados";"São Paulo";578;10
+"Exportação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";7196;196
+"Exportação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";4117;601
+"Exportação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";64575;231
+"Exportação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";15696;942189
+"Exportação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";41527;196206
+"Exportação";2020;"85232120";"Cartões magnéticos gravados";"Paraná";6300;226
+"Exportação";2020;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";1767;36
+"Exportação";2020;"85232120";"Cartões magnéticos gravados";"São Paulo";356873;11697
+"Exportação";2021;"49070010";"Papéis-moeda";"Não Declarada";5;5
+"Exportação";2021;"49070010";"Papéis-moeda";"Rio de Janeiro";20147123;376401
+"Exportação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";0;3
+"Exportação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";4384;105
+"Exportação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";3500;8
+"Exportação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";7048;1107
+"Exportação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";107438;95
+"Exportação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";1132;4
+"Exportação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";51972;18158163
+"Exportação";2021;"85232120";"Cartões magnéticos gravados";"Paraná";1000;51
+"Exportação";2021;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";2436;28
+"Exportação";2021;"85232120";"Cartões magnéticos gravados";"São Paulo";141784;4384
+"Exportação";2022;"49070010";"Papéis-moeda";"Rio de Janeiro";35539360;588928
+"Exportação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";7912;6
+"Exportação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";6475;102
+"Exportação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";1053;1
+"Exportação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";4211;646
+"Exportação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";21438;87
+"Exportação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";145628;3563837
+"Exportação";2022;"85232120";"Cartões magnéticos gravados";"Não Declarada";21950;64
+"Exportação";2022;"85232120";"Cartões magnéticos gravados";"Paraná";143154;2110
+"Exportação";2022;"85232120";"Cartões magnéticos gravados";"São Paulo";89553;1765
+"Exportação";2023;"49070010";"Papéis-moeda";"Rio de Janeiro";33427040;541997
+"Exportação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";7058;3
+"Exportação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";58927;485
+"Exportação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";2506;74
+"Exportação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";2756;335
+"Exportação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";123001;328
+"Exportação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";8769;38
+"Exportação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";146327;351078
+"Exportação";2023;"85232120";"Cartões magnéticos gravados";"Não Declarada";31419;79
+"Exportação";2023;"85232120";"Cartões magnéticos gravados";"Paraná";246805;1197
+"Exportação";2023;"85232120";"Cartões magnéticos gravados";"São Paulo";62977;831
+"Exportação";2024;"49070010";"Papéis-moeda";"Rio de Janeiro";11845050;221183
+"Exportação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";7981;3
+"Exportação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";1319;236
+"Exportação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";3152;400
+"Exportação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";18552;80138
+"Exportação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";9217;421780
+"Exportação";2024;"85232120";"Cartões magnéticos gravados";"Minas Gerais";290;1
+"Exportação";2024;"85232120";"Cartões magnéticos gravados";"Não Declarada";22850;77
+"Exportação";2024;"85232120";"Cartões magnéticos gravados";"Paraná";588100;2750
+"Exportação";2024;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";2729;30
+"Exportação";2024;"85232120";"Cartões magnéticos gravados";"São Paulo";17879;228
+"Exportação";2025;"49070010";"Papéis-moeda";"Minas Gerais";14;3
+"Exportação";2025;"49070010";"Papéis-moeda";"Não Declarada";51589;2473
+"Exportação";2025;"49070020";"Cheques de viagem";"Não Declarada";9523;0
+"Exportação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";3018;5
+"Exportação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";7394;958696
+"Exportação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";3358;180
+"Exportação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";320;47
+"Exportação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";24985;80
+"Exportação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";12991;559
+"Exportação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";18325;1165065
+"Exportação";2025;"85232120";"Cartões magnéticos gravados";"Não Declarada";10010;25
+"Exportação";2025;"85232120";"Cartões magnéticos gravados";"Paraná";293260;1510
+"Exportação";2025;"85232120";"Cartões magnéticos gravados";"São Paulo";21756;765
+"Exportação";2026;"49070010";"Papéis-moeda";"Minas Gerais";15;9
+"Exportação";2026;"49070010";"Papéis-moeda";"Não Declarada";327067;10466
+"Exportação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";4345;241092
+"Exportação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Não Declarada";4904;73
+"Exportação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";26;23
+"Exportação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";52466;269
+"Exportação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";18616;559782
+"Exportação";2026;"85232120";"Cartões magnéticos gravados";"Não Declarada";7149;21
+"Exportação";2026;"85232120";"Cartões magnéticos gravados";"Paraná";186256;1118
+"Exportação";2026;"85232120";"Cartões magnéticos gravados";"São Paulo";22828;350
+"Importação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Espírito Santo";5997;0
+"Importação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";316;22
+"Importação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";342;0
+"Importação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";134760;8877
+"Importação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";3766;0
+"Importação";2006;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";52561;173
+"Importação";2007;"49070020";"Cheques de viagem";"São Paulo";608;19
+"Importação";2007;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Rio Grande do Sul";132;5
+"Importação";2007;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"São Paulo";1050;0
+"Importação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";130;0
+"Importação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";150;0
+"Importação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Espírito Santo";22513;30
+"Importação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Goiás";12000;18
+"Importação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";50;0
+"Importação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";745;1
+"Importação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";79395;4632
+"Importação";2007;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";55339;373
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Amazonas";3870;4
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Distrito Federal";829;1
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Goiás";1803;0
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Minas Gerais";959;5
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Paraná";1523;2
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";1051;0
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";1268;2
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Santa Catarina";4415;1
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"Sergipe";59;0
+"Importação";2007;"85232120";"Cartões magnéticos gravados";"São Paulo";23325;68
+"Importação";2008;"49070020";"Cheques de viagem";"São Paulo";63458;2655
+"Importação";2008;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Amazonas";3300;4
+"Importação";2008;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Bahia";130;0
+"Importação";2008;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Distrito Federal";11;0
+"Importação";2008;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Rio de Janeiro";99;1
+"Importação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Ceará";166;0
+"Importação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";116;13
+"Importação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Espírito Santo";557;0
+"Importação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";7823;62
+"Importação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";6;0
+"Importação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";111477;4114
+"Importação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";2;0
+"Importação";2008;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";279296;93
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Amazonas";13535;7
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Distrito Federal";23448;16
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Espírito Santo";859;33
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Goiás";16855;7
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Minas Gerais";13295;40
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Pernambuco";388;1
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";1485;11
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";2153;5
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"Santa Catarina";2712;0
+"Importação";2008;"85232120";"Cartões magnéticos gravados";"São Paulo";47784;155
+"Importação";2009;"49070020";"Cheques de viagem";"São Paulo";38273;1355
+"Importação";2009;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Paraná";3087;3
+"Importação";2009;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Rio Grande do Sul";16;1
+"Importação";2009;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Santa Catarina";4024;34
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";8824;7
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Ceará";392;0
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";53;1
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mato Grosso do Sul";109;1
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";28266;319
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";20;0
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";20966;812
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";69;4
+"Importação";2009;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";122463;108
+"Importação";2009;"85232120";"Cartões magnéticos gravados";"Distrito Federal";90;0
+"Importação";2009;"85232120";"Cartões magnéticos gravados";"Espírito Santo";140;1
+"Importação";2009;"85232120";"Cartões magnéticos gravados";"Minas Gerais";371;3
+"Importação";2009;"85232120";"Cartões magnéticos gravados";"Paraná";2720;100
+"Importação";2009;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";33317;26
+"Importação";2009;"85232120";"Cartões magnéticos gravados";"Santa Catarina";2622;2
+"Importação";2009;"85232120";"Cartões magnéticos gravados";"Sergipe";1275;0
+"Importação";2009;"85232120";"Cartões magnéticos gravados";"São Paulo";151778;3213
+"Importação";2010;"49070020";"Cheques de viagem";"São Paulo";1580;61
+"Importação";2010;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Amazonas";19;0
+"Importação";2010;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"São Paulo";235;0
+"Importação";2010;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Espírito Santo";3331;0
+"Importação";2010;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";52;10
+"Importação";2010;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";200580;322
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Amazonas";18074;10
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Distrito Federal";2796;3
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Goiás";573304;59473
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Minas Gerais";2578;2
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Paraná";11412;9
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";720;99
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";76928;41
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Santa Catarina";1062;1
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"Sergipe";450;0
+"Importação";2010;"85232120";"Cartões magnéticos gravados";"São Paulo";591057;51557
+"Importação";2011;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Espírito Santo";4;2
+"Importação";2011;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Rio de Janeiro";473;3
+"Importação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";5907;3
+"Importação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Espírito Santo";696;0
+"Importação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";11236;26
+"Importação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";463;22
+"Importação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";3665;5
+"Importação";2011;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";735430;803
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Alagoas";59;0
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Amazonas";42766;25
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Bahia";3259;1
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Distrito Federal";1171;158
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Goiás";534443;53589
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Mato Grosso";14650;2500
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Minas Gerais";134;42
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Paraná";10081;9
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Pará";3314;14
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";1292;2
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";22849;286
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Santa Catarina";644;2
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"Sergipe";263;0
+"Importação";2011;"85232120";"Cartões magnéticos gravados";"São Paulo";493211;42119
+"Importação";2012;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Minas Gerais";71;0
+"Importação";2012;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Rio de Janeiro";4298;0
+"Importação";2012;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"São Paulo";2968;7
+"Importação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";580;0
+"Importação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";2324;4
+"Importação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";15159;7
+"Importação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";10809;46
+"Importação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraíba";0;0
+"Importação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";0;0
+"Importação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";615;0
+"Importação";2012;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";1419901;595
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Amazonas";19977;19
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Distrito Federal";111;113
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Goiás";459758;46858
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Mato Grosso do Sul";25;0
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Minas Gerais";2573;5
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Paraná";5253;1
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Pernambuco";8552;1250
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";316;0
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";84376;27
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Rondônia";30717;0
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Santa Catarina";12900;57
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"Sergipe";596;0
+"Importação";2012;"85232120";"Cartões magnéticos gravados";"São Paulo";313764;22083
+"Importação";2013;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Paraná";1275;0
+"Importação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";1015;2
+"Importação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";21409;3
+"Importação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";20957;293
+"Importação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";730;0
+"Importação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";101896;5
+"Importação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Sergipe";501;1
+"Importação";2013;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";2356888;1814
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Alagoas";6823;1000
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Amazonas";6248;12
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Bahia";2681;2
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Goiás";196995;20076
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Minas Gerais";2835;7
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Paraná";4718;104
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Pernambuco";17141;2400
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";192;1
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";29725;44
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Santa Catarina";48512;609
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"Sergipe";388;0
+"Importação";2013;"85232120";"Cartões magnéticos gravados";"São Paulo";238597;14236
+"Importação";2014;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Minas Gerais";487;5
+"Importação";2014;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Santa Catarina";100;0
+"Importação";2014;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"São Paulo";2000;2
+"Importação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";15327;37
+"Importação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Bahia";26728;2
+"Importação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";29509;1
+"Importação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";19321;80
+"Importação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";7;1
+"Importação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";221613;60
+"Importação";2014;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";3049992;916
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"Amazonas";1415;6
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"Bahia";12271;84
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"Goiás";530208;26836
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"Minas Gerais";3572;11
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"Paraná";18977;1370
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"Pernambuco";24236;3000
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";647;1
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";26947;553
+"Importação";2014;"85232120";"Cartões magnéticos gravados";"São Paulo";368965;12810
+"Importação";2015;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Bahia";45;0
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";26;0
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Bahia";958;4
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";69;2
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";903;3
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";9629;112
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Pará";1851;0
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";10;2
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";236680;6
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";502;2
+"Importação";2015;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";2587737;3072
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Amazonas";1993;0
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Espírito Santo";0;1
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Goiás";159955;6613
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Minas Gerais";754;1
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Paraná";2123;2
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Pernambuco";16258;2450
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";29;0
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";6379;33
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Santa Catarina";2;0
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"Sergipe";219;0
+"Importação";2015;"85232120";"Cartões magnéticos gravados";"São Paulo";311096;15172
+"Importação";2016;"49070010";"Papéis-moeda";"Distrito Federal";2155422;32294
+"Importação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";12;4
+"Importação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";13156;22
+"Importação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";0;0
+"Importação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";1337699;18
+"Importação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";17;0
+"Importação";2016;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";2243506;1305
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Amazonas";1168;1
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Espírito Santo";138;3
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Minas Gerais";6183;3
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Paraná";493;16
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Pernambuco";25782;3376
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Rio Grande do Norte";4556;28
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";960;0
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";4824;56
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Santa Catarina";73;0
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"Sergipe";234;0
+"Importação";2016;"85232120";"Cartões magnéticos gravados";"São Paulo";406859;16060
+"Importação";2017;"49070010";"Papéis-moeda";"Distrito Federal";3043090;48039
+"Importação";2017;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Distrito Federal";15;1
+"Importação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";1043;54
+"Importação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Bahia";38;0
+"Importação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";842;0
+"Importação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";7076;5
+"Importação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";795;35
+"Importação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";60902;39
+"Importação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";12692;2
+"Importação";2017;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";2539159;2645
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"Amazonas";5232;1
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"Bahia";2593;42
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"Distrito Federal";3220;14
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"Minas Gerais";3458;10
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"Paraná";4301;7
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"Pernambuco";23254;3208
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";60763;2
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"Sergipe";128;0
+"Importação";2017;"85232120";"Cartões magnéticos gravados";"São Paulo";536382;26969
+"Importação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";31806;439
+"Importação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";27294;5
+"Importação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Goiás";11617;10
+"Importação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";38488;38
+"Importação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";1384;1
+"Importação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";6213;0
+"Importação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";1494;0
+"Importação";2018;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";3122828;1569
+"Importação";2018;"85232120";"Cartões magnéticos gravados";"Amazonas";265;0
+"Importação";2018;"85232120";"Cartões magnéticos gravados";"Bahia";3515;176
+"Importação";2018;"85232120";"Cartões magnéticos gravados";"Goiás";6;0
+"Importação";2018;"85232120";"Cartões magnéticos gravados";"Minas Gerais";16567;238
+"Importação";2018;"85232120";"Cartões magnéticos gravados";"Paraná";46789;2451
+"Importação";2018;"85232120";"Cartões magnéticos gravados";"Pernambuco";49636;5675
+"Importação";2018;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";324;10
+"Importação";2018;"85232120";"Cartões magnéticos gravados";"São Paulo";844515;46506
+"Importação";2019;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Minas Gerais";200;23
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";60471;781
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Bahia";1091;1
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Ceará";100;0
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";449;0
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Goiás";1221;0
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";41942;26
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";5731;0
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";6719;14
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";2985;8
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Sergipe";977;0
+"Importação";2019;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";993203;1036
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Amazonas";400;2
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Bahia";10959;1224
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Espírito Santo";745;1
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Goiás";1107;0
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Minas Gerais";5683;8
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Paraná";3142;0
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Pernambuco";171;0
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";21570;421
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";39;0
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"Santa Catarina";4875;104
+"Importação";2019;"85232120";"Cartões magnéticos gravados";"São Paulo";337397;19900
+"Importação";2020;"49070010";"Papéis-moeda";"Paraná";31;0
+"Importação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";42408;508
+"Importação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";15;1
+"Importação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";32881;2113
+"Importação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";57;4
+"Importação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";196;1
+"Importação";2020;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";297107;428
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Amazonas";5199;1
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Bahia";11847;733
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Espírito Santo";156;0
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Minas Gerais";1522;1
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Paraná";20939;64
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Pará";153;80
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Pernambuco";11309;1815
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";452;0
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Santa Catarina";436;0
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"Sergipe";232;0
+"Importação";2020;"85232120";"Cartões magnéticos gravados";"São Paulo";217794;9866
+"Importação";2021;"49070030";"Títulos de ações ou de obrigações e títulos semelhantes, convalidados e firmados";"Rio de Janeiro";297;23
+"Importação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";74174;1516
+"Importação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Bahia";2084;2
+"Importação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";20010;9
+"Importação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";39181;3
+"Importação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";160;0
+"Importação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";71;4
+"Importação";2021;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";87845;156
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Amazonas";71;1
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Bahia";328;85
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Ceará";1624;0
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Distrito Federal";183;5
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Minas Gerais";6952;12
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Paraná";2537;3
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Pernambuco";6016;944
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";1;2
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Santa Catarina";734;0
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"Sergipe";387;0
+"Importação";2021;"85232120";"Cartões magnéticos gravados";"São Paulo";88671;2543
+"Importação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";80662;583
+"Importação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";51;3
+"Importação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";15313;16
+"Importação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";3928;1
+"Importação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";5449;25
+"Importação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";596;13
+"Importação";2022;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";105322;117
+"Importação";2022;"85232120";"Cartões magnéticos gravados";"Amazonas";1860;2
+"Importação";2022;"85232120";"Cartões magnéticos gravados";"Ceará";1696;0
+"Importação";2022;"85232120";"Cartões magnéticos gravados";"Espírito Santo";107;0
+"Importação";2022;"85232120";"Cartões magnéticos gravados";"Minas Gerais";7621;19
+"Importação";2022;"85232120";"Cartões magnéticos gravados";"Santa Catarina";2104;1
+"Importação";2022;"85232120";"Cartões magnéticos gravados";"São Paulo";15621;24
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";195306;806
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";89;1
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Goiás";9770;5
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mato Grosso";3021;158
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";24321;33
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";11937;950
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";356;11
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";201;0
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";2739;2
+"Importação";2023;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";174846;1130
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"Amazonas";5315;8
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"Bahia";845;2
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"Ceará";7802;2
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"Espírito Santo";1750;41
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"Minas Gerais";691;2
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";934;0
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"Santa Catarina";4830;0
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"Sergipe";244;0
+"Importação";2023;"85232120";"Cartões magnéticos gravados";"São Paulo";91919;16458
+"Importação";2024;"49070010";"Papéis-moeda";"Bahia";2;0
+"Importação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";33067;258
+"Importação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";32;10
+"Importação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Goiás";830;0
+"Importação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mato Grosso do Sul";2614;0
+"Importação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";70458;80
+"Importação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";42;1
+"Importação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";326;0
+"Importação";2024;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";297481;23592
+"Importação";2024;"85232120";"Cartões magnéticos gravados";"Amazonas";4174;12
+"Importação";2024;"85232120";"Cartões magnéticos gravados";"Minas Gerais";13418;63
+"Importação";2024;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";223;0
+"Importação";2024;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";1388;3
+"Importação";2024;"85232120";"Cartões magnéticos gravados";"Santa Catarina";5613;19
+"Importação";2024;"85232120";"Cartões magnéticos gravados";"São Paulo";34910;2787
+"Importação";2025;"49070010";"Papéis-moeda";"Rio Grande do Sul";601;1
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Alagoas";200;0
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";66820;509
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Distrito Federal";48;10
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Goiás";97;0
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Mato Grosso do Sul";1307;0
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";28799;76
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Paraná";909;0
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";106;2
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";1875;0
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";323;7
+"Importação";2025;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";259850;5768
+"Importação";2025;"85232120";"Cartões magnéticos gravados";"Amazonas";6227;26
+"Importação";2025;"85232120";"Cartões magnéticos gravados";"Minas Gerais";29380;61
+"Importação";2025;"85232120";"Cartões magnéticos gravados";"Rio Grande do Sul";223;1
+"Importação";2025;"85232120";"Cartões magnéticos gravados";"Santa Catarina";3715;0
+"Importação";2025;"85232120";"Cartões magnéticos gravados";"São Paulo";49776;10946
+"Importação";2026;"49070010";"Papéis-moeda";"Rio Grande do Sul";26;7
+"Importação";2026;"49070010";"Papéis-moeda";"Rio de Janeiro";8042;207
+"Importação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Amazonas";221;11
+"Importação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Minas Gerais";123758;189
+"Importação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Pernambuco";3347;80
+"Importação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio Grande do Sul";2223;621
+"Importação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Rio de Janeiro";469;0
+"Importação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"Santa Catarina";852;7
+"Importação";2026;"49070090";"Selos postais, fiscais, etc, não obliterados, com curso legal";"São Paulo";238075;12193
+"Importação";2026;"85232120";"Cartões magnéticos gravados";"Amazonas";1861;9
+"Importação";2026;"85232120";"Cartões magnéticos gravados";"Goiás";50;1
+"Importação";2026;"85232120";"Cartões magnéticos gravados";"Minas Gerais";4112;14
+"Importação";2026;"85232120";"Cartões magnéticos gravados";"Rio de Janeiro";255;0
+"Importação";2026;"85232120";"Cartões magnéticos gravados";"Santa Catarina";3610;0
+"Importação";2026;"85232120";"Cartões magnéticos gravados";"São Paulo";56933;9865

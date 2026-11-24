@@ -1,0 +1,312 @@
+{
+  "_comentario": "Tudo o que muda de um setor para outro fica aqui. build_data.py lê este arquivo, monta os nomes dos CSVs a partir de slug/rotulo_arquivo e repassa o bloco inteiro para data.json (meta.config), de onde index.html/js/main.js tiram rótulos e textos.",
+  "setor": {
+    "nome": "Setor de Celulose, Papel e Gráfico",
+    "titulo": "Painel do Setor de Celulose, Papel e Gráfico",
+    "nome_curto": "celulose, papel e gráfico",
+    "slug": "celulose_papel",
+    "rotulo_arquivo": "Celulose_Papel",
+    "seletor": "lista",
+    "periodo_slider_padrao": {
+      "inicio": 2016,
+      "fim": 2026
+    },
+    "ano_base_precos": 2024
+  },
+  "_divisoes": "Dados do IBGE que só existem por divisão CNAE (PIA do grupo, PIM-PF, IPP). Cada CNAE e cada agregado diz a que divisão pertence (campo divisao); o agregado do setor inteiro não tem divisão e mostra as duas.",
+  "divisoes": {
+    "17": {
+      "codigo": "17",
+      "cnae": "17",
+      "rotulo": "Celulose, papel e produtos de papel",
+      "descricao": "Fabricação de celulose, papel e produtos de papel",
+      "financeiro_arquivo": "Dados_Financeiros_Celulose_Papel_17.csv",
+      "producao_arquivo": "Producao_Fisica_Mensal_Celulose_Papel_17.csv",
+      "producao_titulo": "Produção da divisão celulose e papel",
+      "producao_descricao": "Índice de produção física da divisão 17 do IBGE (PIM-PF, \"3.17 Fabricação de celulose, papel e produtos de papel\"). O IBGE não abre a PIM-PF por classe CNAE: o índice é o mesmo para todas as classes da divisão.",
+      "ipp_coluna": "ipp_setor_indice_17",
+      "ipp_rotulo": "IPP da divisão celulose e papel",
+      "divisao_energia": 17
+    },
+    "18": {
+      "codigo": "18",
+      "cnae": "18",
+      "rotulo": "Impressão e reprodução de gravações",
+      "descricao": "Impressão e reprodução de gravações",
+      "financeiro_arquivo": "Dados_Financeiros_Celulose_Papel_18.csv",
+      "producao_arquivo": "Producao_Fisica_Mensal_Grafico_18.csv",
+      "producao_titulo": "Produção da divisão gráfica",
+      "producao_descricao": "Índice de produção física da divisão 18 do IBGE (PIM-PF, \"3.18 Impressão e reprodução de gravações\"). O IBGE não abre a PIM-PF por classe CNAE: o índice é o mesmo para todas as classes da divisão.",
+      "ipp_coluna": "ipp_setor_indice_18",
+      "ipp_rotulo": "IPP da divisão gráfica",
+      "divisao_energia": 18
+    }
+  },
+  "cnaes": [
+    {
+      "codigo": "1710",
+      "cnae": "17.10-9",
+      "rotulo": "Celulose",
+      "rotulo_exec": "Celulose",
+      "descricao": "Fabricação de celulose e outras pastas para a fabricação de papel",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "16 NCMs do algoritmo por produto da FIESP (COPAGREM): pastas de matérias fibrosas celulósicas, exceto de madeira; pastas mecânicas (quimitermomecânicas, termomecânicas) de madeira; pastas químicas de madeira para dissolução (cruas, semibranqueadas ou branqueadas); pastas químicas de madeira, processo sulfito, branqueadas ou não; pastas químicas de madeira, à soda ou ao sulfato, exceto pastas para dissolução; pastas semiquímicas de madeira; pastas mecanoquímicas de madeira.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1721",
+      "cnae": "17.21-4",
+      "rotulo": "Papel",
+      "rotulo_exec": "Papel",
+      "descricao": "Fabricação de papel",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "135 NCMs do algoritmo por produto da FIESP (COPAGREM): desperdícios ou aparas de papel ou de papel-cartão; papel carbono, papel autocopiativo e outros papéis para cópia ou duplicação, em rolos ou folhas; papel e Papel-cartão ou cartolina obtido por colagem de folhas sobrepostas , não revestido nem impregnado; papel em rolos contínuos utilizados na fabricação de papéis higiênicos, lenços, toalhas ou semelhantes para usos doméstico ou sanitário; papel gomado ou Papel cartão; papel imprensa ou papel jornal em rolos ou em folhas; entre outros.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1722",
+      "cnae": "17.22-2",
+      "rotulo": "Cartolina e papel-cartão",
+      "rotulo_exec": "Cartolina e papel-cartão",
+      "descricao": "Fabricação de cartolina e papel-cartão",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "Boa parte do papel-cartão divide a mesma NCM com o papel (a NCM não separa por gramatura); essas NCMs estão em Papel (17.21). Aqui ficam só os produtos exclusivos de papel-cartão.",
+      "cesta_ncm": "4 NCMs do algoritmo por produto da FIESP (COPAGREM): papel-cartão ou cartolina de outros tipos, com peso superior a 150g/m², não revestido.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1731",
+      "cnae": "17.31-1",
+      "rotulo": "Embalagens de papel",
+      "rotulo_exec": "Embalagens de papel",
+      "descricao": "Fabricação de embalagens de papel",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "4 NCMs do algoritmo por produto da FIESP (COPAGREM): embalagens n.e. de papel e papelão.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1732",
+      "cnae": "17.32-0",
+      "rotulo": "Embalagens de cartolina e papel-cartão",
+      "rotulo_exec": "Embalagens de cartolina e papel-cartão",
+      "descricao": "Fabricação de embalagens de cartolina e papel-cartão",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "Sem cesta própria: as embalagens de cartolina e papel-cartão dividem as mesmas NCMs com as embalagens de papel e estão em Embalagens de papel (17.31).",
+      "cesta_ncm": "Sem NCM própria.",
+      "sem_comex": true
+    },
+    {
+      "codigo": "1733",
+      "cnae": "17.33-8",
+      "rotulo": "Papelão ondulado",
+      "rotulo_exec": "Papelão ondulado",
+      "descricao": "Fabricação de chapas e de embalagens de papelão ondulado",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "2 NCMs do algoritmo por produto da FIESP (COPAGREM): caixas de papelão ondulado ou corrugado, impressas ou não; chapas de papelão ondulado ou corrugado.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1741",
+      "cnae": "17.41-9",
+      "rotulo": "Papel para escritório e uso comercial",
+      "rotulo_exec": "Papel para escritório e uso comercial",
+      "descricao": "Fabricação de produtos de papel, cartolina, papel-cartão e papelão ondulado para uso comercial e de escritório",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "17 NCMs do algoritmo por produto da FIESP (COPAGREM): agendas e Impressos fiscais padronizados; artefatos de papel para aparelhos registradores, inclusive em bobinas; artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas; artefatos diversos de papel, papel-cartão ou pasta (\"ouate\") de celulose, exceto para uso doméstico e higiênico-sanitário; artefatos impressos de papelaria, n.e.; artigos diversos para correspondência (aerogramas, bilhetes-postais ou outros artigos para correspondência); entre outros.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1742",
+      "cnae": "17.42-7",
+      "rotulo": "Papéis sanitários e higiênicos",
+      "rotulo_exec": "Papéis sanitários e higiênicos",
+      "descricao": "Fabricação de produtos de papel para usos doméstico e higiênico-sanitário",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "11 NCMs do algoritmo por produto da FIESP (COPAGREM): absorventes, tampões higiênicos e fraldas de qualquer matéria; artefatos de papel, de pasta (\"ouate\") ou de mantas de fibra de celulose para usos doméstico e higiênico-sanitário; lenços ou toalhas de papel para mãos; papel higiênico; toalhas ou guardanapos de papel para mesas.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1749",
+      "cnae": "17.49-4",
+      "rotulo": "Outros produtos de papel",
+      "rotulo_exec": "Outros produtos de papel",
+      "descricao": "Fabricação de produtos de pastas celulósicas, papel, cartolina, papel-cartão e papelão ondulado não especificados anteriormente",
+      "divisao": "17",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "16 NCMs do algoritmo por produto da FIESP (COPAGREM): artefatos diversos de papel utilizados para escrita ou impressão, impressos, estampados ou perfurados e Artigos diversos de papel-filtro e de outros papéis, papel-cartão ou pastas; artefatos diversos de papel, papel-cartão ou pasta (\"ouate\") de celulose, exceto para uso doméstico e higiênico-sanitário; bandejas, travessas, pratos, copos e artigos semelhantes de papel ou papel-cartão, impressos ou não; blocos e chapas filtrantes, de pasta de papel; carretéis, bobinas e suportes semelhantes de papel, papel-cartão e pasta de papel; papel de parede e revestimentos de parede semelhantes (papel para vitrais); entre outros.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1811",
+      "cnae": "18.11-3",
+      "rotulo": "Impressão de jornais, livros e revistas",
+      "rotulo_exec": "Impressão de jornais, livros e revistas",
+      "descricao": "Impressão de jornais, livros, revistas e outras publicações periódicas",
+      "divisao": "18",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "10 NCMs do algoritmo por produto da FIESP (COPAGREM): jornais impressos sob encomenda; livros , brochuras ou impressos; obras cartográficas diversas (mapas, plantas topográficas, etc.) impressos sob encomenda; publicações e Revistas periódicas e Revistas não periódicas.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1812",
+      "cnae": "18.12-1",
+      "rotulo": "Impressão de material de segurança",
+      "rotulo_exec": "Impressão de material de segurança",
+      "descricao": "Impressão de material de segurança",
+      "divisao": "18",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "5 NCMs do algoritmo por produto da FIESP (COPAGREM): cartões magnéticos gravados, com suporte de qualquer material, inclusive cartão telefônico (phone card e para usar em ligações, através de raspagem), com controle de adulteração; impressos de segurança (cheques, cautelas, títulos ao portador, selos postais, fiscais, etc.), com controle de adulteração; papel-moeda (cédulas), impressos sob encomenda, com controle de adulteração.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1813",
+      "cnae": "18.13-0",
+      "rotulo": "Impressão de outros materiais",
+      "rotulo_exec": "Impressão de outros materiais",
+      "descricao": "Impressão de materiais para outros usos",
+      "divisao": "18",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "10 NCMs do algoritmo por produto da FIESP (COPAGREM): calendários de qualquer espécie; decalcomanias; cartões de visitas, felicitações, cartões postais impressos ou ilustrados e semelhantes; formulários e outros impressos n.e.; impressos para fins publicitários ou promocionais em filmes, lona vinílica, polipropileno, vinil adesivo, etc. (banners, backlit, frontlit, etc.).; impressos para uso escolar (exceto cadernos).",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1821",
+      "cnae": "18.21-1",
+      "rotulo": "Pré-impressão",
+      "rotulo_exec": "Pré-impressão",
+      "descricao": "Serviços de pré-impressão",
+      "divisao": "18",
+      "comex_residual": true,
+      "nota_comex": "Comércio exterior restrito às chapas, cilindros e clichês para impressão; os serviços de pré-impressão não têm NCM.",
+      "cesta_ncm": "1 NCM do algoritmo por produto da FIESP (COPAGREM): chapas , cilindros , clichês metálicos e outros elementos para impressão.",
+      "sem_comex": false
+    },
+    {
+      "codigo": "1822",
+      "cnae": "18.22-9",
+      "rotulo": "Acabamentos gráficos",
+      "rotulo_exec": "Acabamentos gráficos",
+      "descricao": "Serviços de acabamentos gráficos",
+      "divisao": "18",
+      "comex_residual": false,
+      "nota_comex": "Sem comércio exterior: acabamento gráfico (encadernação, plastificação etc.) é serviço e não tem NCM.",
+      "cesta_ncm": "Sem NCM própria.",
+      "sem_comex": true
+    },
+    {
+      "codigo": "1830",
+      "cnae": "18.30-0",
+      "rotulo": "Reprodução de gravações",
+      "rotulo_exec": "Reprodução de gravações",
+      "descricao": "Reprodução de materiais gravados em qualquer suporte",
+      "divisao": "18",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "12 NCMs do algoritmo por produto da FIESP (COPAGREM): discos de vídeo (DVD) reproduzidos a partir de matrizes; discos fonográficos reproduzidos a partir de matrizes; fitas magnéticas reproduzidas a partir de matrizes; softwares em qualquer suporte (exceto papel), reproduzidos a partir de matrizes.",
+      "sem_comex": false
+    }
+  ],
+  "_agregados": "Recortes extras = soma dos CNAEs listados em componentes. build_data.py soma os dados de origem (RAIS, CAGED, Comex, Comtrade, BNDES, PIA 2024); as cestas de NCM dos componentes não podem se sobrepor, para não haver dupla contagem.",
+  "agregados": [
+    {
+      "codigo": "total",
+      "componentes": [
+        "1710",
+        "1721",
+        "1722",
+        "1731",
+        "1732",
+        "1733",
+        "1741",
+        "1742",
+        "1749",
+        "1811",
+        "1812",
+        "1813",
+        "1821",
+        "1822",
+        "1830"
+      ],
+      "cnae": "17 + 18",
+      "rotulo": "Celulose, papel e gráfico - Total",
+      "rotulo_exec": "Celulose, papel e gráfico - Total",
+      "rotulo_curto_codigo": "17+18",
+      "divisao": null,
+      "descricao": "Soma das 15 classes das divisões 17 (celulose, papel e produtos de papel) e 18 (impressão e reprodução de gravações).",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "soma das cestas das classes (243 NCMs do algoritmo por produto da FIESP, sem dupla contagem: cada NCM está em uma só classe).",
+      "sem_comex": false
+    },
+    {
+      "codigo": "17",
+      "componentes": [
+        "1710",
+        "1721",
+        "1722",
+        "1731",
+        "1732",
+        "1733",
+        "1741",
+        "1742",
+        "1749"
+      ],
+      "cnae": "17",
+      "rotulo": "Celulose e papel - Total",
+      "rotulo_exec": "Celulose e papel - Total",
+      "rotulo_curto_codigo": "17",
+      "divisao": "17",
+      "descricao": "Divisão 17 da CNAE: fabricação de celulose, papel e produtos de papel (soma das classes 17.10 a 17.49).",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "soma das cestas das classes (205 NCMs do algoritmo por produto da FIESP, sem dupla contagem: cada NCM está em uma só classe).",
+      "sem_comex": false
+    },
+    {
+      "codigo": "18",
+      "componentes": [
+        "1811",
+        "1812",
+        "1813",
+        "1821",
+        "1822",
+        "1830"
+      ],
+      "cnae": "18",
+      "rotulo": "Gráfico - Total",
+      "rotulo_exec": "Gráfico - Total",
+      "rotulo_curto_codigo": "18",
+      "divisao": "18",
+      "descricao": "Divisão 18 da CNAE: impressão e reprodução de gravações (soma das classes 18.11 a 18.30).",
+      "comex_residual": false,
+      "nota_comex": "",
+      "cesta_ncm": "soma das cestas das classes (38 NCMs do algoritmo por produto da FIESP, sem dupla contagem: cada NCM está em uma só classe).",
+      "sem_comex": false
+    }
+  ],
+  "blocos_opcionais": {
+    "decom": null
+  },
+  "cestas_externas": {
+    "madeira": "Madeira para celulose (toras e cavacos)",
+    "tintas": "Tintas de impressão"
+  }
+}

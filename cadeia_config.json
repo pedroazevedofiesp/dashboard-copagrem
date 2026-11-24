@@ -1,0 +1,59 @@
+{
+  "_leia_me": "Tudo que é específico do setor na aba Cadeia Produtiva. Para replicar para outro CNAE, troque os valores abaixo seguindo COMO_REPLICAR_CADEIA.md, rode extrair_cadeia.py e build_data.py. Códigos de 5 dígitos são produtos da TRU do IBGE; de 4 dígitos, atividades.",
+
+  "produto": "17002",
+  "atividade": "1700",
+
+  "nome": "Papel",
+  "nome_produto": "papel, papelão, embalagens e artefatos de papel",
+  "descricao_produto": "Papel, papelão, embalagens e artefatos de papel",
+  "titulo": "Para onde vai o papel",
+
+  "nota_insumos": "O IBGE não separa os insumos por produto, então o lado esquerdo usa a estrutura de custos da atividade 1700 (celulose, papel e produtos de papel), proporcional à produção de papel e embalagens.",
+
+  "nota_escopo": "Nas Contas Nacionais, o IBGE divide o setor em três produtos: celulose (17001, 70% exportada e quase todo o resto vendido à própria indústria de papel), papel, papelão, embalagens e artefatos (17002) e serviços de impressão (18001). Esta aba parte do papel, que liga a celulose (fornecedora) à gráfica e aos demais compradores.",
+
+  "_principais_clientes": "Usados na frase do topo: '<pct>% foram para <rotulo>'. Escolha pelos dados (python extrair_cadeia.py --sugerir).",
+  "principais_clientes": {
+    "cods": ["1093", "1091", "4680"],
+    "rotulo": "a indústria de alimentos e o comércio"
+  },
+
+  "_empregos_rais": "Opcional. Setores do painel (chaves de sectors no data.json) cuja RAIS entra no link 'Empregos formais'. Fica vazio: a atividade 1700 do IBGE também produz celulose (outro produto), e o número misturaria escopos diferentes.",
+  "empregos_rais": [],
+
+  "_cenario_demanda": "Simulador de cenários, aba de demanda: o grupo de clientes cuja demanda o usuário ajusta (cods = atividades compradoras da TRU) e as perguntas mostradas.",
+  "cenario_demanda": {
+    "clientes": {
+      "cods": ["1091", "1093", "1100", "2093", "2100"],
+      "rotulo": "a indústria de alimentos, bebidas, higiene e farmácia",
+      "pergunta": "Como fica a demanda da indústria de alimentos, bebidas, higiene e farmácia (grandes compradoras de embalagens) até 2030?"
+    },
+    "familias": {
+      "pergunta": "E o consumo das famílias (papéis sanitários, cadernos, embalagens no varejo)?"
+    },
+    "nota_pesos": "para todo o papel, papelão, embalagens e artefatos (produto 17002, inclusive a celulose consumida dentro da própria indústria); servem como aproximação para o segmento"
+  },
+
+  "_elos": "Botões acima do diagrama, em ordem da cadeia. centro = código da atividade que o botão abre; \"produto\" abre o produto acima. rotulo é opcional.",
+  "elos": [
+    { "itens": [{ "label": "Florestas plantadas", "centro": "0280" }] },
+    { "itens": [{ "label": "Celulose e papel", "centro": "1700" }, { "label": "Químicos", "centro": "2091" }] },
+    { "itens": [{ "label": "Papel e embalagens", "centro": "produto" }] },
+    { "rotulo": "clientes diretos", "itens": [
+      { "label": "Alimentos", "centro": "1093" },
+      { "label": "Carnes e laticínios", "centro": "1091" },
+      { "label": "Comércio", "centro": "4680" },
+      { "label": "Gráficas", "centro": "1800" },
+      { "label": "Higiene e limpeza", "centro": "2093" }
+    ] }
+  ],
+
+  "_grupos_cor": "Compradores com cor própria no diagrama (os demais ficam cinza). cor = um dos tokens --series-1 a --series-8 de css/style.css.",
+  "grupos_cor": [
+    { "cods": ["1091", "1093", "1100", "1200"], "cor": "series-1" },
+    { "cods": ["4680", "4500"], "cor": "series-3" },
+    { "cods": ["1800", "5800"], "cor": "series-7" },
+    { "cods": ["2093", "2100", "2200"], "cor": "series-8" }
+  ]
+}

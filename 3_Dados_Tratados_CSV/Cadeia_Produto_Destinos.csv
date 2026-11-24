@@ -1,0 +1,841 @@
+﻿Ano;Tipo;Codigo;Nome;Valor;Pct_Importado_2015
+2010;atividade;0191;Agricultura;372,0;0,023148148148148147
+2010;atividade;0192;Pecuária;130,0;0,02040816326530612
+2010;atividade;0280;Florestal, pesca e aquicultura;17,0;0,0
+2010;atividade;0580;Carvão e minerais não metálicos;5,0;0,0
+2010;atividade;0680;Petróleo e gás;34,0;0,09302325581395349
+2010;atividade;0791;Minério de ferro;82,0;0,0967741935483871
+2010;atividade;0792;Minerais metálicos não ferrosos;18,0;0,09523809523809523
+2010;atividade;1091;Carnes e laticínios;2283,0;0,020853698273053112
+2010;atividade;1092;Açúcar;27,0;0,05555555555555555
+2010;atividade;1093;Outros alimentos;2856,0;0,018094089264173704
+2010;atividade;1100;Bebidas;220,0;0,05803571428571429
+2010;atividade;1200;Fumo;970,0;0,049206349206349205
+2010;atividade;1300;Têxteis;793,0;0,024096385542168676
+2010;atividade;1400;Vestuário;621,0;0,034722222222222224
+2010;atividade;1500;Calçados e couro;655,0;0,015082956259426848
+2010;atividade;1600;Madeira;556,0;0,09891808346213292
+2010;atividade;1700;Celulose e papel;8079,0;0,12544704264099038
+2010;atividade;1800;Impressão;1522,0;0,12034632034632034
+2010;atividade;1991;Refino de petróleo e coque;122,0;0,13076923076923078
+2010;atividade;1992;Biocombustíveis;40,0;0,10416666666666667
+2010;atividade;2091;Químicos e resinas;66,0;0,030303030303030304
+2010;atividade;2092;Tintas e químicos diversos;184,0;0,03723404255319149
+2010;atividade;2093;Limpeza e cosméticos;1447,0;0,012811867835468645
+2010;atividade;2100;Farmacêuticos;826,0;0,017467248908296942
+2010;atividade;2200;Borracha e plástico;1772,0;0,0888529886914378
+2010;atividade;2300;Minerais não metálicos;1724,0;0,037586024351508734
+2010;atividade;2491;Siderurgia (ferro-gusa e aço);38,0;0,06451612903225806
+2010;atividade;2492;Metalurgia de não ferrosos e fundição;14,0;0,0
+2010;atividade;2500;Produtos de metal;1112,0;0,02482876712328767
+2010;atividade;2600;Informática e eletrônicos;1423,0;0,03544575725026853
+2010;atividade;2700;Máquinas e equipamentos elétricos;460,0;0,08184143222506395
+2010;atividade;2800;Máquinas e equipamentos mecânicos;178,0;0,08974358974358974
+2010;atividade;2991;Automóveis, caminhões e ônibus;419,0;0,11574074074074074
+2010;atividade;2992;Peças para veículos;845,0;0,02866779089376054
+2010;atividade;3000;Outros equipamentos de transporte;69,0;0,04477611940298507
+2010;atividade;3180;Móveis e indústrias diversas;799,0;0,07101947308132875
+2010;atividade;3300;Manutenção de máquinas;13,0;0,0
+2010;atividade;3500;Energia elétrica e gás;50,0;0,0625
+2010;atividade;3680;Água, esgoto e resíduos;87,0;0,12
+2010;atividade;4180;Construção;409,0;0,12056737588652482
+2010;atividade;4500;Comércio de veículos;656,0;0,07364565259302101
+2010;atividade;4680;Comércio atacadista e varejista;4077,0;0,07364565259302101
+2010;atividade;4900;Transporte terrestre;168,0;0,09859154929577464
+2010;atividade;5000;Transporte aquaviário;64,0;0,022222222222222223
+2010;atividade;5100;Transporte aéreo;23,0;0,0
+2010;atividade;5280;Armazenagem e correio;235,0;0,02390438247011952
+2010;atividade;5500;Alojamento;172,0;0,02824858757062147
+2010;atividade;5600;Alimentação;923,0;0,030333670374115267
+2010;atividade;5800;Edição;1894,0;0,16883116883116883
+2010;atividade;5980;TV, rádio e cinema;93,0;0,18072289156626506
+2010;atividade;6100;Telecomunicações;43,0;0,08823529411764706
+2010;atividade;6280;Sistemas e informação;206,0;0,1449814126394052
+2010;atividade;6480;Finanças e seguros;1663,0;0,1564945226917058
+2010;atividade;6800;Imobiliárias;215,0;0,18681318681318682
+2010;atividade;6980;Jurídico, contábil e consultoria;1283,0;0,12466367713004484
+2010;atividade;7180;Engenharia e P&D;389,0;0,16778523489932887
+2010;atividade;7380;Outras atividades técnicas;435,0;0,10644257703081232
+2010;atividade;7700;Aluguéis não imobiliários;359,0;0,16510903426791276
+2010;atividade;7880;Serviços administrativos;1673,0;0,13822525597269625
+2010;atividade;8000;Vigilância e segurança;38,0;0,06451612903225806
+2010;atividade;8400;Administração pública;932,0;0,09965635738831616
+2010;atividade;8591;Educação pública;701,0;0,10518731988472622
+2010;atividade;8592;Educação privada;365,0;0,15161290322580645
+2010;atividade;8691;Saúde pública;126,0;0,06666666666666667
+2010;atividade;8692;Saúde privada;734,0;0,15191986644407346
+2010;atividade;9080;Artes e espetáculos;32,0;0,037037037037037035
+2010;atividade;9480;Associações e serviços pessoais;546,0;0,0954653937947494
+2010;demanda_final;exportacao;Exportação;3584,0;0,0
+2010;demanda_final;familias;Consumo das famílias;9771,0;0,023641357661369433
+2010;demanda_final;estoque;Variação de estoque;5,0;
+2011;atividade;0191;Agricultura;425,0;0,023148148148148147
+2011;atividade;0192;Pecuária;138,0;0,02040816326530612
+2011;atividade;0280;Florestal, pesca e aquicultura;18,0;0,0
+2011;atividade;0580;Carvão e minerais não metálicos;5,0;0,0
+2011;atividade;0680;Petróleo e gás;33,0;0,09302325581395349
+2011;atividade;0791;Minério de ferro;94,0;0,0967741935483871
+2011;atividade;0792;Minerais metálicos não ferrosos;17,0;0,09523809523809523
+2011;atividade;1091;Carnes e laticínios;2749,0;0,020853698273053112
+2011;atividade;1092;Açúcar;28,0;0,05555555555555555
+2011;atividade;1093;Outros alimentos;3022,0;0,018094089264173704
+2011;atividade;1100;Bebidas;227,0;0,05803571428571429
+2011;atividade;1200;Fumo;946,0;0,049206349206349205
+2011;atividade;1300;Têxteis;726,0;0,024096385542168676
+2011;atividade;1400;Vestuário;544,0;0,034722222222222224
+2011;atividade;1500;Calçados e couro;696,0;0,015082956259426848
+2011;atividade;1600;Madeira;572,0;0,09891808346213292
+2011;atividade;1700;Celulose e papel;7473,0;0,12544704264099038
+2011;atividade;1800;Impressão;1545,0;0,12034632034632034
+2011;atividade;1991;Refino de petróleo e coque;132,0;0,13076923076923078
+2011;atividade;1992;Biocombustíveis;36,0;0,10416666666666667
+2011;atividade;2091;Químicos e resinas;72,0;0,030303030303030304
+2011;atividade;2092;Tintas e químicos diversos;187,0;0,03723404255319149
+2011;atividade;2093;Limpeza e cosméticos;1464,0;0,012811867835468645
+2011;atividade;2100;Farmacêuticos;847,0;0,017467248908296942
+2011;atividade;2200;Borracha e plástico;1916,0;0,0888529886914378
+2011;atividade;2300;Minerais não metálicos;1920,0;0,037586024351508734
+2011;atividade;2491;Siderurgia (ferro-gusa e aço);32,0;0,06451612903225806
+2011;atividade;2492;Metalurgia de não ferrosos e fundição;13,0;0,0
+2011;atividade;2500;Produtos de metal;1259,0;0,02482876712328767
+2011;atividade;2600;Informática e eletrônicos;1220,0;0,03544575725026853
+2011;atividade;2700;Máquinas e equipamentos elétricos;452,0;0,08184143222506395
+2011;atividade;2800;Máquinas e equipamentos mecânicos;189,0;0,08974358974358974
+2011;atividade;2991;Automóveis, caminhões e ônibus;505,0;0,11574074074074074
+2011;atividade;2992;Peças para veículos;893,0;0,02866779089376054
+2011;atividade;3000;Outros equipamentos de transporte;79,0;0,04477611940298507
+2011;atividade;3180;Móveis e indústrias diversas;865,0;0,07101947308132875
+2011;atividade;3300;Manutenção de máquinas;11,0;0,0
+2011;atividade;3500;Energia elétrica e gás;55,0;0,0625
+2011;atividade;3680;Água, esgoto e resíduos;91,0;0,12
+2011;atividade;4180;Construção;461,0;0,12056737588652482
+2011;atividade;4500;Comércio de veículos;788,0;0,07364565259302101
+2011;atividade;4680;Comércio atacadista e varejista;4606,0;0,07364565259302101
+2011;atividade;4900;Transporte terrestre;169,0;0,09859154929577464
+2011;atividade;5000;Transporte aquaviário;63,0;0,022222222222222223
+2011;atividade;5100;Transporte aéreo;22,0;0,0
+2011;atividade;5280;Armazenagem e correio;258,0;0,02390438247011952
+2011;atividade;5500;Alojamento;195,0;0,02824858757062147
+2011;atividade;5600;Alimentação;1163,0;0,030333670374115267
+2011;atividade;5800;Edição;1740,0;0,16883116883116883
+2011;atividade;5980;TV, rádio e cinema;98,0;0,18072289156626506
+2011;atividade;6100;Telecomunicações;49,0;0,08823529411764706
+2011;atividade;6280;Sistemas e informação;254,0;0,1449814126394052
+2011;atividade;6480;Finanças e seguros;1906,0;0,1564945226917058
+2011;atividade;6800;Imobiliárias;252,0;0,18681318681318682
+2011;atividade;6980;Jurídico, contábil e consultoria;1284,0;0,12466367713004484
+2011;atividade;7180;Engenharia e P&D;437,0;0,16778523489932887
+2011;atividade;7380;Outras atividades técnicas;464,0;0,10644257703081232
+2011;atividade;7700;Aluguéis não imobiliários;409,0;0,16510903426791276
+2011;atividade;7880;Serviços administrativos;1948,0;0,13822525597269625
+2011;atividade;8000;Vigilância e segurança;45,0;0,06451612903225806
+2011;atividade;8400;Administração pública;958,0;0,09965635738831616
+2011;atividade;8591;Educação pública;798,0;0,10518731988472622
+2011;atividade;8592;Educação privada;366,0;0,15161290322580645
+2011;atividade;8691;Saúde pública;120,0;0,06666666666666667
+2011;atividade;8692;Saúde privada;711,0;0,15191986644407346
+2011;atividade;9080;Artes e espetáculos;30,0;0,037037037037037035
+2011;atividade;9480;Associações e serviços pessoais;537,0;0,0954653937947494
+2011;demanda_final;exportacao;Exportação;3719,0;0,0
+2011;demanda_final;familias;Consumo das famílias;10665,0;0,023641357661369433
+2011;demanda_final;estoque;Variação de estoque;-494,0;
+2012;atividade;0191;Agricultura;419,0;0,023148148148148147
+2012;atividade;0192;Pecuária;142,0;0,02040816326530612
+2012;atividade;0280;Florestal, pesca e aquicultura;21,0;0,0
+2012;atividade;0580;Carvão e minerais não metálicos;5,0;0,0
+2012;atividade;0680;Petróleo e gás;35,0;0,09302325581395349
+2012;atividade;0791;Minério de ferro;75,0;0,0967741935483871
+2012;atividade;0792;Minerais metálicos não ferrosos;22,0;0,09523809523809523
+2012;atividade;1091;Carnes e laticínios;2778,0;0,020853698273053112
+2012;atividade;1092;Açúcar;30,0;0,05555555555555555
+2012;atividade;1093;Outros alimentos;3564,0;0,018094089264173704
+2012;atividade;1100;Bebidas;234,0;0,05803571428571429
+2012;atividade;1200;Fumo;1085,0;0,049206349206349205
+2012;atividade;1300;Têxteis;713,0;0,024096385542168676
+2012;atividade;1400;Vestuário;688,0;0,034722222222222224
+2012;atividade;1500;Calçados e couro;723,0;0,015082956259426848
+2012;atividade;1600;Madeira;653,0;0,09891808346213292
+2012;atividade;1700;Celulose e papel;8341,0;0,12544704264099038
+2012;atividade;1800;Impressão;1647,0;0,12034632034632034
+2012;atividade;1991;Refino de petróleo e coque;111,0;0,13076923076923078
+2012;atividade;1992;Biocombustíveis;35,0;0,10416666666666667
+2012;atividade;2091;Químicos e resinas;70,0;0,030303030303030304
+2012;atividade;2092;Tintas e químicos diversos;202,0;0,03723404255319149
+2012;atividade;2093;Limpeza e cosméticos;1527,0;0,012811867835468645
+2012;atividade;2100;Farmacêuticos;863,0;0,017467248908296942
+2012;atividade;2200;Borracha e plástico;2166,0;0,0888529886914378
+2012;atividade;2300;Minerais não metálicos;2118,0;0,037586024351508734
+2012;atividade;2491;Siderurgia (ferro-gusa e aço);32,0;0,06451612903225806
+2012;atividade;2492;Metalurgia de não ferrosos e fundição;14,0;0,0
+2012;atividade;2500;Produtos de metal;1435,0;0,02482876712328767
+2012;atividade;2600;Informática e eletrônicos;1374,0;0,03544575725026853
+2012;atividade;2700;Máquinas e equipamentos elétricos;488,0;0,08184143222506395
+2012;atividade;2800;Máquinas e equipamentos mecânicos;202,0;0,08974358974358974
+2012;atividade;2991;Automóveis, caminhões e ônibus;444,0;0,11574074074074074
+2012;atividade;2992;Peças para veículos;853,0;0,02866779089376054
+2012;atividade;3000;Outros equipamentos de transporte;76,0;0,04477611940298507
+2012;atividade;3180;Móveis e indústrias diversas;999,0;0,07101947308132875
+2012;atividade;3300;Manutenção de máquinas;14,0;0,0
+2012;atividade;3500;Energia elétrica e gás;63,0;0,0625
+2012;atividade;3680;Água, esgoto e resíduos;60,0;0,12
+2012;atividade;4180;Construção;506,0;0,12056737588652482
+2012;atividade;4500;Comércio de veículos;800,0;0,07364565259302101
+2012;atividade;4680;Comércio atacadista e varejista;5268,0;0,07364565259302101
+2012;atividade;4900;Transporte terrestre;179,0;0,09859154929577464
+2012;atividade;5000;Transporte aquaviário;65,0;0,022222222222222223
+2012;atividade;5100;Transporte aéreo;20,0;0,0
+2012;atividade;5280;Armazenagem e correio;260,0;0,02390438247011952
+2012;atividade;5500;Alojamento;198,0;0,02824858757062147
+2012;atividade;5600;Alimentação;1233,0;0,030333670374115267
+2012;atividade;5800;Edição;1743,0;0,16883116883116883
+2012;atividade;5980;TV, rádio e cinema;112,0;0,18072289156626506
+2012;atividade;6100;Telecomunicações;50,0;0,08823529411764706
+2012;atividade;6280;Sistemas e informação;315,0;0,1449814126394052
+2012;atividade;6480;Finanças e seguros;1925,0;0,1564945226917058
+2012;atividade;6800;Imobiliárias;294,0;0,18681318681318682
+2012;atividade;6980;Jurídico, contábil e consultoria;1535,0;0,12466367713004484
+2012;atividade;7180;Engenharia e P&D;540,0;0,16778523489932887
+2012;atividade;7380;Outras atividades técnicas;543,0;0,10644257703081232
+2012;atividade;7700;Aluguéis não imobiliários;462,0;0,16510903426791276
+2012;atividade;7880;Serviços administrativos;2193,0;0,13822525597269625
+2012;atividade;8000;Vigilância e segurança;43,0;0,06451612903225806
+2012;atividade;8400;Administração pública;989,0;0,09965635738831616
+2012;atividade;8591;Educação pública;825,0;0,10518731988472622
+2012;atividade;8592;Educação privada;417,0;0,15161290322580645
+2012;atividade;8691;Saúde pública;119,0;0,06666666666666667
+2012;atividade;8692;Saúde privada;703,0;0,15191986644407346
+2012;atividade;9080;Artes e espetáculos;34,0;0,037037037037037035
+2012;atividade;9480;Associações e serviços pessoais;601,0;0,0954653937947494
+2012;demanda_final;exportacao;Exportação;4013,0;0,0
+2012;demanda_final;familias;Consumo das famílias;12934,0;0,023641357661369433
+2012;demanda_final;estoque;Variação de estoque;609,0;
+2013;atividade;0191;Agricultura;453,0;0,023148148148148147
+2013;atividade;0192;Pecuária;154,0;0,02040816326530612
+2013;atividade;0280;Florestal, pesca e aquicultura;20,0;0,0
+2013;atividade;0580;Carvão e minerais não metálicos;5,0;0,0
+2013;atividade;0680;Petróleo e gás;38,0;0,09302325581395349
+2013;atividade;0791;Minério de ferro;79,0;0,0967741935483871
+2013;atividade;0792;Minerais metálicos não ferrosos;25,0;0,09523809523809523
+2013;atividade;1091;Carnes e laticínios;3208,0;0,020853698273053112
+2013;atividade;1092;Açúcar;29,0;0,05555555555555555
+2013;atividade;1093;Outros alimentos;3838,0;0,018094089264173704
+2013;atividade;1100;Bebidas;253,0;0,05803571428571429
+2013;atividade;1200;Fumo;1049,0;0,049206349206349205
+2013;atividade;1300;Têxteis;751,0;0,024096385542168676
+2013;atividade;1400;Vestuário;732,0;0,034722222222222224
+2013;atividade;1500;Calçados e couro;785,0;0,015082956259426848
+2013;atividade;1600;Madeira;703,0;0,09891808346213292
+2013;atividade;1700;Celulose e papel;9172,0;0,12544704264099038
+2013;atividade;1800;Impressão;1767,0;0,12034632034632034
+2013;atividade;1991;Refino de petróleo e coque;124,0;0,13076923076923078
+2013;atividade;1992;Biocombustíveis;49,0;0,10416666666666667
+2013;atividade;2091;Químicos e resinas;77,0;0,030303030303030304
+2013;atividade;2092;Tintas e químicos diversos;222,0;0,03723404255319149
+2013;atividade;2093;Limpeza e cosméticos;1740,0;0,012811867835468645
+2013;atividade;2100;Farmacêuticos;928,0;0,017467248908296942
+2013;atividade;2200;Borracha e plástico;2427,0;0,0888529886914378
+2013;atividade;2300;Minerais não metálicos;2313,0;0,037586024351508734
+2013;atividade;2491;Siderurgia (ferro-gusa e aço);34,0;0,06451612903225806
+2013;atividade;2492;Metalurgia de não ferrosos e fundição;15,0;0,0
+2013;atividade;2500;Produtos de metal;1549,0;0,02482876712328767
+2013;atividade;2600;Informática e eletrônicos;1595,0;0,03544575725026853
+2013;atividade;2700;Máquinas e equipamentos elétricos;525,0;0,08184143222506395
+2013;atividade;2800;Máquinas e equipamentos mecânicos;230,0;0,08974358974358974
+2013;atividade;2991;Automóveis, caminhões e ônibus;588,0;0,11574074074074074
+2013;atividade;2992;Peças para veículos;932,0;0,02866779089376054
+2013;atividade;3000;Outros equipamentos de transporte;77,0;0,04477611940298507
+2013;atividade;3180;Móveis e indústrias diversas;1035,0;0,07101947308132875
+2013;atividade;3300;Manutenção de máquinas;16,0;0,0
+2013;atividade;3500;Energia elétrica e gás;68,0;0,0625
+2013;atividade;3680;Água, esgoto e resíduos;68,0;0,12
+2013;atividade;4180;Construção;538,0;0,12056737588652482
+2013;atividade;4500;Comércio de veículos;817,0;0,07364565259302101
+2013;atividade;4680;Comércio atacadista e varejista;6155,0;0,07364565259302101
+2013;atividade;4900;Transporte terrestre;198,0;0,09859154929577464
+2013;atividade;5000;Transporte aquaviário;65,0;0,022222222222222223
+2013;atividade;5100;Transporte aéreo;22,0;0,0
+2013;atividade;5280;Armazenagem e correio;298,0;0,02390438247011952
+2013;atividade;5500;Alojamento;224,0;0,02824858757062147
+2013;atividade;5600;Alimentação;1283,0;0,030333670374115267
+2013;atividade;5800;Edição;1706,0;0,16883116883116883
+2013;atividade;5980;TV, rádio e cinema;122,0;0,18072289156626506
+2013;atividade;6100;Telecomunicações;53,0;0,08823529411764706
+2013;atividade;6280;Sistemas e informação;386,0;0,1449814126394052
+2013;atividade;6480;Finanças e seguros;1959,0;0,1564945226917058
+2013;atividade;6800;Imobiliárias;289,0;0,18681318681318682
+2013;atividade;6980;Jurídico, contábil e consultoria;1776,0;0,12466367713004484
+2013;atividade;7180;Engenharia e P&D;576,0;0,16778523489932887
+2013;atividade;7380;Outras atividades técnicas;528,0;0,10644257703081232
+2013;atividade;7700;Aluguéis não imobiliários;520,0;0,16510903426791276
+2013;atividade;7880;Serviços administrativos;2109,0;0,13822525597269625
+2013;atividade;8000;Vigilância e segurança;52,0;0,06451612903225806
+2013;atividade;8400;Administração pública;813,0;0,09965635738831616
+2013;atividade;8591;Educação pública;921,0;0,10518731988472622
+2013;atividade;8592;Educação privada;457,0;0,15161290322580645
+2013;atividade;8691;Saúde pública;127,0;0,06666666666666667
+2013;atividade;8692;Saúde privada;737,0;0,15191986644407346
+2013;atividade;9080;Artes e espetáculos;38,0;0,037037037037037035
+2013;atividade;9480;Associações e serviços pessoais;606,0;0,0954653937947494
+2013;demanda_final;exportacao;Exportação;4457,0;0,0
+2013;demanda_final;familias;Consumo das famílias;14956,0;0,023641357661369433
+2013;demanda_final;estoque;Variação de estoque;559,0;
+2014;atividade;0191;Agricultura;517,0;0,023148148148148147
+2014;atividade;0192;Pecuária;174,0;0,02040816326530612
+2014;atividade;0280;Florestal, pesca e aquicultura;22,0;0,0
+2014;atividade;0580;Carvão e minerais não metálicos;5,0;0,0
+2014;atividade;0680;Petróleo e gás;52,0;0,09302325581395349
+2014;atividade;0791;Minério de ferro;87,0;0,0967741935483871
+2014;atividade;0792;Minerais metálicos não ferrosos;26,0;0,09523809523809523
+2014;atividade;1091;Carnes e laticínios;3626,0;0,020853698273053112
+2014;atividade;1092;Açúcar;28,0;0,05555555555555555
+2014;atividade;1093;Outros alimentos;4072,0;0,018094089264173704
+2014;atividade;1100;Bebidas;285,0;0,05803571428571429
+2014;atividade;1200;Fumo;885,0;0,049206349206349205
+2014;atividade;1300;Têxteis;800,0;0,024096385542168676
+2014;atividade;1400;Vestuário;425,0;0,034722222222222224
+2014;atividade;1500;Calçados e couro;860,0;0,015082956259426848
+2014;atividade;1600;Madeira;908,0;0,09891808346213292
+2014;atividade;1700;Celulose e papel;10019,0;0,12544704264099038
+2014;atividade;1800;Impressão;1724,0;0,12034632034632034
+2014;atividade;1991;Refino de petróleo e coque;176,0;0,13076923076923078
+2014;atividade;1992;Biocombustíveis;53,0;0,10416666666666667
+2014;atividade;2091;Químicos e resinas;86,0;0,030303030303030304
+2014;atividade;2092;Tintas e químicos diversos;208,0;0,03723404255319149
+2014;atividade;2093;Limpeza e cosméticos;1961,0;0,012811867835468645
+2014;atividade;2100;Farmacêuticos;1076,0;0,017467248908296942
+2014;atividade;2200;Borracha e plástico;2605,0;0,0888529886914378
+2014;atividade;2300;Minerais não metálicos;2529,0;0,037586024351508734
+2014;atividade;2491;Siderurgia (ferro-gusa e aço);34,0;0,06451612903225806
+2014;atividade;2492;Metalurgia de não ferrosos e fundição;16,0;0,0
+2014;atividade;2500;Produtos de metal;1617,0;0,02482876712328767
+2014;atividade;2600;Informática e eletrônicos;1423,0;0,03544575725026853
+2014;atividade;2700;Máquinas e equipamentos elétricos;523,0;0,08184143222506395
+2014;atividade;2800;Máquinas e equipamentos mecânicos;225,0;0,08974358974358974
+2014;atividade;2991;Automóveis, caminhões e ônibus;435,0;0,11574074074074074
+2014;atividade;2992;Peças para veículos;827,0;0,02866779089376054
+2014;atividade;3000;Outros equipamentos de transporte;83,0;0,04477611940298507
+2014;atividade;3180;Móveis e indústrias diversas;1103,0;0,07101947308132875
+2014;atividade;3300;Manutenção de máquinas;16,0;0,0
+2014;atividade;3500;Energia elétrica e gás;85,0;0,0625
+2014;atividade;3680;Água, esgoto e resíduos;66,0;0,12
+2014;atividade;4180;Construção;526,0;0,12056737588652482
+2014;atividade;4500;Comércio de veículos;847,0;0,07364565259302101
+2014;atividade;4680;Comércio atacadista e varejista;6612,0;0,07364565259302101
+2014;atividade;4900;Transporte terrestre;202,0;0,09859154929577464
+2014;atividade;5000;Transporte aquaviário;58,0;0,022222222222222223
+2014;atividade;5100;Transporte aéreo;21,0;0,0
+2014;atividade;5280;Armazenagem e correio;328,0;0,02390438247011952
+2014;atividade;5500;Alojamento;232,0;0,02824858757062147
+2014;atividade;5600;Alimentação;1400,0;0,030333670374115267
+2014;atividade;5800;Edição;1648,0;0,16883116883116883
+2014;atividade;5980;TV, rádio e cinema;143,0;0,18072289156626506
+2014;atividade;6100;Telecomunicações;52,0;0,08823529411764706
+2014;atividade;6280;Sistemas e informação;437,0;0,1449814126394052
+2014;atividade;6480;Finanças e seguros;1976,0;0,1564945226917058
+2014;atividade;6800;Imobiliárias;345,0;0,18681318681318682
+2014;atividade;6980;Jurídico, contábil e consultoria;1846,0;0,12466367713004484
+2014;atividade;7180;Engenharia e P&D;591,0;0,16778523489932887
+2014;atividade;7380;Outras atividades técnicas;595,0;0,10644257703081232
+2014;atividade;7700;Aluguéis não imobiliários;549,0;0,16510903426791276
+2014;atividade;7880;Serviços administrativos;2021,0;0,13822525597269625
+2014;atividade;8000;Vigilância e segurança;53,0;0,06451612903225806
+2014;atividade;8400;Administração pública;975,0;0,09965635738831616
+2014;atividade;8591;Educação pública;938,0;0,10518731988472622
+2014;atividade;8592;Educação privada;494,0;0,15161290322580645
+2014;atividade;8691;Saúde pública;147,0;0,06666666666666667
+2014;atividade;8692;Saúde privada;861,0;0,15191986644407346
+2014;atividade;9080;Artes e espetáculos;39,0;0,037037037037037035
+2014;atividade;9480;Associações e serviços pessoais;648,0;0,0954653937947494
+2014;demanda_final;exportacao;Exportação;4691,0;0,0
+2014;demanda_final;familias;Consumo das famílias;16541,0;0,023641357661369433
+2014;demanda_final;estoque;Variação de estoque;-885,0;
+2015;atividade;0191;Agricultura;582,0;0,023148148148148147
+2015;atividade;0192;Pecuária;195,0;0,02040816326530612
+2015;atividade;0280;Florestal, pesca e aquicultura;24,0;0,0
+2015;atividade;0580;Carvão e minerais não metálicos;5,0;0,0
+2015;atividade;0680;Petróleo e gás;59,0;0,09302325581395349
+2015;atividade;0791;Minério de ferro;88,0;0,0967741935483871
+2015;atividade;0792;Minerais metálicos não ferrosos;28,0;0,09523809523809523
+2015;atividade;1091;Carnes e laticínios;3812,0;0,020853698273053112
+2015;atividade;1092;Açúcar;22,0;0,05555555555555555
+2015;atividade;1093;Outros alimentos;4186,0;0,018094089264173704
+2015;atividade;1100;Bebidas;286,0;0,05803571428571429
+2015;atividade;1200;Fumo;802,0;0,049206349206349205
+2015;atividade;1300;Têxteis;753,0;0,024096385542168676
+2015;atividade;1400;Vestuário;406,0;0,034722222222222224
+2015;atividade;1500;Calçados e couro;820,0;0,015082956259426848
+2015;atividade;1600;Madeira;888,0;0,09891808346213292
+2015;atividade;1700;Celulose e papel;9964,0;0,12544704264099038
+2015;atividade;1800;Impressão;1548,0;0,12034632034632034
+2015;atividade;1991;Refino de petróleo e coque;174,0;0,13076923076923078
+2015;atividade;1992;Biocombustíveis;63,0;0,10416666666666667
+2015;atividade;2091;Químicos e resinas;82,0;0,030303030303030304
+2015;atividade;2092;Tintas e químicos diversos;235,0;0,03723404255319149
+2015;atividade;2093;Limpeza e cosméticos;1874,0;0,012811867835468645
+2015;atividade;2100;Farmacêuticos;1131,0;0,017467248908296942
+2015;atividade;2200;Borracha e plástico;2429,0;0,0888529886914378
+2015;atividade;2300;Minerais não metálicos;2376,0;0,037586024351508734
+2015;atividade;2491;Siderurgia (ferro-gusa e aço);37,0;0,06451612903225806
+2015;atividade;2492;Metalurgia de não ferrosos e fundição;14,0;0,0
+2015;atividade;2500;Produtos de metal;1581,0;0,02482876712328767
+2015;atividade;2600;Informática e eletrônicos;1162,0;0,03544575725026853
+2015;atividade;2700;Máquinas e equipamentos elétricos;509,0;0,08184143222506395
+2015;atividade;2800;Máquinas e equipamentos mecânicos;198,0;0,08974358974358974
+2015;atividade;2991;Automóveis, caminhões e ônibus;289,0;0,11574074074074074
+2015;atividade;2992;Peças para veículos;737,0;0,02866779089376054
+2015;atividade;3000;Outros equipamentos de transporte;80,0;0,04477611940298507
+2015;atividade;3180;Móveis e indústrias diversas;1132,0;0,07101947308132875
+2015;atividade;3300;Manutenção de máquinas;21,0;0,0
+2015;atividade;3500;Energia elétrica e gás;92,0;0,0625
+2015;atividade;3680;Água, esgoto e resíduos;67,0;0,12
+2015;atividade;4180;Construção;462,0;0,12056737588652482
+2015;atividade;4500;Comércio de veículos;788,0;0,07364565259302101
+2015;atividade;4680;Comércio atacadista e varejista;6829,0;0,07364565259302101
+2015;atividade;4900;Transporte terrestre;206,0;0,09859154929577464
+2015;atividade;5000;Transporte aquaviário;60,0;0,022222222222222223
+2015;atividade;5100;Transporte aéreo;25,0;0,0
+2015;atividade;5280;Armazenagem e correio;341,0;0,02390438247011952
+2015;atividade;5500;Alojamento;237,0;0,02824858757062147
+2015;atividade;5600;Alimentação;1420,0;0,030333670374115267
+2015;atividade;5800;Edição;1415,0;0,16883116883116883
+2015;atividade;5980;TV, rádio e cinema;133,0;0,18072289156626506
+2015;atividade;6100;Telecomunicações;48,0;0,08823529411764706
+2015;atividade;6280;Sistemas e informação;445,0;0,1449814126394052
+2015;atividade;6480;Finanças e seguros;2122,0;0,1564945226917058
+2015;atividade;6800;Imobiliárias;317,0;0,18681318681318682
+2015;atividade;6980;Jurídico, contábil e consultoria;1951,0;0,12466367713004484
+2015;atividade;7180;Engenharia e P&D;548,0;0,16778523489932887
+2015;atividade;7380;Outras atividades técnicas;571,0;0,10644257703081232
+2015;atividade;7700;Aluguéis não imobiliários;532,0;0,16510903426791276
+2015;atividade;7880;Serviços administrativos;2069,0;0,13822525597269625
+2015;atividade;8000;Vigilância e segurança;52,0;0,06451612903225806
+2015;atividade;8400;Administração pública;811,0;0,09965635738831616
+2015;atividade;8591;Educação pública;971,0;0,10518731988472622
+2015;atividade;8592;Educação privada;518,0;0,15161290322580645
+2015;atividade;8691;Saúde pública;141,0;0,06666666666666667
+2015;atividade;8692;Saúde privada;968,0;0,15191986644407346
+2015;atividade;9080;Artes e espetáculos;39,0;0,037037037037037035
+2015;atividade;9480;Associações e serviços pessoais;656,0;0,0954653937947494
+2015;demanda_final;exportacao;Exportação;7157,0;0,0
+2015;demanda_final;familias;Consumo das famílias;17409,0;0,023641357661369433
+2015;demanda_final;estoque;Variação de estoque;-2097,0;
+2016;atividade;0191;Agricultura;644,0;0,023148148148148147
+2016;atividade;0192;Pecuária;218,0;0,02040816326530612
+2016;atividade;0280;Florestal, pesca e aquicultura;29,0;0,0
+2016;atividade;0580;Carvão e minerais não metálicos;5,0;0,0
+2016;atividade;0680;Petróleo e gás;71,0;0,09302325581395349
+2016;atividade;0791;Minério de ferro;93,0;0,0967741935483871
+2016;atividade;0792;Minerais metálicos não ferrosos;28,0;0,09523809523809523
+2016;atividade;1091;Carnes e laticínios;4065,0;0,020853698273053112
+2016;atividade;1092;Açúcar;28,0;0,05555555555555555
+2016;atividade;1093;Outros alimentos;4615,0;0,018094089264173704
+2016;atividade;1100;Bebidas;295,0;0,05803571428571429
+2016;atividade;1200;Fumo;860,0;0,049206349206349205
+2016;atividade;1300;Têxteis;791,0;0,024096385542168676
+2016;atividade;1400;Vestuário;435,0;0,034722222222222224
+2016;atividade;1500;Calçados e couro;875,0;0,015082956259426848
+2016;atividade;1600;Madeira;1074,0;0,09891808346213292
+2016;atividade;1700;Celulose e papel;10968,0;0,12544704264099038
+2016;atividade;1800;Impressão;1661,0;0,12034632034632034
+2016;atividade;1991;Refino de petróleo e coque;182,0;0,13076923076923078
+2016;atividade;1992;Biocombustíveis;73,0;0,10416666666666667
+2016;atividade;2091;Químicos e resinas;91,0;0,030303030303030304
+2016;atividade;2092;Tintas e químicos diversos;244,0;0,03723404255319149
+2016;atividade;2093;Limpeza e cosméticos;1984,0;0,012811867835468645
+2016;atividade;2100;Farmacêuticos;1156,0;0,017467248908296942
+2016;atividade;2200;Borracha e plástico;2575,0;0,0888529886914378
+2016;atividade;2300;Minerais não metálicos;2222,0;0,037586024351508734
+2016;atividade;2491;Siderurgia (ferro-gusa e aço);38,0;0,06451612903225806
+2016;atividade;2492;Metalurgia de não ferrosos e fundição;14,0;0,0
+2016;atividade;2500;Produtos de metal;1613,0;0,02482876712328767
+2016;atividade;2600;Informática e eletrônicos;869,0;0,03544575725026853
+2016;atividade;2700;Máquinas e equipamentos elétricos;516,0;0,08184143222506395
+2016;atividade;2800;Máquinas e equipamentos mecânicos;180,0;0,08974358974358974
+2016;atividade;2991;Automóveis, caminhões e ônibus;321,0;0,11574074074074074
+2016;atividade;2992;Peças para veículos;808,0;0,02866779089376054
+2016;atividade;3000;Outros equipamentos de transporte;76,0;0,04477611940298507
+2016;atividade;3180;Móveis e indústrias diversas;1142,0;0,07101947308132875
+2016;atividade;3300;Manutenção de máquinas;20,0;0,0
+2016;atividade;3500;Energia elétrica e gás;100,0;0,0625
+2016;atividade;3680;Água, esgoto e resíduos;79,0;0,12
+2016;atividade;4180;Construção;461,0;0,12056737588652482
+2016;atividade;4500;Comércio de veículos;823,0;0,07364565259302101
+2016;atividade;4680;Comércio atacadista e varejista;7064,0;0,07364565259302101
+2016;atividade;4900;Transporte terrestre;210,0;0,09859154929577464
+2016;atividade;5000;Transporte aquaviário;59,0;0,022222222222222223
+2016;atividade;5100;Transporte aéreo;27,0;0,0
+2016;atividade;5280;Armazenagem e correio;362,0;0,02390438247011952
+2016;atividade;5500;Alojamento;257,0;0,02824858757062147
+2016;atividade;5600;Alimentação;1480,0;0,030333670374115267
+2016;atividade;5800;Edição;1334,0;0,16883116883116883
+2016;atividade;5980;TV, rádio e cinema;154,0;0,18072289156626506
+2016;atividade;6100;Telecomunicações;49,0;0,08823529411764706
+2016;atividade;6280;Sistemas e informação;549,0;0,1449814126394052
+2016;atividade;6480;Finanças e seguros;2076,0;0,1564945226917058
+2016;atividade;6800;Imobiliárias;313,0;0,18681318681318682
+2016;atividade;6980;Jurídico, contábil e consultoria;1984,0;0,12466367713004484
+2016;atividade;7180;Engenharia e P&D;528,0;0,16778523489932887
+2016;atividade;7380;Outras atividades técnicas;696,0;0,10644257703081232
+2016;atividade;7700;Aluguéis não imobiliários;567,0;0,16510903426791276
+2016;atividade;7880;Serviços administrativos;2424,0;0,13822525597269625
+2016;atividade;8000;Vigilância e segurança;51,0;0,06451612903225806
+2016;atividade;8400;Administração pública;1055,0;0,09965635738831616
+2016;atividade;8591;Educação pública;972,0;0,10518731988472622
+2016;atividade;8592;Educação privada;602,0;0,15161290322580645
+2016;atividade;8691;Saúde pública;176,0;0,06666666666666667
+2016;atividade;8692;Saúde privada;1117,0;0,15191986644407346
+2016;atividade;9080;Artes e espetáculos;37,0;0,037037037037037035
+2016;atividade;9480;Associações e serviços pessoais;661,0;0,0954653937947494
+2016;demanda_final;exportacao;Exportação;6778,0;0,0
+2016;demanda_final;familias;Consumo das famílias;18263,0;0,023641357661369433
+2016;demanda_final;estoque;Variação de estoque;-918,0;
+2017;atividade;0191;Agricultura;687,0;0,023148148148148147
+2017;atividade;0192;Pecuária;234,0;0,02040816326530612
+2017;atividade;0280;Florestal, pesca e aquicultura;29,0;0,0
+2017;atividade;0580;Carvão e minerais não metálicos;5,0;0,0
+2017;atividade;0680;Petróleo e gás;74,0;0,09302325581395349
+2017;atividade;0791;Minério de ferro;130,0;0,0967741935483871
+2017;atividade;0792;Minerais metálicos não ferrosos;30,0;0,09523809523809523
+2017;atividade;1091;Carnes e laticínios;4150,0;0,020853698273053112
+2017;atividade;1092;Açúcar;30,0;0,05555555555555555
+2017;atividade;1093;Outros alimentos;4924,0;0,018094089264173704
+2017;atividade;1100;Bebidas;317,0;0,05803571428571429
+2017;atividade;1200;Fumo;809,0;0,049206349206349205
+2017;atividade;1300;Têxteis;789,0;0,024096385542168676
+2017;atividade;1400;Vestuário;453,0;0,034722222222222224
+2017;atividade;1500;Calçados e couro;954,0;0,015082956259426848
+2017;atividade;1600;Madeira;1210,0;0,09891808346213292
+2017;atividade;1700;Celulose e papel;10835,0;0,12544704264099038
+2017;atividade;1800;Impressão;1583,0;0,12034632034632034
+2017;atividade;1991;Refino de petróleo e coque;185,0;0,13076923076923078
+2017;atividade;1992;Biocombustíveis;74,0;0,10416666666666667
+2017;atividade;2091;Químicos e resinas;95,0;0,030303030303030304
+2017;atividade;2092;Tintas e químicos diversos;244,0;0,03723404255319149
+2017;atividade;2093;Limpeza e cosméticos;2081,0;0,012811867835468645
+2017;atividade;2100;Farmacêuticos;1157,0;0,017467248908296942
+2017;atividade;2200;Borracha e plástico;2722,0;0,0888529886914378
+2017;atividade;2300;Minerais não metálicos;2129,0;0,037586024351508734
+2017;atividade;2491;Siderurgia (ferro-gusa e aço);40,0;0,06451612903225806
+2017;atividade;2492;Metalurgia de não ferrosos e fundição;15,0;0,0
+2017;atividade;2500;Produtos de metal;1752,0;0,02482876712328767
+2017;atividade;2600;Informática e eletrônicos;1029,0;0,03544575725026853
+2017;atividade;2700;Máquinas e equipamentos elétricos;549,0;0,08184143222506395
+2017;atividade;2800;Máquinas e equipamentos mecânicos;186,0;0,08974358974358974
+2017;atividade;2991;Automóveis, caminhões e ônibus;355,0;0,11574074074074074
+2017;atividade;2992;Peças para veículos;1002,0;0,02866779089376054
+2017;atividade;3000;Outros equipamentos de transporte;75,0;0,04477611940298507
+2017;atividade;3180;Móveis e indústrias diversas;1222,0;0,07101947308132875
+2017;atividade;3300;Manutenção de máquinas;21,0;0,0
+2017;atividade;3500;Energia elétrica e gás;97,0;0,0625
+2017;atividade;3680;Água, esgoto e resíduos;78,0;0,12
+2017;atividade;4180;Construção;433,0;0,12056737588652482
+2017;atividade;4500;Comércio de veículos;850,0;0,07364565259302101
+2017;atividade;4680;Comércio atacadista e varejista;7568,0;0,07364565259302101
+2017;atividade;4900;Transporte terrestre;237,0;0,09859154929577464
+2017;atividade;5000;Transporte aquaviário;69,0;0,022222222222222223
+2017;atividade;5100;Transporte aéreo;26,0;0,0
+2017;atividade;5280;Armazenagem e correio;387,0;0,02390438247011952
+2017;atividade;5500;Alojamento;253,0;0,02824858757062147
+2017;atividade;5600;Alimentação;1784,0;0,030333670374115267
+2017;atividade;5800;Edição;1174,0;0,16883116883116883
+2017;atividade;5980;TV, rádio e cinema;160,0;0,18072289156626506
+2017;atividade;6100;Telecomunicações;48,0;0,08823529411764706
+2017;atividade;6280;Sistemas e informação;681,0;0,1449814126394052
+2017;atividade;6480;Finanças e seguros;1915,0;0,1564945226917058
+2017;atividade;6800;Imobiliárias;404,0;0,18681318681318682
+2017;atividade;6980;Jurídico, contábil e consultoria;2144,0;0,12466367713004484
+2017;atividade;7180;Engenharia e P&D;529,0;0,16778523489932887
+2017;atividade;7380;Outras atividades técnicas;621,0;0,10644257703081232
+2017;atividade;7700;Aluguéis não imobiliários;547,0;0,16510903426791276
+2017;atividade;7880;Serviços administrativos;2701,0;0,13822525597269625
+2017;atividade;8000;Vigilância e segurança;50,0;0,06451612903225806
+2017;atividade;8400;Administração pública;957,0;0,09965635738831616
+2017;atividade;8591;Educação pública;975,0;0,10518731988472622
+2017;atividade;8592;Educação privada;629,0;0,15161290322580645
+2017;atividade;8691;Saúde pública;180,0;0,06666666666666667
+2017;atividade;8692;Saúde privada;1152,0;0,15191986644407346
+2017;atividade;9080;Artes e espetáculos;41,0;0,037037037037037035
+2017;atividade;9480;Associações e serviços pessoais;694,0;0,0954653937947494
+2017;demanda_final;exportacao;Exportação;6331,0;0,0
+2017;demanda_final;familias;Consumo das famílias;19105,0;0,023641357661369433
+2017;demanda_final;estoque;Variação de estoque;-308,0;
+2018;atividade;0191;Agricultura;738,0;0,023148148148148147
+2018;atividade;0192;Pecuária;248,0;0,02040816326530612
+2018;atividade;0280;Florestal, pesca e aquicultura;31,0;0,0
+2018;atividade;0580;Carvão e minerais não metálicos;4,0;0,0
+2018;atividade;0680;Petróleo e gás;82,0;0,09302325581395349
+2018;atividade;0791;Minério de ferro;172,0;0,0967741935483871
+2018;atividade;0792;Minerais metálicos não ferrosos;28,0;0,09523809523809523
+2018;atividade;1091;Carnes e laticínios;4512,0;0,020853698273053112
+2018;atividade;1092;Açúcar;22,0;0,05555555555555555
+2018;atividade;1093;Outros alimentos;5449,0;0,018094089264173704
+2018;atividade;1100;Bebidas;321,0;0,05803571428571429
+2018;atividade;1200;Fumo;814,0;0,049206349206349205
+2018;atividade;1300;Têxteis;816,0;0,024096385542168676
+2018;atividade;1400;Vestuário;460,0;0,034722222222222224
+2018;atividade;1500;Calçados e couro;917,0;0,015082956259426848
+2018;atividade;1600;Madeira;1531,0;0,09891808346213292
+2018;atividade;1700;Celulose e papel;12205,0;0,12544704264099038
+2018;atividade;1800;Impressão;1639,0;0,12034632034632034
+2018;atividade;1991;Refino de petróleo e coque;229,0;0,13076923076923078
+2018;atividade;1992;Biocombustíveis;81,0;0,10416666666666667
+2018;atividade;2091;Químicos e resinas;92,0;0,030303030303030304
+2018;atividade;2092;Tintas e químicos diversos;300,0;0,03723404255319149
+2018;atividade;2093;Limpeza e cosméticos;2265,0;0,012811867835468645
+2018;atividade;2100;Farmacêuticos;1351,0;0,017467248908296942
+2018;atividade;2200;Borracha e plástico;3214,0;0,0888529886914378
+2018;atividade;2300;Minerais não metálicos;2241,0;0,037586024351508734
+2018;atividade;2491;Siderurgia (ferro-gusa e aço);43,0;0,06451612903225806
+2018;atividade;2492;Metalurgia de não ferrosos e fundição;16,0;0,0
+2018;atividade;2500;Produtos de metal;1819,0;0,02482876712328767
+2018;atividade;2600;Informática e eletrônicos;1060,0;0,03544575725026853
+2018;atividade;2700;Máquinas e equipamentos elétricos;549,0;0,08184143222506395
+2018;atividade;2800;Máquinas e equipamentos mecânicos;179,0;0,08974358974358974
+2018;atividade;2991;Automóveis, caminhões e ônibus;426,0;0,11574074074074074
+2018;atividade;2992;Peças para veículos;1065,0;0,02866779089376054
+2018;atividade;3000;Outros equipamentos de transporte;69,0;0,04477611940298507
+2018;atividade;3180;Móveis e indústrias diversas;1298,0;0,07101947308132875
+2018;atividade;3300;Manutenção de máquinas;22,0;0,0
+2018;atividade;3500;Energia elétrica e gás;98,0;0,0625
+2018;atividade;3680;Água, esgoto e resíduos;78,0;0,12
+2018;atividade;4180;Construção;399,0;0,12056737588652482
+2018;atividade;4500;Comércio de veículos;870,0;0,07364565259302101
+2018;atividade;4680;Comércio atacadista e varejista;8102,0;0,07364565259302101
+2018;atividade;4900;Transporte terrestre;241,0;0,09859154929577464
+2018;atividade;5000;Transporte aquaviário;65,0;0,022222222222222223
+2018;atividade;5100;Transporte aéreo;22,0;0,0
+2018;atividade;5280;Armazenagem e correio;415,0;0,02390438247011952
+2018;atividade;5500;Alojamento;259,0;0,02824858757062147
+2018;atividade;5600;Alimentação;1908,0;0,030333670374115267
+2018;atividade;5800;Edição;1159,0;0,16883116883116883
+2018;atividade;5980;TV, rádio e cinema;175,0;0,18072289156626506
+2018;atividade;6100;Telecomunicações;45,0;0,08823529411764706
+2018;atividade;6280;Sistemas e informação;832,0;0,1449814126394052
+2018;atividade;6480;Finanças e seguros;2044,0;0,1564945226917058
+2018;atividade;6800;Imobiliárias;411,0;0,18681318681318682
+2018;atividade;6980;Jurídico, contábil e consultoria;2219,0;0,12466367713004484
+2018;atividade;7180;Engenharia e P&D;557,0;0,16778523489932887
+2018;atividade;7380;Outras atividades técnicas;732,0;0,10644257703081232
+2018;atividade;7700;Aluguéis não imobiliários;662,0;0,16510903426791276
+2018;atividade;7880;Serviços administrativos;2838,0;0,13822525597269625
+2018;atividade;8000;Vigilância e segurança;51,0;0,06451612903225806
+2018;atividade;8400;Administração pública;1234,0;0,09965635738831616
+2018;atividade;8591;Educação pública;980,0;0,10518731988472622
+2018;atividade;8592;Educação privada;677,0;0,15161290322580645
+2018;atividade;8691;Saúde pública;182,0;0,06666666666666667
+2018;atividade;8692;Saúde privada;1225,0;0,15191986644407346
+2018;atividade;9080;Artes e espetáculos;40,0;0,037037037037037035
+2018;atividade;9480;Associações e serviços pessoais;795,0;0,0954653937947494
+2018;demanda_final;exportacao;Exportação;7554,0;0,0
+2018;demanda_final;familias;Consumo das famílias;19973,0;0,023641357661369433
+2018;demanda_final;estoque;Variação de estoque;68,0;
+2019;atividade;0191;Agricultura;802,0;0,023148148148148147
+2019;atividade;0192;Pecuária;266,0;0,02040816326530612
+2019;atividade;0280;Florestal, pesca e aquicultura;32,0;0,0
+2019;atividade;0580;Carvão e minerais não metálicos;4,0;0,0
+2019;atividade;0680;Petróleo e gás;82,0;0,09302325581395349
+2019;atividade;0791;Minério de ferro;211,0;0,0967741935483871
+2019;atividade;0792;Minerais metálicos não ferrosos;32,0;0,09523809523809523
+2019;atividade;1091;Carnes e laticínios;4951,0;0,020853698273053112
+2019;atividade;1092;Açúcar;23,0;0,05555555555555555
+2019;atividade;1093;Outros alimentos;5392,0;0,018094089264173704
+2019;atividade;1100;Bebidas;380,0;0,05803571428571429
+2019;atividade;1200;Fumo;987,0;0,049206349206349205
+2019;atividade;1300;Têxteis;849,0;0,024096385542168676
+2019;atividade;1400;Vestuário;503,0;0,034722222222222224
+2019;atividade;1500;Calçados e couro;810,0;0,015082956259426848
+2019;atividade;1600;Madeira;1699,0;0,09891808346213292
+2019;atividade;1700;Celulose e papel;14049,0;0,12544704264099038
+2019;atividade;1800;Impressão;1800,0;0,12034632034632034
+2019;atividade;1991;Refino de petróleo e coque;237,0;0,13076923076923078
+2019;atividade;1992;Biocombustíveis;74,0;0,10416666666666667
+2019;atividade;2091;Químicos e resinas;88,0;0,030303030303030304
+2019;atividade;2092;Tintas e químicos diversos;325,0;0,03723404255319149
+2019;atividade;2093;Limpeza e cosméticos;2213,0;0,012811867835468645
+2019;atividade;2100;Farmacêuticos;1295,0;0,017467248908296942
+2019;atividade;2200;Borracha e plástico;3318,0;0,0888529886914378
+2019;atividade;2300;Minerais não metálicos;2330,0;0,037586024351508734
+2019;atividade;2491;Siderurgia (ferro-gusa e aço);40,0;0,06451612903225806
+2019;atividade;2492;Metalurgia de não ferrosos e fundição;17,0;0,0
+2019;atividade;2500;Produtos de metal;1885,0;0,02482876712328767
+2019;atividade;2600;Informática e eletrônicos;1168,0;0,03544575725026853
+2019;atividade;2700;Máquinas e equipamentos elétricos;622,0;0,08184143222506395
+2019;atividade;2800;Máquinas e equipamentos mecânicos;195,0;0,08974358974358974
+2019;atividade;2991;Automóveis, caminhões e ônibus;564,0;0,11574074074074074
+2019;atividade;2992;Peças para veículos;1076,0;0,02866779089376054
+2019;atividade;3000;Outros equipamentos de transporte;67,0;0,04477611940298507
+2019;atividade;3180;Móveis e indústrias diversas;1393,0;0,07101947308132875
+2019;atividade;3300;Manutenção de máquinas;20,0;0,0
+2019;atividade;3500;Energia elétrica e gás;99,0;0,0625
+2019;atividade;3680;Água, esgoto e resíduos;86,0;0,12
+2019;atividade;4180;Construção;445,0;0,12056737588652482
+2019;atividade;4500;Comércio de veículos;923,0;0,07364565259302101
+2019;atividade;4680;Comércio atacadista e varejista;8576,0;0,07364565259302101
+2019;atividade;4900;Transporte terrestre;269,0;0,09859154929577464
+2019;atividade;5000;Transporte aquaviário;67,0;0,022222222222222223
+2019;atividade;5100;Transporte aéreo;21,0;0,0
+2019;atividade;5280;Armazenagem e correio;408,0;0,02390438247011952
+2019;atividade;5500;Alojamento;286,0;0,02824858757062147
+2019;atividade;5600;Alimentação;2004,0;0,030333670374115267
+2019;atividade;5800;Edição;1284,0;0,16883116883116883
+2019;atividade;5980;TV, rádio e cinema;195,0;0,18072289156626506
+2019;atividade;6100;Telecomunicações;44,0;0,08823529411764706
+2019;atividade;6280;Sistemas e informação;1066,0;0,1449814126394052
+2019;atividade;6480;Finanças e seguros;2247,0;0,1564945226917058
+2019;atividade;6800;Imobiliárias;488,0;0,18681318681318682
+2019;atividade;6980;Jurídico, contábil e consultoria;2439,0;0,12466367713004484
+2019;atividade;7180;Engenharia e P&D;597,0;0,16778523489932887
+2019;atividade;7380;Outras atividades técnicas;863,0;0,10644257703081232
+2019;atividade;7700;Aluguéis não imobiliários;796,0;0,16510903426791276
+2019;atividade;7880;Serviços administrativos;3480,0;0,13822525597269625
+2019;atividade;8000;Vigilância e segurança;57,0;0,06451612903225806
+2019;atividade;8400;Administração pública;1205,0;0,09965635738831616
+2019;atividade;8591;Educação pública;1097,0;0,10518731988472622
+2019;atividade;8592;Educação privada;765,0;0,15161290322580645
+2019;atividade;8691;Saúde pública;257,0;0,06666666666666667
+2019;atividade;8692;Saúde privada;1279,0;0,15191986644407346
+2019;atividade;9080;Artes e espetáculos;41,0;0,037037037037037035
+2019;atividade;9480;Associações e serviços pessoais;862,0;0,0954653937947494
+2019;demanda_final;exportacao;Exportação;8125,0;0,0
+2019;demanda_final;familias;Consumo das famílias;20712,0;0,023641357661369433
+2019;demanda_final;estoque;Variação de estoque;-1500,0;
+2020;atividade;0191;Agricultura;895,0;0,023148148148148147
+2020;atividade;0192;Pecuária;284,0;0,02040816326530612
+2020;atividade;0280;Florestal, pesca e aquicultura;32,0;0,0
+2020;atividade;0580;Carvão e minerais não metálicos;4,0;0,0
+2020;atividade;0680;Petróleo e gás;82,0;0,09302325581395349
+2020;atividade;0791;Minério de ferro;259,0;0,0967741935483871
+2020;atividade;0792;Minerais metálicos não ferrosos;46,0;0,09523809523809523
+2020;atividade;1091;Carnes e laticínios;6103,0;0,020853698273053112
+2020;atividade;1092;Açúcar;29,0;0,05555555555555555
+2020;atividade;1093;Outros alimentos;6632,0;0,018094089264173704
+2020;atividade;1100;Bebidas;430,0;0,05803571428571429
+2020;atividade;1200;Fumo;1159,0;0,049206349206349205
+2020;atividade;1300;Têxteis;958,0;0,024096385542168676
+2020;atividade;1400;Vestuário;518,0;0,034722222222222224
+2020;atividade;1500;Calçados e couro;769,0;0,015082956259426848
+2020;atividade;1600;Madeira;1944,0;0,09891808346213292
+2020;atividade;1700;Celulose e papel;15669,0;0,12544704264099038
+2020;atividade;1800;Impressão;1574,0;0,12034632034632034
+2020;atividade;1991;Refino de petróleo e coque;272,0;0,13076923076923078
+2020;atividade;1992;Biocombustíveis;84,0;0,10416666666666667
+2020;atividade;2091;Químicos e resinas;111,0;0,030303030303030304
+2020;atividade;2092;Tintas e químicos diversos;409,0;0,03723404255319149
+2020;atividade;2093;Limpeza e cosméticos;2748,0;0,012811867835468645
+2020;atividade;2100;Farmacêuticos;1653,0;0,017467248908296942
+2020;atividade;2200;Borracha e plástico;3478,0;0,0888529886914378
+2020;atividade;2300;Minerais não metálicos;2840,0;0,037586024351508734
+2020;atividade;2491;Siderurgia (ferro-gusa e aço);45,0;0,06451612903225806
+2020;atividade;2492;Metalurgia de não ferrosos e fundição;16,0;0,0
+2020;atividade;2500;Produtos de metal;2304,0;0,02482876712328767
+2020;atividade;2600;Informática e eletrônicos;1210,0;0,03544575725026853
+2020;atividade;2700;Máquinas e equipamentos elétricos;670,0;0,08184143222506395
+2020;atividade;2800;Máquinas e equipamentos mecânicos;201,0;0,08974358974358974
+2020;atividade;2991;Automóveis, caminhões e ônibus;420,0;0,11574074074074074
+2020;atividade;2992;Peças para veículos;1040,0;0,02866779089376054
+2020;atividade;3000;Outros equipamentos de transporte;67,0;0,04477611940298507
+2020;atividade;3180;Móveis e indústrias diversas;1541,0;0,07101947308132875
+2020;atividade;3300;Manutenção de máquinas;21,0;0,0
+2020;atividade;3500;Energia elétrica e gás;70,0;0,0625
+2020;atividade;3680;Água, esgoto e resíduos;91,0;0,12
+2020;atividade;4180;Construção;443,0;0,12056737588652482
+2020;atividade;4500;Comércio de veículos;879,0;0,07364565259302101
+2020;atividade;4680;Comércio atacadista e varejista;9688,0;0,07364565259302101
+2020;atividade;4900;Transporte terrestre;275,0;0,09859154929577464
+2020;atividade;5000;Transporte aquaviário;91,0;0,022222222222222223
+2020;atividade;5100;Transporte aéreo;12,0;0,0
+2020;atividade;5280;Armazenagem e correio;485,0;0,02390438247011952
+2020;atividade;5500;Alojamento;191,0;0,02824858757062147
+2020;atividade;5600;Alimentação;1768,0;0,030333670374115267
+2020;atividade;5800;Edição;1111,0;0,16883116883116883
+2020;atividade;5980;TV, rádio e cinema;168,0;0,18072289156626506
+2020;atividade;6100;Telecomunicações;40,0;0,08823529411764706
+2020;atividade;6280;Sistemas e informação;1221,0;0,1449814126394052
+2020;atividade;6480;Finanças e seguros;2201,0;0,1564945226917058
+2020;atividade;6800;Imobiliárias;463,0;0,18681318681318682
+2020;atividade;6980;Jurídico, contábil e consultoria;2436,0;0,12466367713004484
+2020;atividade;7180;Engenharia e P&D;636,0;0,16778523489932887
+2020;atividade;7380;Outras atividades técnicas;858,0;0,10644257703081232
+2020;atividade;7700;Aluguéis não imobiliários;779,0;0,16510903426791276
+2020;atividade;7880;Serviços administrativos;3303,0;0,13822525597269625
+2020;atividade;8000;Vigilância e segurança;65,0;0,06451612903225806
+2020;atividade;8400;Administração pública;1229,0;0,09965635738831616
+2020;atividade;8591;Educação pública;1104,0;0,10518731988472622
+2020;atividade;8592;Educação privada;775,0;0,15161290322580645
+2020;atividade;8691;Saúde pública;358,0;0,06666666666666667
+2020;atividade;8692;Saúde privada;1112,0;0,15191986644407346
+2020;atividade;9080;Artes e espetáculos;36,0;0,037037037037037035
+2020;atividade;9480;Associações e serviços pessoais;907,0;0,0954653937947494
+2020;demanda_final;exportacao;Exportação;9267,0;0,0
+2020;demanda_final;familias;Consumo das famílias;21748,0;0,023641357661369433
+2020;demanda_final;estoque;Variação de estoque;-1378,0;
+2021;atividade;0191;Agricultura;1084,0;0,023148148148148147
+2021;atividade;0192;Pecuária;353,0;0,02040816326530612
+2021;atividade;0280;Florestal, pesca e aquicultura;40,0;0,0
+2021;atividade;0580;Carvão e minerais não metálicos;4,0;0,0
+2021;atividade;0680;Petróleo e gás;107,0;0,09302325581395349
+2021;atividade;0791;Minério de ferro;465,0;0,0967741935483871
+2021;atividade;0792;Minerais metálicos não ferrosos;51,0;0,09523809523809523
+2021;atividade;1091;Carnes e laticínios;7890,0;0,020853698273053112
+2021;atividade;1092;Açúcar;44,0;0,05555555555555555
+2021;atividade;1093;Outros alimentos;8763,0;0,018094089264173704
+2021;atividade;1100;Bebidas;511,0;0,05803571428571429
+2021;atividade;1200;Fumo;1746,0;0,049206349206349205
+2021;atividade;1300;Têxteis;1416,0;0,024096385542168676
+2021;atividade;1400;Vestuário;692,0;0,034722222222222224
+2021;atividade;1500;Calçados e couro;1211,0;0,015082956259426848
+2021;atividade;1600;Madeira;3734,0;0,09891808346213292
+2021;atividade;1700;Celulose e papel;22115,0;0,12544704264099038
+2021;atividade;1800;Impressão;2517,0;0,12034632034632034
+2021;atividade;1991;Refino de petróleo e coque;358,0;0,13076923076923078
+2021;atividade;1992;Biocombustíveis;198,0;0,10416666666666667
+2021;atividade;2091;Químicos e resinas;161,0;0,030303030303030304
+2021;atividade;2092;Tintas e químicos diversos;450,0;0,03723404255319149
+2021;atividade;2093;Limpeza e cosméticos;3510,0;0,012811867835468645
+2021;atividade;2100;Farmacêuticos;2138,0;0,017467248908296942
+2021;atividade;2200;Borracha e plástico;5468,0;0,0888529886914378
+2021;atividade;2300;Minerais não metálicos;4565,0;0,037586024351508734
+2021;atividade;2491;Siderurgia (ferro-gusa e aço);54,0;0,06451612903225806
+2021;atividade;2492;Metalurgia de não ferrosos e fundição;18,0;0,0
+2021;atividade;2500;Produtos de metal;3058,0;0,02482876712328767
+2021;atividade;2600;Informática e eletrônicos;1609,0;0,03544575725026853
+2021;atividade;2700;Máquinas e equipamentos elétricos;826,0;0,08184143222506395
+2021;atividade;2800;Máquinas e equipamentos mecânicos;291,0;0,08974358974358974
+2021;atividade;2991;Automóveis, caminhões e ônibus;693,0;0,11574074074074074
+2021;atividade;2992;Peças para veículos;1521,0;0,02866779089376054
+2021;atividade;3000;Outros equipamentos de transporte;94,0;0,04477611940298507
+2021;atividade;3180;Móveis e indústrias diversas;2202,0;0,07101947308132875
+2021;atividade;3300;Manutenção de máquinas;24,0;0,0
+2021;atividade;3500;Energia elétrica e gás;63,0;0,0625
+2021;atividade;3680;Água, esgoto e resíduos;92,0;0,12
+2021;atividade;4180;Construção;554,0;0,12056737588652482
+2021;atividade;4500;Comércio de veículos;1263,0;0,07364565259302101
+2021;atividade;4680;Comércio atacadista e varejista;12750,0;0,07364565259302101
+2021;atividade;4900;Transporte terrestre;341,0;0,09859154929577464
+2021;atividade;5000;Transporte aquaviário;122,0;0,022222222222222223
+2021;atividade;5100;Transporte aéreo;17,0;0,0
+2021;atividade;5280;Armazenagem e correio;763,0;0,02390438247011952
+2021;atividade;5500;Alojamento;291,0;0,02824858757062147
+2021;atividade;5600;Alimentação;2375,0;0,030333670374115267
+2021;atividade;5800;Edição;1536,0;0,16883116883116883
+2021;atividade;5980;TV, rádio e cinema;245,0;0,18072289156626506
+2021;atividade;6100;Telecomunicações;53,0;0,08823529411764706
+2021;atividade;6280;Sistemas e informação;1850,0;0,1449814126394052
+2021;atividade;6480;Finanças e seguros;2732,0;0,1564945226917058
+2021;atividade;6800;Imobiliárias;556,0;0,18681318681318682
+2021;atividade;6980;Jurídico, contábil e consultoria;3100,0;0,12466367713004484
+2021;atividade;7180;Engenharia e P&D;850,0;0,16778523489932887
+2021;atividade;7380;Outras atividades técnicas;1354,0;0,10644257703081232
+2021;atividade;7700;Aluguéis não imobiliários;1109,0;0,16510903426791276
+2021;atividade;7880;Serviços administrativos;4839,0;0,13822525597269625
+2021;atividade;8000;Vigilância e segurança;83,0;0,06451612903225806
+2021;atividade;8400;Administração pública;1515,0;0,09965635738831616
+2021;atividade;8591;Educação pública;1211,0;0,10518731988472622
+2021;atividade;8592;Educação privada;1040,0;0,15161290322580645
+2021;atividade;8691;Saúde pública;390,0;0,06666666666666667
+2021;atividade;8692;Saúde privada;1393,0;0,15191986644407346
+2021;atividade;9080;Artes e espetáculos;42,0;0,037037037037037035
+2021;atividade;9480;Associações e serviços pessoais;1087,0;0,0954653937947494
+2021;demanda_final;exportacao;Exportação;10595,0;0,0
+2021;demanda_final;familias;Consumo das famílias;24191,0;0,023641357661369433
+2021;demanda_final;estoque;Variação de estoque;-99,0;

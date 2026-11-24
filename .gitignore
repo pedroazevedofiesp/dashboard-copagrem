@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+
+# Credenciais e pastas de coleta (scripts R, planilhas brutas, chaves de API)
+# nunca sobem pro repositório público do site. Ficam fora desta pasta, mas
+# a regra fica aqui como proteção caso alguém copie algo para cá.
+.Renviron
+.env
+Setor */
+
+# Gerado pelo CI a cada publicação (build_data.py e build_downloads.py).
+# O GitHub Pages publica via Actions, então não precisa estar no repositório.
+data/

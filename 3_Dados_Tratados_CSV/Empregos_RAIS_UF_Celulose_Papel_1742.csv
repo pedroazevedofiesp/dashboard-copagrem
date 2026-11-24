@@ -1,0 +1,488 @@
+"Ano";"UF";"Estabelecimentos";"Vinculos"
+2006;"11 - Rondônia";2;7
+2006;"12 - Acre";1;25
+2006;"13 - Amazonas";2;400
+2006;"15 - Pará";2;0
+2006;"21 - Maranhão";1;2
+2006;"23 - Ceará";2;10
+2006;"24 - Rio Grande do Norte";1;10
+2006;"25 - Paraíba";2;24
+2006;"26 - Pernambuco";12;80
+2006;"27 - Alagoas";2;1
+2006;"28 - Sergipe";1;71
+2006;"29 - Bahia";12;213
+2006;"31 - Minas Gerais";29;549
+2006;"32 - Espírito Santo";3;15
+2006;"33 - Rio de Janeiro";23;1592
+2006;"35 - São Paulo";120;9317
+2006;"41 - Paraná";29;739
+2006;"42 - Santa Catarina";37;558
+2006;"43 - Rio Grande do Sul";41;595
+2006;"50 - Mato Grosso do Sul";4;130
+2006;"51 - Mato Grosso";1;2
+2006;"52 - Goiás";8;613
+2006;"53 - Distrito Federal";1;1
+2006;"Total";336;14954
+2007;"11 - Rondônia";2;10
+2007;"12 - Acre";2;31
+2007;"13 - Amazonas";3;418
+2007;"17 - Tocantins";1;3
+2007;"21 - Maranhão";2;6
+2007;"23 - Ceará";4;48
+2007;"24 - Rio Grande do Norte";1;18
+2007;"25 - Paraíba";2;17
+2007;"26 - Pernambuco";9;242
+2007;"28 - Sergipe";1;74
+2007;"29 - Bahia";13;186
+2007;"31 - Minas Gerais";28;675
+2007;"32 - Espírito Santo";3;8
+2007;"33 - Rio de Janeiro";19;1438
+2007;"35 - São Paulo";119;9732
+2007;"41 - Paraná";31;796
+2007;"42 - Santa Catarina";44;943
+2007;"43 - Rio Grande do Sul";38;608
+2007;"50 - Mato Grosso do Sul";3;16
+2007;"51 - Mato Grosso";1;14
+2007;"52 - Goiás";6;587
+2007;"53 - Distrito Federal";1;4
+2007;"Total";333;15874
+2008;"11 - Rondônia";2;22
+2008;"12 - Acre";1;30
+2008;"13 - Amazonas";3;371
+2008;"17 - Tocantins";1;3
+2008;"21 - Maranhão";2;2
+2008;"22 - Piauí";1;3
+2008;"23 - Ceará";5;21
+2008;"24 - Rio Grande do Norte";1;16
+2008;"25 - Paraíba";3;357
+2008;"26 - Pernambuco";12;609
+2008;"28 - Sergipe";2;77
+2008;"29 - Bahia";17;383
+2008;"31 - Minas Gerais";26;679
+2008;"32 - Espírito Santo";6;10
+2008;"33 - Rio de Janeiro";23;1429
+2008;"35 - São Paulo";121;9486
+2008;"41 - Paraná";31;911
+2008;"42 - Santa Catarina";36;900
+2008;"43 - Rio Grande do Sul";35;649
+2008;"50 - Mato Grosso do Sul";2;4
+2008;"51 - Mato Grosso";3;13
+2008;"52 - Goiás";9;791
+2008;"Total";342;16766
+2009;"11 - Rondônia";3;26
+2009;"12 - Acre";1;30
+2009;"13 - Amazonas";1;102
+2009;"17 - Tocantins";1;0
+2009;"21 - Maranhão";2;6
+2009;"22 - Piauí";4;5
+2009;"23 - Ceará";4;89
+2009;"24 - Rio Grande do Norte";1;18
+2009;"25 - Paraíba";4;341
+2009;"26 - Pernambuco";9;671
+2009;"27 - Alagoas";1;48
+2009;"28 - Sergipe";2;81
+2009;"29 - Bahia";19;432
+2009;"31 - Minas Gerais";28;719
+2009;"32 - Espírito Santo";6;28
+2009;"33 - Rio de Janeiro";24;1813
+2009;"35 - São Paulo";120;11190
+2009;"41 - Paraná";38;1189
+2009;"42 - Santa Catarina";31;1542
+2009;"43 - Rio Grande do Sul";39;649
+2009;"50 - Mato Grosso do Sul";1;0
+2009;"51 - Mato Grosso";4;11
+2009;"52 - Goiás";11;906
+2009;"Total";354;19896
+2010;"11 - Rondônia";3;28
+2010;"12 - Acre";1;33
+2010;"13 - Amazonas";1;126
+2010;"15 - Pará";1;2
+2010;"21 - Maranhão";4;7
+2010;"22 - Piauí";2;11
+2010;"23 - Ceará";5;116
+2010;"24 - Rio Grande do Norte";3;20
+2010;"25 - Paraíba";4;348
+2010;"26 - Pernambuco";13;875
+2010;"27 - Alagoas";2;63
+2010;"28 - Sergipe";2;98
+2010;"29 - Bahia";21;463
+2010;"31 - Minas Gerais";28;771
+2010;"32 - Espírito Santo";4;35
+2010;"33 - Rio de Janeiro";22;1877
+2010;"35 - São Paulo";112;11818
+2010;"41 - Paraná";43;1293
+2010;"42 - Santa Catarina";31;1491
+2010;"43 - Rio Grande do Sul";40;754
+2010;"50 - Mato Grosso do Sul";2;6
+2010;"51 - Mato Grosso";3;7
+2010;"52 - Goiás";11;822
+2010;"Total";358;21064
+2011;"11 - Rondônia";4;37
+2011;"12 - Acre";1;30
+2011;"15 - Pará";1;10
+2011;"21 - Maranhão";3;6
+2011;"22 - Piauí";3;24
+2011;"23 - Ceará";8;138
+2011;"24 - Rio Grande do Norte";3;57
+2011;"25 - Paraíba";3;92
+2011;"26 - Pernambuco";11;698
+2011;"27 - Alagoas";5;75
+2011;"28 - Sergipe";2;97
+2011;"29 - Bahia";21;506
+2011;"31 - Minas Gerais";32;692
+2011;"32 - Espírito Santo";5;11
+2011;"33 - Rio de Janeiro";25;1973
+2011;"35 - São Paulo";108;10607
+2011;"41 - Paraná";43;1571
+2011;"42 - Santa Catarina";36;775
+2011;"43 - Rio Grande do Sul";42;780
+2011;"50 - Mato Grosso do Sul";4;9
+2011;"51 - Mato Grosso";4;20
+2011;"52 - Goiás";15;1186
+2011;"Total";379;19394
+2012;"11 - Rondônia";2;50
+2012;"13 - Amazonas";1;31
+2012;"15 - Pará";1;10
+2012;"17 - Tocantins";1;4
+2012;"21 - Maranhão";2;3
+2012;"22 - Piauí";3;38
+2012;"23 - Ceará";6;144
+2012;"24 - Rio Grande do Norte";3;79
+2012;"25 - Paraíba";5;63
+2012;"26 - Pernambuco";11;739
+2012;"27 - Alagoas";5;69
+2012;"28 - Sergipe";3;112
+2012;"29 - Bahia";21;590
+2012;"31 - Minas Gerais";37;789
+2012;"32 - Espírito Santo";4;18
+2012;"33 - Rio de Janeiro";23;1516
+2012;"35 - São Paulo";105;10639
+2012;"41 - Paraná";35;1741
+2012;"42 - Santa Catarina";42;619
+2012;"43 - Rio Grande do Sul";42;759
+2012;"50 - Mato Grosso do Sul";2;1
+2012;"51 - Mato Grosso";2;16
+2012;"52 - Goiás";13;2240
+2012;"Total";369;20270
+2013;"11 - Rondônia";2;60
+2013;"13 - Amazonas";1;30
+2013;"15 - Pará";1;8
+2013;"17 - Tocantins";2;0
+2013;"21 - Maranhão";2;4
+2013;"22 - Piauí";3;42
+2013;"23 - Ceará";5;96
+2013;"24 - Rio Grande do Norte";3;79
+2013;"25 - Paraíba";5;134
+2013;"26 - Pernambuco";11;620
+2013;"27 - Alagoas";6;70
+2013;"28 - Sergipe";4;137
+2013;"29 - Bahia";20;891
+2013;"31 - Minas Gerais";33;792
+2013;"32 - Espírito Santo";5;8
+2013;"33 - Rio de Janeiro";24;1127
+2013;"35 - São Paulo";115;10669
+2013;"41 - Paraná";37;2306
+2013;"42 - Santa Catarina";44;968
+2013;"43 - Rio Grande do Sul";54;856
+2013;"50 - Mato Grosso do Sul";1;2
+2013;"51 - Mato Grosso";3;64
+2013;"52 - Goiás";12;3071
+2013;"Total";393;22034
+2014;"11 - Rondônia";1;9
+2014;"13 - Amazonas";1;44
+2014;"15 - Pará";2;10
+2014;"21 - Maranhão";4;15
+2014;"22 - Piauí";2;48
+2014;"23 - Ceará";6;74
+2014;"24 - Rio Grande do Norte";4;112
+2014;"25 - Paraíba";6;71
+2014;"26 - Pernambuco";16;417
+2014;"27 - Alagoas";4;72
+2014;"28 - Sergipe";5;142
+2014;"29 - Bahia";23;961
+2014;"31 - Minas Gerais";34;946
+2014;"32 - Espírito Santo";6;13
+2014;"33 - Rio de Janeiro";23;952
+2014;"35 - São Paulo";128;10131
+2014;"41 - Paraná";41;2134
+2014;"42 - Santa Catarina";48;993
+2014;"43 - Rio Grande do Sul";57;892
+2014;"50 - Mato Grosso do Sul";2;6
+2014;"51 - Mato Grosso";2;52
+2014;"52 - Goiás";12;3317
+2014;"Total";427;21411
+2015;"11 - Rondônia";3;15
+2015;"13 - Amazonas";3;55
+2015;"15 - Pará";2;9
+2015;"21 - Maranhão";3;5
+2015;"22 - Piauí";2;46
+2015;"23 - Ceará";4;93
+2015;"24 - Rio Grande do Norte";5;114
+2015;"25 - Paraíba";6;65
+2015;"26 - Pernambuco";12;391
+2015;"27 - Alagoas";1;68
+2015;"28 - Sergipe";5;117
+2015;"29 - Bahia";25;1012
+2015;"31 - Minas Gerais";36;1006
+2015;"32 - Espírito Santo";5;19
+2015;"33 - Rio de Janeiro";24;885
+2015;"35 - São Paulo";123;10865
+2015;"41 - Paraná";41;2212
+2015;"42 - Santa Catarina";46;993
+2015;"43 - Rio Grande do Sul";57;913
+2015;"50 - Mato Grosso do Sul";3;8
+2015;"51 - Mato Grosso";3;48
+2015;"52 - Goiás";18;2904
+2015;"53 - Distrito Federal";1;4
+2015;"Total";428;21847
+2016;"11 - Rondônia";4;16
+2016;"13 - Amazonas";3;65
+2016;"15 - Pará";3;15
+2016;"21 - Maranhão";3;25
+2016;"22 - Piauí";2;52
+2016;"23 - Ceará";4;65
+2016;"24 - Rio Grande do Norte";4;136
+2016;"25 - Paraíba";7;108
+2016;"26 - Pernambuco";18;366
+2016;"27 - Alagoas";1;69
+2016;"28 - Sergipe";7;129
+2016;"29 - Bahia";24;1062
+2016;"31 - Minas Gerais";36;918
+2016;"32 - Espírito Santo";5;16
+2016;"33 - Rio de Janeiro";22;400
+2016;"35 - São Paulo";120;10515
+2016;"41 - Paraná";50;2263
+2016;"42 - Santa Catarina";47;992
+2016;"43 - Rio Grande do Sul";50;964
+2016;"50 - Mato Grosso do Sul";1;7
+2016;"51 - Mato Grosso";4;70
+2016;"52 - Goiás";20;1819
+2016;"53 - Distrito Federal";1;5
+2016;"Total";436;20077
+2017;"11 - Rondônia";3;16
+2017;"13 - Amazonas";2;73
+2017;"15 - Pará";1;14
+2017;"17 - Tocantins";1;1
+2017;"21 - Maranhão";1;11
+2017;"22 - Piauí";2;50
+2017;"23 - Ceará";4;82
+2017;"24 - Rio Grande do Norte";5;115
+2017;"25 - Paraíba";7;116
+2017;"26 - Pernambuco";19;454
+2017;"27 - Alagoas";1;63
+2017;"28 - Sergipe";5;135
+2017;"29 - Bahia";24;1154
+2017;"31 - Minas Gerais";38;1003
+2017;"32 - Espírito Santo";5;23
+2017;"33 - Rio de Janeiro";22;405
+2017;"35 - São Paulo";119;8196
+2017;"41 - Paraná";51;2326
+2017;"42 - Santa Catarina";49;1005
+2017;"43 - Rio Grande do Sul";60;901
+2017;"50 - Mato Grosso do Sul";2;3
+2017;"51 - Mato Grosso";5;70
+2017;"52 - Goiás";16;1792
+2017;"53 - Distrito Federal";2;2
+2017;"Total";444;18010
+2018;"11 - Rondônia";3;22
+2018;"13 - Amazonas";3;104
+2018;"15 - Pará";2;16
+2018;"21 - Maranhão";1;19
+2018;"22 - Piauí";3;48
+2018;"23 - Ceará";3;114
+2018;"24 - Rio Grande do Norte";4;114
+2018;"25 - Paraíba";7;104
+2018;"26 - Pernambuco";18;383
+2018;"27 - Alagoas";3;58
+2018;"28 - Sergipe";5;167
+2018;"29 - Bahia";24;1284
+2018;"31 - Minas Gerais";44;1085
+2018;"32 - Espírito Santo";5;23
+2018;"33 - Rio de Janeiro";27;444
+2018;"35 - São Paulo";120;6804
+2018;"41 - Paraná";56;2441
+2018;"42 - Santa Catarina";59;1222
+2018;"43 - Rio Grande do Sul";59;833
+2018;"50 - Mato Grosso do Sul";4;12
+2018;"51 - Mato Grosso";6;68
+2018;"52 - Goiás";16;1251
+2018;"53 - Distrito Federal";3;7
+2018;"Total";475;16623
+2019;"11 - Rondônia";2;11
+2019;"13 - Amazonas";4;119
+2019;"15 - Pará";2;13
+2019;"21 - Maranhão";2;17
+2019;"22 - Piauí";4;62
+2019;"23 - Ceará";5;156
+2019;"24 - Rio Grande do Norte";4;117
+2019;"25 - Paraíba";8;96
+2019;"26 - Pernambuco";14;346
+2019;"27 - Alagoas";8;69
+2019;"28 - Sergipe";4;184
+2019;"29 - Bahia";30;1283
+2019;"31 - Minas Gerais";41;1010
+2019;"32 - Espírito Santo";5;44
+2019;"33 - Rio de Janeiro";26;449
+2019;"35 - São Paulo";118;8652
+2019;"41 - Paraná";59;2753
+2019;"42 - Santa Catarina";55;2523
+2019;"43 - Rio Grande do Sul";52;640
+2019;"50 - Mato Grosso do Sul";5;128
+2019;"51 - Mato Grosso";6;57
+2019;"52 - Goiás";15;1162
+2019;"53 - Distrito Federal";2;8
+2019;"Total";471;19899
+2020;"11 - Rondônia";5;41
+2020;"13 - Amazonas";3;148
+2020;"14 - Roraima";1;12
+2020;"15 - Pará";2;27
+2020;"21 - Maranhão";1;17
+2020;"22 - Piauí";5;71
+2020;"23 - Ceará";7;232
+2020;"24 - Rio Grande do Norte";4;123
+2020;"25 - Paraíba";8;65
+2020;"26 - Pernambuco";18;323
+2020;"27 - Alagoas";10;88
+2020;"28 - Sergipe";4;185
+2020;"29 - Bahia";28;1429
+2020;"31 - Minas Gerais";41;990
+2020;"32 - Espírito Santo";4;104
+2020;"33 - Rio de Janeiro";25;505
+2020;"35 - São Paulo";108;8727
+2020;"41 - Paraná";58;2777
+2020;"42 - Santa Catarina";58;2539
+2020;"43 - Rio Grande do Sul";55;649
+2020;"50 - Mato Grosso do Sul";6;196
+2020;"51 - Mato Grosso";5;49
+2020;"52 - Goiás";18;1064
+2020;"53 - Distrito Federal";2;1
+2020;"Total";476;20362
+2021;"11 - Rondônia";4;38
+2021;"13 - Amazonas";5;231
+2021;"14 - Roraima";1;7
+2021;"15 - Pará";4;42
+2021;"21 - Maranhão";3;16
+2021;"22 - Piauí";6;44
+2021;"23 - Ceará";8;322
+2021;"24 - Rio Grande do Norte";5;130
+2021;"25 - Paraíba";8;40
+2021;"26 - Pernambuco";17;475
+2021;"27 - Alagoas";8;121
+2021;"28 - Sergipe";5;170
+2021;"29 - Bahia";32;1536
+2021;"31 - Minas Gerais";42;1078
+2021;"32 - Espírito Santo";7;134
+2021;"33 - Rio de Janeiro";25;523
+2021;"35 - São Paulo";113;8785
+2021;"41 - Paraná";63;2810
+2021;"42 - Santa Catarina";62;2282
+2021;"43 - Rio Grande do Sul";52;567
+2021;"50 - Mato Grosso do Sul";6;133
+2021;"51 - Mato Grosso";6;60
+2021;"52 - Goiás";18;976
+2021;"53 - Distrito Federal";1;1
+2021;"Total";501;20521
+2022;"11 - Rondônia";4;42
+2022;"13 - Amazonas";5;252
+2022;"15 - Pará";8;56
+2022;"17 - Tocantins";1;5
+2022;"21 - Maranhão";7;122
+2022;"22 - Piauí";6;37
+2022;"23 - Ceará";8;293
+2022;"24 - Rio Grande do Norte";5;112
+2022;"25 - Paraíba";10;46
+2022;"26 - Pernambuco";23;417
+2022;"27 - Alagoas";8;81
+2022;"28 - Sergipe";6;130
+2022;"29 - Bahia";29;1530
+2022;"31 - Minas Gerais";49;1253
+2022;"32 - Espírito Santo";7;121
+2022;"33 - Rio de Janeiro";30;695
+2022;"35 - São Paulo";135;9307
+2022;"41 - Paraná";64;3048
+2022;"42 - Santa Catarina";57;2499
+2022;"43 - Rio Grande do Sul";60;603
+2022;"50 - Mato Grosso do Sul";3;107
+2022;"51 - Mato Grosso";6;60
+2022;"52 - Goiás";17;881
+2022;"53 - Distrito Federal";4;6
+2022;"Total";552;21703
+2023;"11 - Rondônia";4;38
+2023;"13 - Amazonas";5;193
+2023;"15 - Pará";8;53
+2023;"17 - Tocantins";1;5
+2023;"21 - Maranhão";4;14
+2023;"22 - Piauí";9;43
+2023;"23 - Ceará";9;365
+2023;"24 - Rio Grande do Norte";5;96
+2023;"25 - Paraíba";7;51
+2023;"26 - Pernambuco";20;420
+2023;"27 - Alagoas";4;84
+2023;"28 - Sergipe";5;140
+2023;"29 - Bahia";30;1535
+2023;"31 - Minas Gerais";50;1400
+2023;"32 - Espírito Santo";5;124
+2023;"33 - Rio de Janeiro";31;795
+2023;"35 - São Paulo";138;8934
+2023;"41 - Paraná";62;3304
+2023;"42 - Santa Catarina";59;2652
+2023;"43 - Rio Grande do Sul";54;604
+2023;"50 - Mato Grosso do Sul";3;13
+2023;"51 - Mato Grosso";6;72
+2023;"52 - Goiás";18;942
+2023;"53 - Distrito Federal";4;7
+2023;"Total";541;21884
+2024;"11 - Rondônia";4;42
+2024;"12 - Acre";1;1
+2024;"13 - Amazonas";4;219
+2024;"15 - Pará";8;59
+2024;"16 - Amapá";1;5
+2024;"17 - Tocantins";1;7
+2024;"21 - Maranhão";5;17
+2024;"22 - Piauí";8;42
+2024;"23 - Ceará";7;391
+2024;"24 - Rio Grande do Norte";6;98
+2024;"25 - Paraíba";7;67
+2024;"26 - Pernambuco";19;421
+2024;"27 - Alagoas";5;97
+2024;"28 - Sergipe";8;151
+2024;"29 - Bahia";30;1590
+2024;"31 - Minas Gerais";57;1639
+2024;"32 - Espírito Santo";5;123
+2024;"33 - Rio de Janeiro";39;875
+2024;"35 - São Paulo";138;8921
+2024;"41 - Paraná";68;3589
+2024;"42 - Santa Catarina";61;2751
+2024;"43 - Rio Grande do Sul";54;663
+2024;"50 - Mato Grosso do Sul";3;4
+2024;"51 - Mato Grosso";5;49
+2024;"52 - Goiás";20;883
+2024;"53 - Distrito Federal";3;4
+2024;"Total";567;22708
+2025;"11 - Rondônia";4;50
+2025;"12 - Acre";1;1
+2025;"13 - Amazonas";6;253
+2025;"15 - Pará";9;67
+2025;"16 - Amapá";1;5
+2025;"17 - Tocantins";1;10
+2025;"21 - Maranhão";5;18
+2025;"22 - Piauí";8;37
+2025;"23 - Ceará";9;446
+2025;"24 - Rio Grande do Norte";5;117
+2025;"25 - Paraíba";7;57
+2025;"26 - Pernambuco";22;467
+2025;"27 - Alagoas";4;91
+2025;"28 - Sergipe";8;144
+2025;"29 - Bahia";29;1643
+2025;"31 - Minas Gerais";57;1597
+2025;"32 - Espírito Santo";5;109
+2025;"33 - Rio de Janeiro";42;864
+2025;"35 - São Paulo";147;9234
+2025;"41 - Paraná";63;3970
+2025;"42 - Santa Catarina";64;2899
+2025;"43 - Rio Grande do Sul";54;648
+2025;"50 - Mato Grosso do Sul";2;4
+2025;"51 - Mato Grosso";3;16
+2025;"52 - Goiás";18;950
+2025;"53 - Distrito Federal";2;4
+2025;"Total";576;23701
