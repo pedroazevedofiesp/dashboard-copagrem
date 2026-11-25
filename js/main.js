@@ -1355,11 +1355,22 @@
   // a indústria de transformação no município (RAIS), no estado (CEMPRE) e
   // no Brasil (CEMPRE e PIA). Nada é gravado nem enviado: tudo no navegador.
   // ---------------------------------------------------------------------
-  const emp = { uf: null, mun: '', func: '', sal: '', fat: '', exp: '', custos: '', inv: '' };
+  // Aba própria (#empresa-view), com seletor de segmento independente do simulador.
+  const emp = { seg: null, uf: null, mun: '', func: '', sal: '', fat: '', exp: '', custos: '', inv: '' };
 
   function setupEmpresa() {
     const box = $('#cen-empresa-form');
     if (!box) return;
+    const sel = $('#emp-seg-select');
+    emp.seg = state.sector;
+    sel.innerHTML = opcoesSegmento(setores());
+    sel.value = emp.seg;
+    sel.addEventListener('change', async e => {
+      const seg = e.target.value;
+      await carregarSetor(seg);
+      emp.seg = seg;
+      renderEmpresa(false);
+    });
     box.addEventListener('input', e => {
       const k = e.target.dataset.campo;
       if (!k) return;
@@ -1371,13 +1382,13 @@
   function renderEmpresa(refazForm) {
     const box = $('#cen-empresa-form');
     if (!box) return;
-    const sd = state.data.sectors[cen.seg];
+    const sd = state.data.sectors[emp.seg];
     const mun = sd.municipios, ce = sd.cempre;
     if (!mun || !ce) { box.innerHTML = '<div class="empty-note">Sem dados para este segmento.</div>'; $('#cen-empresa-res').innerHTML = ''; return; }
     const ufsCod = [...new Set(mun.itens.map(x => x.uf))].sort((a, b) => (NOME_UF[SIGLA_POR_COD[a]] || a).localeCompare(NOME_UF[SIGLA_POR_COD[b]] || b));
     if (!emp.uf || !ufsCod.includes(emp.uf)) { emp.uf = ufsCod.includes('35') ? '35' : ufsCod[0]; emp.mun = ''; refazForm = true; }
     const muns = mun.itens.filter(x => x.uf === emp.uf).sort((a, b) => a.nome.localeCompare(b.nome));
-    if (refazForm || !box.dataset.pronto || box.dataset.seg !== cen.seg) {
+    if (refazForm || !box.dataset.pronto || box.dataset.seg !== emp.seg) {
       box.innerHTML = `
         <label class="emp-campo"><span>Estado</span><select data-campo="uf">${ufsCod.map(c => `<option value="${c}"${c === emp.uf ? ' selected' : ''}>${NOME_UF[SIGLA_POR_COD[c]] || c}</option>`).join('')}</select></label>
         <label class="emp-campo"><span>Município</span><select data-campo="mun"><option value="">(não informar)</option>${muns.map(m => `<option value="${m.id}"${m.id === emp.mun ? ' selected' : ''}>${m.nome}</option>`).join('')}</select></label>
@@ -1389,14 +1400,14 @@
         <label class="emp-campo"><span>Exportação anual (US$, opcional)</span><input type="number" min="0" step="10000" inputmode="decimal" data-campo="exp" value="${emp.exp}" placeholder="ex.: 500000"></label>
         <p class="emp-privado">🔒 Os valores ficam só no seu navegador: nada é salvo nem enviado.</p>`;
       box.dataset.pronto = '1';
-      box.dataset.seg = cen.seg;
+      box.dataset.seg = emp.seg;
     }
     const m = muns.find(x => x.id === emp.mun);
     const sigla = SIGLA_POR_COD[emp.uf];
     const ceUf = ce.uf_ultimo_ano.find(x => x.uf === emp.uf), ceInd = ce.ind_transformacao_uf_ultimo_ano.find(x => x.uf === emp.uf);
     const ceBr = ce.brasil[ce.brasil.length - 1];
     const ind = shared().financeiro.indicadores;
-    const pia = ind && ind.serie ? ind.serie.filter(r => r.recorte === cen.seg).sort((a, b) => b.ano - a.ano)[0] : null;
+    const pia = ind && ind.serie ? ind.serie.filter(r => r.recorte === emp.seg).sort((a, b) => b.ano - a.ano)[0] : null;
     const piaInd = ind && ind.serie ? ind.serie.filter(r => r.recorte === 'ind_transformacao').sort((a, b) => b.ano - a.ano)[0] : null;
     const func = +emp.func || null, sal = +emp.sal || null, fat = +emp.fat || null;
     const tam = (v, e) => v && e ? v / e : null;
@@ -1540,7 +1551,6 @@
     if (cen.aba === 'china') cenChina();
     if (cen.aba === 'cambio') cenCambio();
     if (cen.aba === 'demanda') cenDemanda();
-    if (cen.aba === 'empresa') renderEmpresa(false);
   }
 
   function setupCenarios() {
@@ -1577,7 +1587,6 @@
       cen.resp[i.dataset.cen][i.dataset.q] = i.value;
       renderCenarios();
     });
-    setupEmpresa();
     renderCenarios();
   }
 
@@ -3349,7 +3358,7 @@
 
   // Faixa vermelha do topo: título fixo + vista atual e data de atualização,
   // pra quem rola a página saber onde está e de quando é o dado.
-  const VIEW_LABELS = { home: 'Painel Executivo', diagnostico: 'Diagnóstico Setorial', simulador: 'Simulador de cenários', cadeia: 'Cadeia Produtiva', 'energia-industrial': 'Energia Industrial', relatorios: 'Relatórios', referencias: 'Referências' };
+  const VIEW_LABELS = { home: 'Painel Executivo', diagnostico: 'Diagnóstico Setorial', simulador: 'Simulador de cenários', empresa: 'Compare sua empresa', cadeia: 'Cadeia Produtiva', 'energia-industrial': 'Energia Industrial', relatorios: 'Relatórios', referencias: 'Referências' };
   function updateHeaderMeta() {
     const vista = isSectorView(state.view) ? rotuloCnae(state.view) : (VIEW_LABELS[state.view] || '');
     const atualizado = state.data.meta.gerado_em ? 'Painel publicado em ' + formatDataBr(state.data.meta.gerado_em) : '';
@@ -3370,6 +3379,7 @@
     const cadeiaView = $('#cadeia-view');
     const diagnosticoView = $('#diagnostico-view');
     const simuladorView = $('#simulador-view');
+    const empresaView = $('#empresa-view');
     const relatoriosView = $('#relatorios-view');
     const referenciasView = $('#referencias-view');
 
@@ -3383,6 +3393,7 @@
       cadeiaView.hidden = state.view !== 'cadeia';
       diagnosticoView.hidden = state.view !== 'diagnostico';
       simuladorView.hidden = state.view !== 'simulador';
+      empresaView.hidden = state.view !== 'empresa';
       // O PDF (5,8 MB) só carrega quando a aba é aberta pela primeira vez.
       const pdf = $('#diagnostico-pdf');
       if (state.view === 'diagnostico' && !pdf.getAttribute('src')) pdf.setAttribute('src', pdf.dataset.src);
@@ -3537,6 +3548,7 @@
   const EXEC_OUTRAS_SECOES = [
     { view: 'diagnostico', title: 'Diagnóstico Setorial', sub: 'Apresentação completa do planejamento estratégico do setor (DECOMTEC - FIESP, 2026).' },
     { view: 'simulador', title: 'Simulador de cenários', sub: 'Escolha o que acha que vai acontecer com a China, o câmbio e a demanda, e veja aonde isso leva o setor.' },
+    { view: 'empresa', title: 'Compare sua empresa', sub: 'Informe porte, salário e faturamento e veja como sua empresa se compara à média do setor.' },
     { view: 'cadeia', title: 'Cadeia Produtiva', sub: 'De onde vêm os insumos do papel e para quem ele vai (IBGE).' },
     { view: 'energia-industrial', title: 'Energia Industrial', sub: 'Consumo e custo de energia na indústria, por estado.' },
     { view: 'relatorios', title: 'Relatórios', sub: 'Em construção.' },
@@ -3884,6 +3896,8 @@
       renderEnergiaIndustrial(data);
       renderCadeia(data);
       setupCenarios();
+      setupEmpresa();
+      renderEmpresa(true);
       renderAll();
       initSectionCaptions();
       setupExecSegToggle();

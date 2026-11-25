@@ -25,6 +25,7 @@
   <nav class="sidebar-nav sidebar-nav-foot" id="foot-tabs-top" role="tablist" aria-label="Outras seções">
     <button type="button" data-view="diagnostico" role="tab" aria-selected="false">Diagnóstico Setorial</button>
     <button type="button" data-view="simulador" role="tab" aria-selected="false">Simulador de cenários <span class="badge-provisorio">em construção</span></button>
+    <button type="button" data-view="empresa" role="tab" aria-selected="false">Compare sua empresa <span class="badge-provisorio">em construção</span></button>
     <button type="button" data-view="cadeia" role="tab" aria-selected="false">Cadeia Produtiva</button>
     <button type="button" data-view="energia-industrial" role="tab" aria-selected="false">Energia Industrial</button>
   </nav>
@@ -911,7 +912,6 @@
     <button type="button" data-cen="china" class="active">1. A concorrência chinesa</button>
     <button type="button" data-cen="cambio">2. Câmbio</button>
     <button type="button" data-cen="demanda">3. Demanda dos clientes</button>
-    <button type="button" data-cen="empresa">Compare sua empresa</button>
   </nav>
 
   <section class="cen-painel" data-cen="china">
@@ -942,15 +942,29 @@
     </div>
   </section>
 
-  <section class="cen-painel" data-cen="empresa" hidden>
-    <div class="cen-grid">
-      <div class="emp-form" id="cen-empresa-form"></div>
-      <div class="cen-resultado" id="cen-empresa-res"></div>
-    </div>
-  </section>
-
   <p class="cad-nota" id="cen-nota">Cenários ilustrativos e não exaustivos. Partem do último ano com dado de produção e aplicam taxas constantes até 2030, sem modelar preços, câmbio ou política comercial além do que cada pergunta descreve. Empregos estimados com a relação entre produção e emprego do próprio segmento (PIA-Empresa) e, na cadeia, com o multiplicador de produção da Matriz Insumo-Produto. Fonte: PIA/IBGE, Comexstat, Contas Nacionais/IBGE e BCB. Elaboração: DECAP/FIESP.</p>
 </div><!-- /#simulador-view -->
+
+<!-- ============ COMPARE SUA EMPRESA ============ -->
+<div id="empresa-view" hidden>
+  <header class="cad-cabeca">
+    <div class="cad-chapeu">Compare sua empresa</div>
+    <div class="aviso-provisorio"><span class="badge-provisorio">Em construção</span> Versão provisória: os cálculos e a apresentação ainda estão em validação e podem mudar.</div>
+    <h2 class="cad-titulo">Como sua empresa se compara ao setor?</h2>
+    <p class="cad-linha-fina">Informe o estado, o município, o número de empregados e o salário médio (e, se quiser, faturamento, custos, investimento e exportação). O painel compara com a média do segmento e da indústria de transformação no município, no estado e no Brasil.</p>
+  </header>
+
+  <div class="cen-topo">
+    <label class="seg-select-wrap"><span>Segmento</span><select class="seg-select" id="emp-seg-select"></select></label>
+  </div>
+
+  <div class="cen-grid">
+    <div class="emp-form" id="cen-empresa-form"></div>
+    <div class="cen-resultado" id="cen-empresa-res"></div>
+  </div>
+
+  <p class="cad-nota">Fonte: RAIS/MTE (município), CEMPRE/IBGE (estado e Brasil), PIA-Empresa/IBGE (faturamento) e Comex Stat. Elaboração: DECAP/FIESP.</p>
+</div><!-- /#empresa-view -->
 
 <!-- ============ CADEIA PRODUTIVA ============ -->
 <div id="cadeia-view" hidden>
