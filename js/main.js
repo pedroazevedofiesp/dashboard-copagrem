@@ -1116,26 +1116,31 @@
   // históricos), sectors[x].mercado, shared.simulador_impacto e cadeia.
   // ---------------------------------------------------------------------
   const CEN_HORIZONTE = 2030;
-  const cen = { seg: null, aba: 'china', resp: { china: { imp: 'ritmo', prod: 'estagnada' }, cambio: { dolar: 'atual' }, demanda: { veic: 'estavel', fam: 'estavel' } } };
+  const cen = { seg: null, aba: 'china', resp: { china: { imp: 'ritmo', prod: 'tendencia' }, cambio: { dolar: 'atual' }, demanda: { veic: 'estavel', fam: 'estavel' } } };
 
   const CEN_PERGUNTAS = {
     china: [
+      // Taxas calculadas com o histórico do segmento escolhido (ctx, em
+      // cenChina); o rótulo mostra a taxa para as opções não se confundirem.
       { id: 'imp', texto: 'O que vai acontecer com as importações vindas da China até 2030?', opcoes: [
-        { id: 'ritmo', rotulo: 'Continuam no ritmo atual', expl: 'a importação da China segue crescendo no ritmo médio dos últimos anos' },
-        { id: 'desacelera', rotulo: 'Desaceleram', expl: 'a importação da China passa a crescer no mesmo ritmo das demais origens' },
-        { id: 'caem', rotulo: 'Caem (defesa comercial, frete mais caro)', expl: 'a importação da China cai 5% ao ano' },
+        { id: 'acelera', rotulo: 'Aceleram: crescem mais rápido que nos últimos anos', taxa: c => c.gC + 5, expl: 'a importação da China cresce 5 pontos percentuais ao ano acima do ritmo dos últimos anos' },
+        { id: 'ritmo', rotulo: 'Seguem crescendo no ritmo dos últimos anos', taxa: c => c.gC, expl: 'a importação da China segue crescendo no ritmo médio dos últimos anos' },
+        { id: 'param', rotulo: 'Param de crescer: ficam no nível de hoje', taxa: () => 0, expl: 'a importação da China fica no nível atual' },
+        { id: 'caem', rotulo: 'Caem (defesa comercial, frete mais caro)', taxa: () => -5, expl: 'a importação da China cai 5% ao ano' },
       ] },
       { id: 'prod', texto: 'E a produção nacional?', opcoes: [
-        { id: 'estagnada', rotulo: 'Fica estagnada, como na última década', expl: 'a produção nacional segue o ritmo histórico, praticamente parada' },
-        { id: 'acompanha', rotulo: 'Cresce acompanhando o mercado', expl: 'a produção nacional cresce no mesmo ritmo histórico do consumo aparente' },
-        { id: 'ganha', rotulo: 'Ganha espaço, com investimento', expl: 'a produção nacional cresce 2 pontos percentuais ao ano acima do mercado' },
+        { id: 'perde', rotulo: 'Perde força: cresce menos que nos últimos anos', taxa: c => c.gP - 2, expl: 'a produção nacional cresce 2 pontos percentuais ao ano abaixo do seu ritmo histórico' },
+        { id: 'tendencia', rotulo: 'Segue o ritmo dos últimos anos', taxa: c => c.gP, expl: 'a produção nacional segue o seu ritmo histórico' },
+        { id: 'acompanha', rotulo: 'Cresce junto com o consumo no Brasil', taxa: c => c.gCA, expl: 'a produção nacional cresce no ritmo histórico do consumo aparente (produção + importação − exportação)' },
+        { id: 'ganha', rotulo: 'Ganha mercado, com investimento: cresce mais que o consumo', taxa: c => c.gCA + 2, expl: 'a produção nacional cresce 2 pontos percentuais ao ano acima do consumo aparente' },
       ] },
     ],
     cambio: [
       { id: 'dolar', texto: 'Para onde vai o dólar?', opcoes: [
-        { id: 'baixo', rotulo: 'Cai para cerca de R$ 5,00', v: 5.0 },
-        { id: 'atual', rotulo: 'Fica perto de R$ 5,50, como hoje', v: 5.5 },
-        { id: 'alto', rotulo: 'Sobe para cerca de R$ 6,00', v: 6.0 },
+        // Valores montados a partir do dólar mais recente (aplicarFocusNosCenarios).
+        { id: 'baixo', rotulo: 'Cai cerca de 10%', v: null },
+        { id: 'atual', rotulo: 'Fica perto do nível atual', v: null },
+        { id: 'alto', rotulo: 'Sobe cerca de 10%', v: null },
       ] },
     ],
     demanda: [
@@ -1177,9 +1182,10 @@
   }
   const taxaFmt = v => (v > 0 ? '+' : '') + v.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + '% ao ano';
 
-  function cenPerguntasHtml(cenId) {
+  function cenPerguntasHtml(cenId, ctx) {
+    const rot = o => `<span>${o.rotulo}${ctx && o.taxa ? ` <span class="cen-taxa">(${taxaFmt(o.taxa(ctx))})</span>` : ''}</span>`;
     return CEN_PERGUNTAS[cenId].map(q => `<fieldset class="cen-q"><legend>${q.texto}</legend>` + q.opcoes.map(o =>
-      `<label class="cen-op${cen.resp[cenId][q.id] === o.id ? ' sel' : ''}"><input type="radio" name="cen-${cenId}-${q.id}" value="${o.id}" data-cen="${cenId}" data-q="${q.id}"${cen.resp[cenId][q.id] === o.id ? ' checked' : ''}>${o.rotulo}</label>`).join('') + '</fieldset>').join('');
+      `<label class="cen-op${cen.resp[cenId][q.id] === o.id ? ' sel' : ''}"><input type="radio" name="cen-${cenId}-${q.id}" value="${o.id}" data-cen="${cenId}" data-q="${q.id}"${cen.resp[cenId][q.id] === o.id ? ' checked' : ''}>${rot(o)}</label>`).join('') + '</fieldset>').join('');
   }
 
   function cenResultado(titulo, frases, cards) {
@@ -1190,16 +1196,18 @@
   function cenChina() {
     const b = cenBase();
     const el = $('#cen-china-resultado');
-    $('#cen-china-perguntas').innerHTML = cenPerguntasHtml('china');
-    if (!b) { el.innerHTML = '<div class="empty-note">Sem dados para este segmento.</div>'; return; }
+    if (!b) { $('#cen-china-perguntas').innerHTML = cenPerguntasHtml('china'); el.innerHTML = '<div class="empty-note">Sem dados para este segmento.</div>'; return; }
     const { g, n, s, sd } = b;
     const temChina = g.importacao_china != null && g.importacao_china > 0;
     const m = (sd.mercado || {}).yearly || [];
     const gCA = m.length > 1 ? (Math.pow(m[m.length - 1].consumo_aparente_real / m[0].consumo_aparente_real, 1 / (m[m.length - 1].ano - m[0].ano)) - 1) * 100 : 0;
+    const ctx = { gC: g.g_importacao_china || 0, gP: g.g_producao || 0, gCA };
+    $('#cen-china-perguntas').innerHTML = cenPerguntasHtml('china', ctx);
     const r = cen.resp.china;
-    const gChina = !temChina ? 0 : r.imp === 'ritmo' ? (g.g_importacao_china || 0) : r.imp === 'desacelera' ? (g.g_importacao_resto || 0) : -5;
+    const opc = (qid, id) => CEN_PERGUNTAS.china.find(x => x.id === qid).opcoes.find(o => o.id === id);
+    const gChina = !temChina ? 0 : opc('imp', r.imp).taxa(ctx);
     const gResto = temChina ? (g.g_importacao_resto || 0) : (g.g_importacao || 0);
-    const gProd = r.prod === 'estagnada' ? (g.g_producao || 0) : r.prod === 'acompanha' ? gCA : gCA + 2;
+    const gProd = opc('prod', r.prod).taxa(ctx);
     const gExp = g.g_exportacao || 0;
     const f = x => Math.pow(1 + x / 100, n);
     const p0 = g.producao, x0 = g.exportacao, mc0 = temChina ? g.importacao_china : 0, mr0 = temChina ? g.importacao_resto : g.importacao;
@@ -1529,7 +1537,27 @@
     if (!f) return;
     const dol = focusVal('Câmbio', anoAtual + 1);
     const opc = CEN_PERGUNTAS.cambio[0].opcoes;
-    if (dol != null && !opc.some(o => o.id === 'focus')) opc.push({ id: 'focus', rotulo: `Segue o Focus: R$ ${dol.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} em ${anoAtual + 1}`, v: dol });
+    // Opções do dólar a partir da cotação média do mês mais recente: o nível
+    // atual e ±10%. O Focus entra como opção só se for diferente das outras;
+    // senão, vira um comentário na opção equivalente.
+    const brl = v => 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const ultDol = shared().macro.filter(x => x.dolar != null).slice(-1)[0];
+    if (ultDol && opc.some(o => o.v == null)) {
+      const r05 = v => Math.round(v * 20) / 20;
+      const mesL = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'][ultDol.mes - 1] + '/' + ultDol.ano;
+      const base = { baixo: r05(ultDol.dolar * 0.9), atual: Math.round(ultDol.dolar * 100) / 100, alto: r05(ultDol.dolar * 1.1) };
+      opc.forEach(o => {
+        o.v = base[o.id];
+        o.rotulo = o.id === 'atual' ? `Fica perto do nível atual: ${brl(o.v)} (média de ${mesL})`
+          : o.id === 'baixo' ? `Cai cerca de 10%: para ${brl(o.v)}` : `Sobe cerca de 10%: para ${brl(o.v)}`;
+      });
+      if (dol != null) {
+        const igual = opc.find(o => Math.abs(o.v - dol) < 0.1);
+        if (igual) igual.rotulo += ` · é o que o Focus espera para ${anoAtual + 1}`;
+        else opc.push({ id: 'focus', rotulo: `Segue o Focus: ${brl(dol)} em ${anoAtual + 1}`, v: dol });
+        opc.sort((a, b) => a.v - b.v);
+      }
+    }
     const gInd = focusMedia('PIB Indústria', anoAtual, CEN_HORIZONTE);
     const gFam = focusMedia('PIB Despesa de consumo das famílias', anoAtual, CEN_HORIZONTE);
     const [qV, qF] = CEN_PERGUNTAS.demanda;
