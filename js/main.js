@@ -1110,6 +1110,10 @@
   }
 
   // ---------------------------------------------------------------------
+  // Simulador de cenários fora do ar até ficar pronto: false esconde a aba,
+  // o atalho no Painel Executivo e as menções a ele. O código continua aqui.
+  const SIMULADOR_ATIVO = false;
+
   // Simulador de cenários: perguntas com alternativas fixas; cada
   // combinação leva a um resultado calculado com os dados do segmento.
   // Base: sectors[x].simulador (valores do ano-base, R$ de 2024, e ritmos
@@ -1527,7 +1531,7 @@
     box.innerHTML = `<div class="focus-cab"><span class="leitura-tag">O que o mercado espera</span>Boletim Focus (Banco Central), pesquisa de ${d}</div>
       <div class="data-table-wrap"><table class="data-table focus-tab"><thead><tr><th>Indicador</th>${anos.map(a => `<th style="text-align:right">${a}</th>`).join('')}</tr></thead><tbody>`
       + linhas.map(l => `<tr><td>${l[0]}</td>${anos.map(a => { const v = focusVal(l[1], a); return `<td style="text-align:right">${v != null ? l[2](v) : '-'}</td>`; }).join('')}</tr>`).join('')
-      + `</tbody></table></div>${jr}<p class="focus-nota">O dólar e o crescimento esperados também aparecem como opção "Segue o Focus" no Simulador de cenários. Fonte: Focus/BCB. Elaboração: DECAP/FIESP.</p>`;
+      + `</tbody></table></div>${jr}<p class="focus-nota">${SIMULADOR_ATIVO ? 'O dólar e o crescimento esperados também aparecem como opção "Segue o Focus" no Simulador de cenários. ' : ''}Fonte: Focus/BCB. Elaboração: DECAP/FIESP.</p>`;
     const nota = $('#cen-nota-focus');
     if (nota) nota.innerHTML = `As opções "Segue o Focus" usam as expectativas de mercado do boletim Focus (Banco Central, pesquisa de ${d}), que estão na aba Expectativas de mercado em Dados do setor.`;
   }
@@ -2794,8 +2798,8 @@
       'A RAIS muda de metodologia em 2022 e a PIA-Empresa em 2024 (nova série): compare com cautela os anos de transição.',
       'RAIS e CAGED vêm dos microdados públicos do Ministério do Trabalho (FTP do PDET). O CAGED de março de 2011 está corrompido na fonte e aparece em branco.',
       margemFormula(),
-      'Simulador de cenários: resultados ilustrativos, não são previsões.',
-    ];
+      SIMULADOR_ATIVO ? 'Simulador de cenários: resultados ilustrativos, não são previsões.' : null,
+    ].filter(Boolean);
     $('#referencias-notas').innerHTML = notas.map(t => `<p class="pdi-note">• ${t}</p>`).join('');
   }
 
@@ -3407,6 +3411,8 @@
     const cadeiaView = $('#cadeia-view');
     const diagnosticoView = $('#diagnostico-view');
     const simuladorView = $('#simulador-view');
+    const btnSim = document.querySelector('#foot-tabs-top button[data-view="simulador"]');
+    if (btnSim) btnSim.hidden = !SIMULADOR_ATIVO;
     const empresaView = $('#empresa-view');
     const relatoriosView = $('#relatorios-view');
     const referenciasView = $('#referencias-view');
@@ -3575,7 +3581,7 @@
   // ---------------------------------------------------------------------
   const EXEC_OUTRAS_SECOES = [
     { view: 'diagnostico', title: 'Diagnóstico Setorial', sub: 'Apresentação completa do planejamento estratégico do setor (DECOMTEC - FIESP, 2026).' },
-    { view: 'simulador', title: 'Simulador de cenários', sub: 'Escolha o que acha que vai acontecer com a China, o câmbio e a demanda, e veja aonde isso leva o setor.' },
+    SIMULADOR_ATIVO && { view: 'simulador', title: 'Simulador de cenários', sub: 'Escolha o que acha que vai acontecer com a China, o câmbio e a demanda, e veja aonde isso leva o setor.' },
     { view: 'empresa', title: 'Compare sua empresa', sub: 'Informe porte, salário e faturamento e veja como sua empresa se compara à média do setor.' },
     { view: 'cadeia', title: 'Cadeia Produtiva', sub: 'De onde vêm os insumos do papel e para quem ele vai (IBGE).' },
     { view: 'energia-industrial', title: 'Energia Industrial', sub: 'Consumo e custo de energia na indústria, por estado.' },
@@ -3852,7 +3858,7 @@
     const blocos = secoesVisiveis().map(sec =>
       `<button type="button" class="sector-section-row" data-sector="${execSector}" data-target="${sec.target}"><span class="ssr-num">${sec.num}</span><span class="ssr-text"><span class="ssr-title">${sec.title}</span><span class="ssr-sub">${sec.sub}</span></span><span class="ssr-arrow">→</span></button>`
     ).join('');
-    const outras = EXEC_OUTRAS_SECOES.map(v =>
+    const outras = EXEC_OUTRAS_SECOES.filter(Boolean).map(v =>
       `<button type="button" class="sector-section-row" data-view="${v.view}"><span class="ssr-num">·</span><span class="ssr-text"><span class="ssr-title">${v.title}</span><span class="ssr-sub">${v.sub}</span></span><span class="ssr-arrow">→</span></button>`
     ).join('');
     const menu = $('#exec-nav-menu');

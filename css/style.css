@@ -908,3 +908,4 @@ table.pdi-table td.mono { font-variant-numeric: tabular-nums; white-space: nowra
 /* Recorte sem cesta de NCM: o bloco de comércio exterior mostra só o título e a nota. */
 .section.sem-dados > :not(.section-header):not(.decom-highlight):not(.section-caption) { display: none !important; }
 .cen-taxa { color: var(--text-muted); font-weight: 600; white-space: nowrap; }
+.sidebar-nav button[hidden] { display: none; }
